@@ -1,0 +1,1514 @@
+##########################################
+# These problems were randomly generated.
+##########################################
+problem_set_number: 2
+problems: 356
+test_problems: 100
+
+-problem: 1
+ correct_answer: 13
+ str: "var x = (E[z]);"
+ position: 8
+
+-problem: 2
+ correct_answer: 8
+ str: "var x = (y);"
+ position: 10
+
+-problem: 3
+ correct_answer: 12
+ str: "var x = (F[z]);"
+ position: 10
+
+-problem: 4
+ correct_answer: 12
+ str: "var x = (F[y]);"
+ position: 10
+
+-problem: 5
+ correct_answer: 14
+ str: "var x = (F[313]);"
+ position: 10
+
+-problem: 6
+ correct_answer: 13
+ str: "var x = (F[z]);"
+ position: 8
+
+-problem: 7
+ correct_answer: 20
+ str: "var x = (solve(z : y));"
+ position: 14
+
+-problem: 8
+ str: "var x = (F[y]);"
+ position: 2
+
+-problem: 9
+ correct_answer: 12
+ str: "var x = (y+z);"
+ position: 8
+
+-problem: 10
+ correct_answer: 13
+ str: "var x = (E[z]);"
+ position: 8
+
+-problem: 11
+ correct_answer: 21
+ str: "var x = (cat((286+359), (84*y)));"
+ position: 13
+
+-problem: 12
+ correct_answer: 38
+ str: "var x = (min{F[y], (94-198), (77*153)});"
+ position: 8
+
+-problem: 13
+ correct_answer: 18
+ str: "var x = (F[F[258]]);"
+ position: 8
+
+-problem: 14
+ correct_answer: 31
+ str: "var x = (wild(y, cat(331, 101)));"
+ position: 8
+
+-problem: 15
+ correct_answer: 15
+ str: "var x = (F[y]+y);"
+ position: 8
+
+-problem: 16
+ correct_answer: 14
+ str: "var x = (F[313]);"
+ position: 10
+
+-problem: 17
+ correct_answer: 20
+ str: "var x = (min{z, z, y});"
+ position: 12
+
+-problem: 18
+ correct_answer: 12
+ str: "var x = (305);"
+ position: 8
+
+-problem: 19
+ correct_answer: 26
+ str: "var x = (F[y]*min{y, y, z});"
+ position: 8
+
+-problem: 20
+ str: "var x = (E[y]);"
+ position: 3
+
+-problem: 21
+ correct_answer: 50
+ str: "var x = (max{E[E[y]], F[cat(470, z)], cat(28, 72)});"
+ position: 8
+
+-problem: 22
+ correct_answer: 24
+ str: "var x = (E[(F[z]-E[464])]);"
+ position: 10
+
+-problem: 23
+ correct_answer: 18
+ str: "var x = (F[F[443]]);"
+ position: 8
+
+-problem: 24
+ correct_answer: 42
+ str: "var x = (max{max{y, z, 428}, (251-73), 235});"
+ position: 12
+
+-problem: 25
+ correct_answer: 16
+ str: "var x = (E[solve(z : z)]);"
+ position: 22
+
+-problem: 26
+ correct_answer: 15
+ str: "var x = ((353-z)+420);"
+ position: 9
+
+-problem: 27
+ correct_answer: 90
+ str: "var x = (min{solve(E[99] : E[154]), min{(y+z), min{z, z, 283}, F[49]}, (y*min{y, z, 430})});"
+ position: 8
+
+-problem: 28
+ correct_answer: 24
+ str: "var x = (F[max{y, 433, z}]+E[cat(272, z)]);"
+ position: 14
+
+-problem: 29
+ correct_answer: 20
+ str: "var x = (wild(F[wild(283, 55)], E[(62+y)]));"
+ position: 28
+
+-problem: 30
+ correct_answer: 18
+ str: "var x = (F[(z-339)]-480);"
+ position: 10
+
+-problem: 31
+ str: "var x = (E[F[(369+234)]]+solve(max{E[31], z, (y+y)} : max{y, solve(z : 467), (z*y)}));"
+ position: 38
+
+-problem: 32
+ correct_answer: 29
+ str: "var x = (wild((E[min{z, y, z}]-E[(459*y)]), F[(y-z)]));"
+ position: 16
+
+-problem: 33
+ str: "var x = (min{E[F[y]], wild(F[453], min{min{476, 442, z}, min{y, 34, z}, max{352, 345, 135}}), min{y, z, y}});"
+ position: 72
+
+-problem: 34
+ correct_answer: 18
+ str: "var x = (F[F[F[y]]]);"
+ position: 10
+
+-problem: 35
+ correct_answer: 29
+ str: "var x = (solve((y*184) : (max{19, 431, 186}+F[z])));"
+ position: 42
+
+-problem: 36
+ correct_answer: 183
+ str: "var x = (min{max{wild(F[z], max{y, 79, y}), E[462], min{solve(177 : z), max{z, y, 296}, E[z]}}, cat(F[min{z, z, 456}], (max{z, z, z}+solve(y : 281))), (min{241, y, y}+wild(115, 305))});"
+ position: 8
+
+-problem: 37
+ correct_answer: 20
+ str: "var x = (max{y, wild(z, 250), 425});"
+ position: 27
+
+-problem: 38
+ str: "var x = (438*F[y]);"
+ position: 15
+
+-problem: 39
+ str: "var x = (wild(455, cat(max{y, y, z}, min{wild(419, 424), max{168, y, 441}, min{82, y, y}})));"
+ position: 48
+
+-problem: 40
+ correct_answer: 160
+ str: "var x = (min{min{max{cat(463, 322), E[y], F[z]}, F[E[y]], max{z, min{y, y, 13}, 492}}, E[min{y, max{463, z, 206}, 114}], max{wild(y, 431), max{y, 385, z}, 451}});"
+ position: 8
+
+-problem: 41
+ correct_answer: 28
+ str: "var x = (F[F[(E[307]+E[y])]]);"
+ position: 8
+
+-problem: 42
+ correct_answer: 16
+ str: "var x = (E[E[z]]);"
+ position: 8
+
+-problem: 43
+ correct_answer: 162
+ str: "var x = (min{max{wild(y, E[min{y, z, z}]), min{y, min{F[281], (y+344), y}, F[F[y]]}, cat(max{z, 193, y}, max{31, y, 448})}, max{E[max{z, (427+262), cat(278, 282)}], (max{z, 286, 44}*max{369, 358, y}), wild(((y+30)+E[z]), solve(F[z] : F[365]))}, max{F[max{y, wild(479, y), max{56, z, y}}], max{E[y], y, E[(443-451)]}, min{300, max{(z+z), E[333], max{240, z, 204}}, min{max{z, z, y}, (y-99), y}}}});"
+ position: 129
+
+-problem: 44
+ correct_answer: 37
+ str: "var x = (E[max{422, E[y], (459*190)}]);"
+ position: 8
+
+-problem: 45
+ correct_answer: 64
+ str: "var x = (max{wild(E[z], max{min{169, z, z}, E[24], max{z, 80, z}}), E[167], min{F[E[119]], F[F[z]], F[z]}});"
+ position: 27
+
+-problem: 46
+ correct_answer: 105
+ str: "var x = (E[wild(min{cat(E[460], solve(z : y)), min{F[432], F[z], E[354]}, max{F[z], min{z, 137, 93}, E[z]}}, solve(solve(439 : y) : E[z]))]);"
+ position: 77
+
+-problem: 47
+ correct_answer: 104
+ str: "var x = (solve(((365*319)+max{max{y, 343, z}, F[55], min{z, 193, 277}}) : cat((F[z]-max{y, z, y}), 457)));"
+ position: 8
+
+-problem: 48
+ correct_answer: 187
+ str: "var x = (cat((wild((z-361), F[y])+min{y, 50, 295}), max{E[solve(max{364, y, 128} : max{y, 165, y})], (E[y]+wild((y-166), max{y, y, y})), ((min{487, z, y}-max{y, 219, y})*E[max{z, 348, z}])}));"
+ position: 137
+
+-problem: 49
+ correct_answer: 71
+ str: "var x = (max{min{max{426, z, y}, ((y*135)+428), max{E[z], E[z], E[401]}}, cat(E[min{y, y, z}], (E[y]-F[y])), min{E[z], wild(z, y), F[max{240, z, z}]}});"
+ position: 16
+
+-problem: 50
+ correct_answer: 82
+ str: "var x = (E[E[max{min{F[z], E[z], F[y]}, min{(z+y), (y+123), (178+z)}, (209*F[y])}]]);"
+ position: 10
+
+-problem: 51
+ correct_answer: 97
+ str: "var x = (max{wild(E[E[max{y, 261, 333}]], F[F[17]]), F[E[378]], solve(F[solve(z : 159)] : F[367])});"
+ position: 12
+
+-problem: 52
+ correct_answer: 47
+ str: "var x = (F[E[solve((solve(y : y)-y) : E[F[149]])]]+cat(max{E[y], 486, E[471]}, wild(F[z], wild(249, 168))));"
+ position: 18
+
+-problem: 53
+ str: "var x = (E[wild(F[E[y]], (E[wild(z, z)]*cat(wild(z, 108), F[300])))]-min{min{(solve(F[z] : min{z, 131, z})*(212+y)), F[E[E[461]]], ((z*295)-y)}, F[E[min{y, max{z, 298, y}, 150}]], min{min{359, (145-y), (215+z)}, E[max{79, min{y, z, z}, 406}], E[F[z]]}});"
+ position: 119
+
+-problem: 54
+ correct_answer: 172
+ str: "var x = (min{E[E[max{111, z, y}]], (cat(y, cat(88, 268))+F[E[155]]), cat(((E[y]+E[56])-max{207, z, z}), min{min{y, min{270, z, 383}, wild(z, 436)}, (E[z]+F[y]), E[(y-y)]})});"
+ position: 8
+
+-problem: 55
+ correct_answer: 196
+ str: "var x = (F[max{max{min{E[y], ((y*y)+min{z, 407, y}), (E[476]-143)}, F[E[6]], (F[solve(450 : z)]-wild(y, 209))}, F[min{min{y, 102, 18}, F[y], F[358]}], E[min{F[F[y]], min{E[351], y, E[y]}, (y+z)}]}]);"
+ position: 10
+
+-problem: 56
+ correct_answer: 545
+ str: "var x = (min{(min{(E[(320+y)]-F[108]), min{(476*E[490]), max{y, E[y], (107-z)}, ((178+113)+(231-y))}, (E[E[y]]+E[max{z, 424, z}])}*(F[min{min{z, 370, 196}, E[120], max{y, 26, y}}]-max{F[(y*z)], max{(y-361), min{184, z, 113}, E[z]}, max{E[y], min{y, 437, z}, (z-56)}})), E[(max{z, z, max{z, 326, 191}}*F[387])], (min{max{min{y, min{59, 421, 166}, max{338, z, 114}}, max{(y+119), z, (53+z)}, min{F[110], z, (119*450)}}, max{min{E[y], (186*121), min{y, y, y}}, ((153*y)-F[y]), cat(wild(y, z), z)}, min{F[355], max{y, min{474, 493, z}, F[456]}, E[y]}}-E[E[(z-406)]])});"
+ position: 498
+
+-problem: 57
+ correct_answer: 171
+ str: "var x = ((E[(max{z, 438, 93}+(56-263))]+max{(E[y]+F[z]), F[E[y]], (z*68)})-(min{(157*E[z]), (E[z]*min{306, 364, z}), max{F[y], 11, min{y, z, 157}}}*wild(F[E[260]], E[192])));"
+ position: 75
+
+-problem: 58
+ correct_answer: 58
+ str: "var x = (E[(max{(solve(max{109, 215, 137} : max{317, y, y})+cat((283-z), y)), min{E[y], max{397, 495, y}, (475-y)}, F[(y*z)]}+max{max{F[476], max{84, 174, z}, max{z, 103, y}}, F[F[F[441]]], E[min{(z*y), y, F[414]}]})]);"
+ position: 22
+
+-problem: 59
+ correct_answer: 194
+ str: "var x = (min{solve(wild((F[5]*z), max{min{z, 432, z}, (259-222), F[z]}) : cat(solve(wild(max{y, y, 171}, 295) : F[z]), (F[19]+z))), max{(cat(cat(87, 6), solve(24 : y))*max{(y-205), F[y], F[214]}), cat(z, F[129]), F[((22+y)*cat(z, y))]}, ((F[max{z, 216, 58}]*min{(428*z), F[z], min{cat(240, y), (y+215), cat(y, 466)}})+max{solve(E[252] : (452-z)), 143, max{cat(cat(293, 300), min{372, z, z}), solve(cat(y, y) : max{428, y, 113}), (wild(318, 439)*wild(z, 28))}})});"
+ position: 136
+
+-problem: 60
+ correct_answer: 187
+ str: "var x = (F[(cat((F[E[z]]*E[(170+176)]), max{solve(271 : solve(z : 338)), max{399, z, y}, E[y]})*max{F[(z*127)], max{E[min{y, 80, y}], F[392], min{min{y, 43, 194}, 369, cat(11, 310)}}, z})]);"
+ position: 10
+
+-problem: 61
+ correct_answer: 326
+ str: "var x = (F[F[max{cat((max{y, y, y}*(238*(413+z))), max{(min{163, z, 287}-(z+z)), max{min{y, z, y}, E[z], max{z, 154, 374}}, min{min{288, 381, 179}, F[410], min{z, 33, y}}}), E[min{cat(y, max{71, 324, 226}), max{E[159], max{y, y, 294}, F[4]}, wild(E[z], y)}], wild(wild(F[min{y, y, y}], z), wild(cat(y, y), F[max{353, z, 315}]))}]]);"
+ position: 263
+
+-problem: 62
+ correct_answer: 99
+ str: "var x = (F[E[(max{F[y], solve(min{cat(z, z), min{z, 192, y}, max{259, z, y}} : E[250]), cat(y, 229)}*F[(min{F[z], F[z], (y-60)}-z)])]]);"
+ position: 17
+
+-problem: 63
+ str: "var x = (max{max{max{E[min{F[z], (z-170), y}], max{F[F[107]], E[y], z}, (z+cat(250, 189))}, max{E[solve((112*y) : E[y])], max{min{261, min{351, z, z}, F[z]}, wild(F[400], F[z]), min{z, F[326], min{387, y, y}}}, min{466, (y*455), E[61]}}, max{E[F[471]], E[366], ((z*258)*F[91])}}, F[F[(z-E[223])]], (E[max{max{153, y, 267}, (473-y), F[y]}]-(F[min{E[294], y, E[59]}]-F[max{y, 94, 356}]))});"
+ position: 204
+
+-problem: 64
+ correct_answer: 176
+ str: "var x = (E[max{F[max{max{cat(95, y), (z+134), F[422]}, F[min{102, y, y}], F[z]}], F[max{F[z], (15+z), (274+z)}], max{F[F[max{273, 209, y}]], min{z, (82-463), (91*z)}, F[F[y]]}}]+wild(wild(min{max{wild(F[284], (265*z)), max{max{y, z, 20}, F[125], min{321, z, y}}, min{F[441], z, solve(91 : z)}}, max{solve(E[356] : (y*z)), 196, min{F[y], wild(327, 392), max{304, 422, 490}}}, F[(F[z]-F[z])]}, ((max{F[z], F[z], 179}-E[445])+min{cat(solve(z : 67), 328), wild(min{358, z, y}, 463), E[min{292, z, z}]})), F[min{min{E[y], max{z, 345, 342}, F[z]}, min{y, z, F[y]}, 428}]));"
+ position: 10
+
+-problem: 65
+ correct_answer: 169
+ str: "var x = (E[max{F[157], (max{wild(F[162], F[y]), E[wild(293, cat(z, 235))], cat(E[E[z]], F[y])}+F[min{F[y], E[y], cat(23, 3)}]), F[max{max{110, y, 114}, (333*z), F[z]}]}]);"
+ position: 8
+
+-problem: 66
+ str: "var x = (solve(E[min{max{F[z], max{438, 409, 11}, (y+382)}, F[(max{145, 454, 431}*F[255])], min{min{y, (z*20), min{483, 284, y}}, F[min{461, y, z}], max{E[y], 352, y}}}] : (min{E[(337*wild(z, y))], F[E[E[373]]], F[F[315]]}+(min{wild(69, F[z]), E[(z-86)], y}+(E[y]-cat(z, z)))))*E[E[E[F[min{434, z, y}]]]]);"
+ position: 53
+
+-problem: 67
+ correct_answer: 80
+ str: "var x = (cat(max{F[wild(max{min{z, y, 439}, max{y, y, y}, E[y]}, cat(z, E[101]))], (F[392]*F[496]), cat((F[120]*min{cat(318, y), (482-z), E[287]}), (max{wild(495, z), y, E[366]}-(z+(z-z))))}, min{E[cat((y*y), max{z, z, 107})], (max{F[E[z]], ((E[z]+E[164])+y), 375}+E[cat(max{min{y, z, z}, F[24], 411}, E[288])]), (F[F[F[(38*481)]]]*solve(wild(F[127], E[y]) : z))}));"
+ position: 18
+
+-problem: 68
+ correct_answer: 91
+ str: "var x = (F[solve(max{E[max{y, 418, 372}], wild(cat(338, (278+y)), min{y, max{z, z, 152}, y}), max{solve(z : E[z]), E[wild(255, y)], F[max{112, 495, y}]}} : min{solve(solve(y : z) : (217*176)), F[F[z]], min{F[20], (148-351), E[y]}})]);"
+ position: 46
+
+-problem: 69
+ correct_answer: 65
+ str: "var x = (F[max{min{101, y, z}, (y+min{z, 203, z}), min{75, y, y}}]);"
+ position: 10
+
+-problem: 70
+ correct_answer: 53
+ str: "var x = (cat(max{F[cat(wild(y, 206), max{z, 350, 215})], (F[E[39]]*min{8, z, 324}), min{min{cat(y, 363), 196, F[z]}, (E[26]-min{142, 44, z}), min{wild(443, 17), wild(162, 179), F[193]}}}, F[max{min{y, 106, 233}, max{433, 448, 374}, E[y]}]));"
+ position: 22
+
+-problem: 71
+ correct_answer: 251
+ str: "var x = (min{solve(E[((E[z]-F[y])*min{max{z, z, y}, y, max{y, z, y}})] : (max{F[124], min{330, z, z}, max{239, y, y}}+(max{max{61, min{214, 271, z}, (z+261)}, E[z], min{451, z, y}}*(max{(y+z), min{y, y, z}, (171-136)}-min{F[y], F[z], solve(205 : y)})))), E[E[max{min{z, y, 444}, E[z], E[292]}]], max{(E[F[458]]-max{min{F[374], (237*z), z}, 463, max{z, min{126, 137, z}, F[z]}}), E[(E[cat(cat(z, 211), 389)]-z)], max{max{E[min{max{z, 369, 353}, 459, 380}], wild(min{wild(z, 304), F[119], z}, min{max{333, 448, 290}, (462+154), F[z]}), (max{235, z, 385}+min{442, max{42, z, z}, F[436]})}, min{min{216, 264, z}, max{F[(82+z)], E[cat(z, z)], max{max{z, y, 233}, F[15], max{z, 478, 495}}}, (solve(y : 173)*E[170])}, (F[104]-148)}}});"
+ position: 73
+
+-problem: 72
+ str: "var x = (solve(cat(min{E[294], z, wild(173, 412)}, E[min{y, 11, 305}]) : max{cat(z, z), E[F[y]], cat(E[y], E[y])})-F[max{solve(cat(z, y) : solve(423 : 451)), E[((z*411)-(z+z))], F[y]}]);"
+ position: 119
+
+-problem: 73
+ correct_answer: 225
+ str: "var x = (cat(max{min{solve((max{(10*344), (466-y), F[484]}-min{F[321], max{462, y, y}, 291}) : F[min{E[z], E[y], F[326]}]), ((F[y]+cat(205, min{z, y, z}))*max{max{solve(z : 150), (y*z), max{273, 287, y}}, solve(z : 47), E[z]}), E[E[max{z, z, y}]]}, (min{solve(cat((471-379), min{229, 13, y}) : max{max{67, z, z}, E[z], cat(95, 33)}), ((y-182)+z), F[F[(z*y)]]}-E[E[(309*(y-337))]]), solve(solve(min{(45+z), 38, E[y]} : (377+61)) : min{max{solve(58 : z), min{378, 434, y}, 441}, max{y, 187, 350}, min{F[227], cat(175, z), min{y, 106, z}}})}, E[max{F[z], cat(max{min{473, 442, 477}, cat(179, y), min{348, z, 361}}, min{321, E[y], z}), solve(min{49, 39, 261} : 51)}]));"
+ position: 124
+
+-problem: 74
+ correct_answer: 196
+ str: "var x = (F[max{max{F[394], max{52, 118, 256}, F[y]}, solve(cat((y-171), max{471, y, y}) : wild(y, z)), cat(max{wild(max{496, 191, 449}, (29-93)), F[F[y]], min{cat(256, y), (y*422), max{z, z, 491}}}, min{max{max{293, z, z}, wild(z, z), 382}, wild(94, cat(184, y)), F[cat(310, 469)]})}]);"
+ position: 110
+
+-problem: 75
+ correct_answer: 620
+ str: "var x = (min{(E[F[min{411, F[164], E[z]}]]+min{F[max{372, 24, 406}], max{(min{159, 117, 13}*y), (solve(245 : 272)+min{y, 329, y}), E[max{y, y, y}]}, max{438, y, z}}), F[wild((cat(min{max{z, y, z}, cat(191, y), max{76, z, 350}}, max{y, 127, z})+cat(wild((169+31), y), (max{y, 342, 279}*(403*109)))), E[F[E[y]]])], solve((solve(wild(E[max{129, 170, z}], E[z]) : max{min{225, (493*243), wild(16, 145)}, 265, ((y*54)*z)})+min{(F[y]*(186*y)), min{wild(z, 240), F[475], max{y, y, 336}}, F[max{438, z, y}]}) : (min{E[E[343]], (max{464, z, y}+391), solve(z : max{222, 498, 11})}+max{max{solve(y : E[160]), wild(248, 224), F[241]}, solve(wild(cat(55, 421), y) : min{(228+326), 158, (y+y)}), min{cat(y, 406), min{z, y, 398}, max{390, y, 380}}}))});"
+ position: 578
+
+-problem: 76
+ correct_answer: 64
+ str: "var x = (E[max{cat((E[F[z]]*min{max{y, 0, z}, wild(192, 37), 335}), F[E[z]]), max{F[solve(194 : y)], E[max{E[33], F[z], solve(z : 365)}], F[E[(324-z)]]}, max{F[max{y, z, 54}], min{min{y, 63, z}, (356-104), E[271]}, 110}}]);"
+ position: 31
+
+-problem: 77
+ correct_answer: 82
+ str: "var x = (E[F[(cat(min{E[70], 441, E[148]}, min{min{47, z, y}, max{324, 383, y}, z})-max{solve(cat(y, y) : ((y-y)*(24*406))), cat(E[198], (426+197)), max{solve(z : 121), max{max{132, 171, 391}, E[z], 464}, min{E[y], min{y, z, z}, y}}})]]);"
+ position: 17
+
+-problem: 78
+ correct_answer: 140
+ str: "var x = (solve(E[min{max{90, 304, z}, 167, (z-y)}] : E[(wild(F[326], 326)-(solve(F[y] : solve((z+y) : F[5]))-(min{354, z, (z*y)}-F[E[z]])))]));"
+ position: 14
+
+-problem: 79
+ correct_answer: 241
+ str: "var x = (E[((F[max{cat(y, z), F[z], min{473, y, 283}}]-(max{cat(388, 397), F[z], min{339, y, z}}-min{max{(256*z), max{184, z, z}, max{217, 375, 18}}, wild(max{238, 338, 94}, 333), E[F[109]]}))-E[cat(max{min{(363*147), (353-y), max{z, y, 483}}, min{479, z, 39}, 280}, (y-(y+348)))])]);"
+ position: 206
+
+-problem: 80
+ correct_answer: 380
+ str: "var x = (E[(max{E[max{337, y, z}], (cat(solve(207 : 295), E[z])*E[474]), solve(cat(E[220], max{29, 118, 27}) : (E[112]+E[z]))}+min{((max{442, y, 382}+(341+z))-E[max{381, 237, z}]), min{F[(142+y)], solve(min{z, z, 66} : 408), min{(z*z), y, E[z]}}, (F[z]-F[y])})]+F[E[min{solve(E[(y+y)] : min{E[223], F[y], wild(z, 449)}), E[E[E[y]]], min{E[cat(y, 412)], (max{y, 140, z}-y), E[z]}}]]);"
+ position: 263
+
+-problem: 81
+ correct_answer: 237
+ str: "var x = (E[min{min{min{5, 374, z}, E[z], min{263, 312, z}}, E[172], solve(F[y] : min{z, 443, 345})}]+max{wild((cat(y, z)+E[263]), max{y, min{285, 99, y}, wild(294, z)}), wild(E[(y-y)], E[max{492, y, z}]), (max{416, 412, z}*max{y, y, z})});"
+ position: 8
+
+-problem: 82
+ correct_answer: 927
+ str: "var x = (wild(min{min{((solve(92 : E[16])+max{solve(456 : y), wild(250, 334), max{y, 48, y}})-max{wild((y*298), wild(294, z)), cat(cat(9, 341), min{380, 201, y}), min{y, y, y}}), (max{min{F[y], E[469], E[291]}, wild(E[y], 270), F[198]}+min{cat(z, y), max{333, 394, z}, E[z]}), F[F[cat(331, z)]]}, cat(min{min{cat(z, z), max{492, 148, 335}, 261}, min{solve(320 : 23), max{y, max{y, z, z}, E[z]}, E[F[140]]}, (min{max{480, y, y}, (y+z), max{y, 179, z}}+98)}, max{E[z], wild(F[(z-z)], solve(44 : 261)), F[min{E[z], 411, (y+y)}]}), F[max{F[cat(147, F[492])], min{min{401, z, 446}, min{F[399], E[479], F[94]}, (y-y)}, min{max{(z+173), (z*347), solve(z : y)}, E[min{z, 38, 68}], F[y]}}]}, solve(min{wild(solve(F[max{y, 158, z}] : z), max{z, z, 126}), F[max{max{y, max{130, 138, y}, (354-133)}, (F[171]*(375-y)), (41*(y+137))}], min{solve(z : z), (cat(min{431, y, z}, F[330])-max{max{161, 431, y}, max{354, 417, 325}, max{246, y, 125}}), max{E[y], wild((99*423), 181), (E[z]+F[z])}}} : (min{max{min{min{8, 167, z}, (y-y), 329}, F[E[19]], max{y, 175, y}}, cat(E[354], max{(y-z), F[z], wild(180, 418)}), F[E[cat(y, z)]]}+wild((max{287, y, 386}*78), max{z, y, z})))));"
+ position: 872
+
+-problem: 83
+ correct_answer: 239
+ str: "var x = (min{min{F[min{(y*min{464, 413, 476}), max{max{402, 276, 226}, max{z, 380, y}, (y*y)}, 211}], max{min{E[E[152]], (min{119, z, z}-min{117, 467, y}), (228+max{y, 229, z})}, max{F[z], min{E[z], cat(160, 401), wild(z, 319)}, wild(z, y)}, min{(238-min{247, z, 206}), F[max{z, 135, y}], wild(396, 425)}}, F[(wild(E[226], E[E[475]])*max{cat((346+z), (144-y)), (max{360, y, y}*min{439, z, 293}), max{max{338, 451, y}, 400, 423}})]}, wild(E[E[y]], F[F[solve(max{201, y, z} : y)]]), min{wild(F[257], E[F[z]]), min{max{(z*z), 202, min{345, y, 145}}, max{min{F[432], max{254, y, 405}, (y*326)}, 332, cat(127, z)}, F[(z-E[368])]}, min{min{min{E[298], cat(116, 468), cat(y, z)}, (cat(306, (148-y))*(z*z)), max{(320*312), cat(wild(z, 106), E[181]), (solve(341 : 144)+321)}}, F[250], F[min{min{wild(y, 349), 268, max{51, 141, z}}, max{E[z], wild(z, y), solve(z : 242)}, E[y]}]}}});"
+ position: 182
+
+-problem: 84
+ str: "var x = (max{max{max{wild(wild(F[y], 55), min{y, 310, z}), wild(max{110, F[z], F[227]}, 378), (F[81]-max{z, 114, y})}, F[wild((155+301), E[z])], min{min{wild(397, wild(z, 488)), F[(y+11)], min{451, E[386], min{113, y, z}}}, min{wild(z, 69), (y*z), E[y]}, max{y, max{330, z, 318}, E[y]}}}, (min{E[solve(min{y, 192, 138} : z)], (E[F[y]]+E[y]), E[min{z, (259-480), E[86]}]}*solve(solve(F[(77-y)] : (z*y)) : solve(F[401] : F[F[414]]))), E[wild(min{(457*y), (y+y), z}, min{(E[solve(396 : y)]+y), F[E[y]], (min{z, 480, z}+z)})]});"
+ position: 356
+
+-problem: 85
+ correct_answer: 68
+ str: "var x = (E[cat(F[max{F[y], (min{min{y, y, 215}, E[248], wild(247, z)}*E[F[249]]), E[E[124]]}], max{max{(wild(z, y)+cat(max{109, z, z}, E[z])), (solve(z : max{z, z, 215})*max{(377-z), (y*262), max{228, 434, 479}}), cat((E[60]*cat(277, y)), F[203])}, min{E[F[min{z, 367, y}]], F[min{(243*476), z, (y+z)}], min{F[y], z, cat(y, 269)}}, min{(min{F[z], min{377, 446, 233}, min{z, 409, y}}-solve(428 : F[y])), F[F[z]], F[min{z, 290, y}]}})]);"
+ position: 31
+
+-problem: 86
+ str: "var x = (max{(cat(wild(474, z), F[solve(E[y] : 81)])+min{max{(wild(481, 81)-E[y]), E[max{z, z, z}], (F[z]+min{z, y, y})}, E[F[z]], (min{281, 466, 285}-(y-498))}), F[max{min{E[470], F[130], wild(y, 48)}, min{(max{z, 116, 359}+310), min{y, min{y, y, 210}, F[y]}, F[max{z, y, 228}]}, (min{347, solve(y : 409), 439}+min{421, min{z, y, 200}, max{y, 197, 348}})}], E[E[F[min{z, 427, 25}]]]});"
+ position: 155
+
+-problem: 87
+ correct_answer: 46
+ str: "var x = (F[F[F[min{E[417], (203+z), F[F[z]]}]]]);"
+ position: 10
+
+-problem: 88
+ correct_answer: 434
+ str: "var x = (max{solve(min{min{E[(393+139)], cat(min{125, E[132], min{10, y, 297}}, max{max{465, 33, 196}, E[y], E[121]}), solve(solve((y*147) : 407) : cat(156, (414-z)))}, max{F[1], (cat(F[z], wild(449, 465))+(min{y, 236, 384}+y)), (min{y, min{y, z, y}, solve(66 : y)}-F[F[z]])}, max{max{F[min{y, y, z}], ((z*y)*min{z, z, z}), 313}, (max{z, 322, cat(349, y)}-F[min{79, 48, 131}]), max{cat(min{y, z, z}, 431), cat(z, z), F[max{y, y, z}]}}} : F[max{min{min{(z+y), min{z, 226, 433}, wild(215, 381)}, E[y], F[299]}, min{max{z, z, y}, max{E[z], E[37], (250+z)}, solve(wild(y, 23) : F[z])}, E[E[177]]}]), E[(max{(73+y), F[z], F[403]}-110)], E[max{F[E[259]], solve(max{119, z, y} : max{z, 434, y}), E[157]}]});"
+ position: 22
+
+-problem: 89
+ correct_answer: 59
+ str: "var x = (F[F[((cat(y, z)+F[z])-wild(min{48, z, z}, (190+z)))]]);"
+ position: 13
+
+-problem: 90
+ correct_answer: 68
+ str: "var x = (E[E[E[max{min{wild(327, z), (471-251), (y+z)}, F[315], F[z]}]]]*F[((solve(393 : z)*F[z])*E[E[492]])]);"
+ position: 18
+
+-problem: 91
+ str: "var x = (F{cat(F[min{380, 364, 288}], (z-184))]);"
+ position: 10
+
+-problem: 92
+ str: "var x = ((max{E[E[(62+z)]], min[min{cat(z, 152), max{F[380], wild(z, 369), 18}, (208-max{z, 20, 267})}, max{188, 91, 365}, (468-z)}, max{(F[y]-E[y]), solve(398 : 444), F[(z-138)]}}-(F[(z-z)]+wild(F[E[(z-7)]], E[F[cat(y, 84)]])))+solve(E[E[min{416, (z+162), solve(y : 61)}]] : wild(min{E[min{z, y, 462}], z, cat((y-365), y)}, solve(max{291, 9, 160} : cat(153, 482)))));"
+ position: 31
+
+-problem: 93
+ str: "var x = (max{F[max{E[max{F[317], F[z], z}], F[max{z, max{cat(96, y), 19, max{458, 220, z}}, min{E[z], 379, y}}], (F[min{(z-z), wild(449, y), F[81]}]*F[E[E[390]]])}], min(E[((min{y, z, 64}+F[y])+min{max{271, z, y}, (264+143), max{y, 286, z}})], cat(max{E[y], (494-z), F[296]}, max{z, z, 279}), E[solve(min{F[368], F[73], (178+433)} : F[max{y, 149, 3}])]}, E[solve(wild(solve(wild(246, 18) : E[278]), max{F[y], (z+y), wild(352, y)}) : F[E[(z-y)]])]});"
+ position: 169
+
+-problem: 94
+ correct_answer: 74
+ str: "var x = (E[E[E[max{E[F[93]], (446*444), max{0, E[230], max{y, 86, 339}}}]]]);"
+ position: 10
+
+-problem: 95
+ correct_answer: 51
+ str: "var x = (max{F[F[F[max{solve(194 : 218), 67, 303}]]], max{E[max{197, E[(391+y)], min{min{438, y, z}, y, (y-94)}}], max{F[wild(z, z)], max{F[28], (14*279), (237+z)}, E[(z-24)]}, solve((cat(353, 52)*cat(y, y)) : max{max{min{105, y, y}, max{z, 18, y}, max{z, 95, y}}, E[max{y, 484, 459}], max{min{z, y, 67}, cat(y, 202), F[y]}})}, min{(E[(466+z)]+min{max{125, 190, 491}, solve(z : 68), 474}), wild(E[E[(196+338)]], (499-max{y, z, 389})), cat(F[F[max{y, 143, z}]], E[(E[186]*(y-y))])}});"
+ position: 14
+
+-problem: 96
+ correct_answer: 185
+ str: "var x = (F[F[(max{y, solve(F[257] : E[y]), cat(max{z, 476, 383}, 11)}-(min{solve(F[z] : F[y]), E[255], solve(min{z, 59, 474} : (258*187))}+solve(wild(min{120, z, y}, E[y]) : (169-181))))]]);"
+ position: 13
+
+-problem: 97
+ str: "var x = (max{min{min{min{((458-103)-(z+min{z, 258, z})), wild(wild(wild(z, 350), E[393]), max{E[z], E[30], (455-z)}), F[F[y]]}, F[E[cat(66, 393)]], min{(E[y]+max{min{y, 393, 236}, E[58], y}), min{F[F[14]], 112, wild((y-y), E[z])}, min{cat(41, z), wild((142+z), 58), cat(wild(55, 247), 231)}}}, cat(F[E[(y-z)]], E[y]), E[max{(E[414]+cat(y, 367)), F[max{181, 480, y}], F[(max{y, 191, 362}-E[z])]}]}, min{F[wild(solve(solve(182 : 194) : (467+E[227])), max{cat(cat(428, 275), F[z]), E[F[202]], 274})], F[wild(max{y, z, 354}, min{solve(E[73] : F[y]), E[max{y, y, y}], min{E[439], z, E[z]}})], F[min{((z+385)*F[y]), (z*y), min{(98*z), min{z, 151, 68}, cat(y, y)}}]}, F[min{min{73, 344, z}, y, (186+163)}]});"
+ position: 488
+
+-problem: 98
+ correct_answer: 234
+ str: "var x = (min{(F[z]-(min{y, 1, y}+F[F[y]])), (min{(F[E[y]]+F[61]), solve(F[74] : F[491]), E[max{min{z, 257, 279}, F[17], y}]}*E[max{F[y], E[435], 297}]), E[((F[264]*90)-E[min{y, z, z}])]}-F[min{max{wild(max{201, y, 404}, min{z, 442, z}), min{(E[z]-wild(328, 89)), max{min{142, 124, 416}, cat(y, z), min{y, 334, 14}}, max{496, min{88, 120, 271}, max{390, 133, 131}}}, cat((min{396, z, y}+max{y, y, 335}), (max{y, z, 181}+min{y, z, y}))}, E[max{solve(376 : 68), (E[z]-F[z]), min{331, 303, min{z, 235, y}}}], F[F[(max{208, y, z}+415)]]}]);"
+ position: 201
+
+-problem: 99
+ correct_answer: 116
+ str: "var x = (E[F[wild(max{max{z, z, 168}, max{min{y, 50, 102}, wild(156, 239), min{z, 87, 364}}, (E[479]*wild(305, 382))}, (z*232))]]);"
+ position: 21
+
+-problem: 100
+ correct_answer: 157
+ str: "var x = (F[E[wild(F[max{(y+48), E[z], F[y]}], max{cat(F[z], (cat(274, z)-max{276, 321, 313})), F[E[294]], min{E[z], min{E[134], max{318, z, 482}, z}, E[y]}})]]);"
+ position: 12
+
+-problem: 101
+ str: "var x = (E[(E[(E[(cat(292, y)+E[y])]+max{min{387, max{z, 81, 97}, F[243]}, E[(457-y)], F[311]})]*(max{F[solve(F[y] : z)], F[min{205, max{z, 68, z}, 191}], wild(min{(90-363), z, F[z]}, F[E[489]])}-wild(E[max{E[37], solve(z : z), y}], max{min{max{277, y, y}, (y+445), (y-153)}, (y*y), solve(F[z] : min{167, 22, y})})))]);"
+ position: 198
+
+-problem: 102
+ str: "var x = (E[(E[max{F[496], wild(111, z), E[max{y, 309, solve(y : 74)}]}]*F[E[(E[y]+E[y])]])]);"
+ position: 13
+
+-problem: 103
+ str: "var x = (F[((cat(solve(F[max{y, z, 242}] : solve(444 : 309)), wild(F[max{y, z, 248}], wild(min{z, y, 134}, y)))-F[F[wild(y, 334)]])+E[min{F[F[188]], min{F[z], F[160], min{350, 425, y}}, min{max{z, z, 71}, E[y], E[179]}}])]);"
+ position: 133
+
+-problem: 104
+ str: "var x = (F[cat((max{y, 372, (398*y)}-(min{47, z, z}+wild(483, y))), F[max{211, z, 487}])]-min{min{wild(min{wild(198, y), (436-F[177]), max{y, z, z}}, E[max{y, z, y}]), F[E[F[z]]], min{E[z], E[(min{z, 441, 373}*F[z])], (F[326]+max{z, z, y})}}, (cat(min{235, E[167], min{y, y, 441}}, E[min{z, z, 10}])*E[max{F[73], solve(y : solve(z : y)), max{152, 388, 294}}]), F[(F[min{F[184], 446, max{y, 295, z}}]-solve(solve(404 : z) : (495+40)))]});"
+ position: 97
+
+-problem: 105
+ str: "var x = (E[min{E[E[min{E[y], E[F[164]], min{z, max{y, 95, y}, E[182]}}]], ((max{97, y, 175}-391)+wild(min{z, 47, y}, z)), min{cat(cat(F[46], y), (109*solve(y : 424))), F[F[max{y, 307, 170}]], max{max{F[min{383, 13, 259}], y, E[E[z]]}, cat(max{E[42], max{263, z, 281}, min{432, 479, 473}}, max{wild(174, 43), 398, z}), min{cat(F[y], cat(296, 332)), min{y, 272, y}, (53*max{y, 174, y})}}}}]);"
+ position: 199
+
+-problem: 106
+ str: "var x = (min{(wild(max{y, 161, 219}, E[max{z, 362, 246}])*(E[solve(E[min{z, z, y}] : max{max{83, 428, 364}, F[90], min{z, z, 155}})]-(solve(wild(z, 94) : 425)+F[(413*y)]))), min{min{max{E[solve(y : 266)], max{z, y, z}, ((z+137)+max{y, 335, y})}, F[E[max{(102+y), 364, max{360, z, 240}}]], wild((wild((z+y), (163*473))*E[342]), cat(min{z, min{495, 310, z}, E[y]}, cat(65, z)))}, (max{min{y, y, 331}, E[E[z]], (min{446, 63, 62}*E[222])}+F[min{min{max{272, y, z}, solve(z : 278), max{z, z, y}}, solve(min{423, z, 255} : (z-z)), min{F[y], wild(z, 342), y}}]), ((min{solve(406 : 234), E[490], (z-358)}*max{min{y, 235, z}, y, F[z]})*wild(E[E[423]], E[260]))}, min{max{min{422, 266, y}, E[cat(z, 200)], cat(y, min{y, y, y})}, max{min{max{372, 257, y}, z, (482*386)}, max{max{y, y, 208}, F[y], min{z, 145, y}}, ((215*y)+z)}, F[solve(min{z, 22, y} : E[y])]}});"
+ position: 440
+
+-problem: 107
+ str: "var x = (F[F[(min{y, z, y}*(z*z))]]);"
+ position: 8
+
+-problem: 108
+ str: "var x = (min{min{max{solve(265 : z), F[y], F[y]}, min{z, F[y], (40+205)}, min{E[(z-286)], E[E[161]], min{cat(39, 457), min{z, 1, y}, (199+81)}}}, max{solve(wild(392, 25) : min{(y-34), max{57, z, 490}, cat(185, 164)}), F[z], F[(322+z)]}, E[max{((y+128)*209), max{y, z, 151}, min{min{319, 52, z}, cat(472, y), max{314, 183, y}}}]}*max{max{max{solve(427 : 84), max{275, y, 12}, E[449]}, max{min{352, y, 179}, F[z], 187}, min{E[48], E[335], max{y, 147, 335}}}, max{F[cat(E[y], max{496, 389, z})], ((165*231)+cat(400, z)), E[wild(y, y)]}, F[max{91, 378, y}]});"
+ position: 121
+
+-problem: 109
+ str: "var x = (E[wild((max{solve(292 : z), min{max{192, y, 197}, 349, solve(y : y)}, E[z]}-E[wild(124, 145)]), (F[(y+z)]-(wild(F[y], max{366, y, 243})+z)))]);"
+ position: 8
+
+-problem: 110
+ str: "var x = (F[min{E[cat(F[max{z, y, z}], F[cat(135, y)])], (y-((F[y]+min{max{387, 424, z}, (y-256), max{242, 223, z}})+E[E[z]])), F[E[(263-E[47])]]}]);"
+ position: 14
+
+-problem: 111
+ str: "var x = (max{F[((E[181]+((max{z, 334, 143}+F[z])-F[y]))*max{min{F[z], 322, F[y]}, 320, max{max{433, y, 171}, 98, 371}})], solve(wild(F[wild(max{251, y, y}, F[z])], min{min{z, z, E[401]}, max{max{y, z, z}, E[z], max{462, 240, 356}}, min{z, 376, y}}) : max{min{F[min{z, z, 472}], max{cat(257, (63*179)), 125, E[y]}, wild((cat(y, 247)*min{263, 154, 278}), F[z])}, E[max{E[min{z, z, 16}], F[z], E[z]}], min{max{(F[z]*cat(z, 56)), (E[188]-min{92, y, 281}), min{wild(z, 109), max{258, z, y}, 46}}, min{E[293], (min{y, 433, y}-475), F[F[338]]}, (E[88]-(267*(z*381)))}}), max{F[min{F[F[253]], cat((158-301), y), max{y, F[y], (50-209)}}], F[(E[421]-min{F[max{404, 365, 118}], min{24, (y+z), F[z]}, cat(83, max{z, 342, y})})], E[solve(cat(y, z) : max{z, min{17, 470, y}, 308})]}});"
+ position: 686
+
+-problem: 112
+ str: "var x = (min{F[wild(E[(solve(122 : 377)*y)], E[cat(488, (z-z))])], E[solve(((4-y)-E[F[min{388, 436, y}]]) : wild((max{142, 103, 311}+wild(y, z)), max{E[z], 18, cat(332, y)}))], max{E[((min{y, 144, 379}+(y*z))*min{min{441, y, (y-78)}, E[F[z]], min{F[323], F[y], z}})], solve((max{solve(max{z, 375, y} : F[z]), wild(y, y), (482+max{19, y, 366})}+min{y, y, min{y, 163, 49}}) : F[F[max{max{168, y, 50}, cat(z, z), E[235]}]]), wild(wild(E[E[y]], cat((solve(y : 301)*min{z, 405, 44}), min{E[y], max{z, y, y}, cat(z, 175)})), wild(cat(y, min{solve(367 : 388), E[328], max{y, y, 90}}), F[E[34]]))}});"
+ position: 113
+
+-problem: 113
+ str: "var x = (min{max{cat(solve(min{y, cat(z, z), F[204]} : E[E[y]]), wild(E[F[y]], solve((305+33) : solve(z : 278)))), F[F[18]], (max{solve(z : (E[193]+max{y, 496, z})), (y*F[y]), max{F[z], (E[z]*F[455]), E[(z+435)]}}-min{165, max{E[2], F[154], solve(y : z)}, (z+E[z])})}, F[max{min{F[6], E[z], F[y]}, cat(F[480], (278+y)), (max{y, 232, y}*(285*270))}], (max{(F[F[max{y, 60, 363}]]-max{E[z], (36*306), (y+494)}), E[F[F[92]]], F[(min{68, y, y}+(z+405))]}-E[(E[F[max{y, 164, y}]]-E[((z+390)*E[259])])])});"
+ position: 232
+
+-problem: 114
+ str: "var x = (E[(F[F[min{z, 269, z}]]*(F[cat(min{z, 273, 263}, max{y, z, y})]+max{F[(84-493)], max{120, F[z], (255+y)}, (max{y, y, 435}*34)}))]-(E[F[cat(solve(y : 145), wild(219, cat(z, y)))]]*(F[(y+solve(322 : z))]+E[(max{382, E[z], y}+E[E[466]])])));"
+ position: 10
+
+-problem: 115
+ str: "var x = (cat(min{(solve(E[min{475, z, z}] : (max{max{y, z, z}, 405, max{y, 251, z}}-E[cat(y, z)]))-max{min{max{0, 345, z}, (z*153), (y-64)}, (E[401]+E[z]), max{E[(297*408)], F[(152+477)], solve(E[z] : y)}}), (min{((F[348]+E[z])-E[y]), ((68-111)+min{46, z, z}), max{66, (max{174, y, z}*E[166]), cat(E[z], z)}}-wild(min{wild(E[y], min{264, z, 442}), E[y], max{wild(184, z), E[200], max{192, y, y}}}, cat(F[(41-y)], min{68, 348, 391}))), min{(66*y), solve(min{z, y, 160} : (F[z]-386)), E[(452-min{y, 262, y})]}}, min{F[E[min{(460+z), max{z, y, 420}, 284}]], (max{z, E[467], E[y]}-min{(max{z, 176, z}-y), max{229, 466, y}, solve(max{y, 267, 417} : E[393])}), (F[(E[y]*F[(155*32)])]*F[((z+174)-F[min{z, y, 170}])])}));"
+ position: 102
+
+-problem: 116
+ str: "var x = (max{((E[solve(302 : 59)]*min{max{359, 479, 383}, z, min{y, 270, y}})-max{wild(z, min{206, y, y}), wild(max{z, z, z}, solve(z : z)), solve(402 : (y-z))}), (max{E[min{z, (133+y), max{y, 281, y}}], solve((E[y]+(138-z)) : wild(F[cat(z, z)], F[z])), solve(min{103, y, z} : max{min{391, 497, 52}, (y+y), 431})}-(min{y, min{z, z, z}, max{y, z, 369}}+max{E[F[E[y]]], cat(183, F[276]), min{F[F[z]], max{z, z, z}, (305+458)}})), min{max{max{wild(197, z), F[z], 250}, F[E[156]], min{solve(204 : z), solve(z : y), min{172, y, z}}}, max{wild(min{382, z, z}, y), solve(solve(wild(236, 410) : (34+y)) : F[min{126, 43, z}]), wild(E[min{z, y, y}], F[399])}, max{E[min{min{min{9, y, z}, E[174], E[y]}, E[(z*z)], F[406]}], F[((solve(19 : y)-381)-E[F[y]])], wild(solve((z+z) : 89), F[(z-308)])}}});"
+ position: 314
+
+-problem: 117
+ str: "var x = (max{solve(max{324, E[z], min{z, 132, y}} : (F[y]+min{(E[y]+(334-445)), E[z], E[215]})), F[min{min{(386-z), F[z], (439*324)}, cat(E[35], z), F[wild(y, 56)]}], min{E[max{E[min{(z*332), F[419], F[z]}], y, max{min{wild(y, y), solve(y : 41), min{195, 210, 206}}, F[(z*z)], min{max{z, y, z}, (y+y), E[y]}}}], min{F[max{(455*(z+z)), max{E[356], E[259], 478}, solve(max{494, y, 408} : min{y, 390, 456})}], min{max{max{z, 405, 199}, z, max{z, 305, 192}}, min{solve(cat(397, y) : min{53, z, 170}), min{E[254], z, z}, E[solve(282 : z)]}, E[min{415, 398, 263}]}, E[489]}, ((z+solve(17 : z))*min{min{317, E[z], wild(y, z)}, min{min{318, 177, 181}, (y-z), E[y]}, (min{z, z, y}-(y*278))})}});"
+ position: 216
+
+-problem: 118
+ str: "var x = (min{F[max{281, y, y}], E[solve(min{19, 311, 175} : E[y])], F[(solve(486 : z)*cat(z, y))]}*E[E[wild(F[z], E[z])]]);"
+ position: 8
+
+-problem: 119
+ str: "var x = (E[wild((solve(solve((233-244) : F[y]) : F[(y+22)])*cat(y, y)), max{F[cat(min{E[2], min{264, y, 147}, z}, F[134])], F[min{max{310, y, 13}, E[max{z, y, z}], min{F[125], y, (z-z)}}], min{F[cat(E[y], 44)], max{min{E[448], (198*158), 132}, max{309, y, z}, F[wild(y, 165)]}, E[386]}})]);"
+ position: 77
+
+-problem: 120
+ str: "var x = (min{solve((z*E[z]) : min{solve(wild(z, 314) : (24+z)), solve(max{y, 235, 209} : 347), 71}), wild(cat(min{(F[13]*solve(430 : 290)), max{E[157], min{y, z, z}, E[y]}, (z+397)}, E[(max{384, 42, y}*E[106])]), solve((y*z) : F[min{44, 32, z}])), F[F[E[F[91]]]]});"
+ position: 82
+
+-problem: 121
+ str: "var x = (F[min{F[E[max{max{z, y, 26}, 432, cat(z, y)}]], F[max{wild(436, z), 311, wild(z, 367)}], max{max{max{z, 449, y}, (134*217), max{z, z, y}}, cat(max{22, z, 18}, E[163]), E[F[157]]}}]);"
+ position: 101
+
+-problem: 122
+ str: "var x = (max{F[F[E[((E[92]-(10+43))*E[y])]]], min{max{max{z, F[256], solve(145 : 175)}, cat(max{z, y, 361}, 28), ((122+y)+E[402])}, (F[solve(E[(y-39)] : solve(E[371] : min{y, 97, 173}))]*max{F[z], min{(z+410), (min{131, 89, 32}*y), (max{84, 450, 300}*z)}, E[wild(y, 410)]}), (F[E[min{min{72, 15, y}, y, E[172]}]]-min{E[195], max{z, 249, z}, max{30, y, z}})}, F[max{max{solve(11 : E[z]), 474, F[E[y]]}, (F[E[66]]-F[wild(z, 125)]), E[max{max{y, y, 324}, F[411], 373}]}]});"
+ position: 277
+
+-problem: 123
+ str: "var x = (min{F[wild(z, z)], E[min{max{z, 295, 70}, 461, z}], (max{y, wild(39, 464), F[z]}+cat(359, min{483, y, 369}))}*max{wild(E[max{z, cat(287, 429), max{z, y, 484}}], F[E[459]]), (min{z, (177-160), y}-F[y]), min{F[(F[80]*E[y])], (z-E[y]), (min{(z+y), (445+230), wild(z, z)}+min{E[282], E[300], E[y]})}});"
+ position: 104
+
+-problem: 124
+ str: "var x = (min{min{E[solve(F[401] : max{y, y, y})], E[min{(y+max{z, 423, y}), F[y], E[min{181, z, y}]}], min{min{cat(min{y, 19, 347}, F[217]), min{E[79], F[268], (z+z)}, (max{47, 32, y}-F[95])}, max{((268-y)+wild(y, y)), solve(E[z] : cat(453, 41)), max{max{y, 172, y}, 250, wild(276, 19)}}, max{E[F[y]], max{cat(z, z), wild(y, z), E[y]}, F[E[y]]}}}, max{min{(z+(z+y)), 54, (max{182, wild(y, y), E[200]}-E[z])}, min{max{E[(max{325, y, 58}*min{136, 319, z})], (max{(381-225), (z*y), max{z, 83, 206}}*min{solve(z : 391), (z+y), E[z]}), solve((F[397]*y) : min{(66+60), y, 459})}, max{(((z*z)+cat(y, 487))-min{(469*214), 247, z}), (max{max{347, y, z}, E[327], max{y, 94, 482}}*y), (488-wild(E[z], min{33, z, y}))}, F[max{max{F[38], y, E[418]}, E[max{235, 141, y}], min{min{z, 361, z}, max{76, z, 290}, max{z, 221, 100}}}]}, F[(E[362]-z)]}, min{E[max{(E[y]-min{z, 122, z}), min{max{z, z, z}, 127, z}, wild(160, (z+440))}], max{(z+min{323, y, 437}), min{max{262, 451, z}, max{447, z, y}, (z-y)}, (198*y)}, F[(E[358]*((wild(369, z)+cat(y, y))+E[F[20]]))]}});"
+ position: 419
+
+-problem: 125
+ str: "var x = (wild(min{min{(457+F[F[y]]), max{min{106, y, z}, F[362], E[y]}, F[E[314]]}, solve(E[F[205]] : E[F[y]]), cat(F[(260+z)], (F[140]+solve(y : z)))}, E[max{(E[(y*y)]*wild(F[F[411]], F[E[61]])), cat(F[411], E[cat(y, 455)]), min{F[z], min{cat(z, z), 293, (y*y)}, 35}}]));"
+ position: 159
+
+-problem: 126
+ str: "var x = (F[min{wild(E[wild(z, (z*z))], min{solve(cat(F[305], 398) : min{wild(87, 340), E[y], wild(y, z)}), E[279], E[wild(342, z)]}), E[max{F[(z-475)], F[E[max{182, y, 419}]], F[solve(424 : y)]}], max{E[z], max{max{max{193, 206, 254}, wild(z, 301), solve(118 : 28)}, max{69, 311, 128}, (z-y)}, max{max{min{min{y, 446, 159}, max{267, 158, 459}, E[y]}, F[F[y]], F[E[234]]}, max{wild(F[202], max{y, 188, z}), E[(y+82)], E[solve(393 : z)]}, F[y]}}}]);"
+ position: 48
+
+-problem: 127
+ str: "var x = (max{max{(E[154]*F[cat(y, z)]), min{(y-198), E[420], (48*z)}, F[cat(z, y)]}, wild(F[wild(min{y, 440, 461}, E[z])], F[wild(49, y)]), E[max{F[11], E[y], min{E[432], max{z, 4, y}, 205}}]});"
+ position: 12
+
+-problem: 128
+ str: "var x = (E[F[(solve(220 : F[464])+min{z, y, y})]]);"
+ position: 13
+
+-problem: 129
+ str: "var x = (F[max{wild(wild(z, 230), max{z, 140, y}), min{(F[F[y]]-F[163]), cat(wild(max{z, 113, 63}, 341), min{78, solve(z : z), E[y]}), F[solve(solve(291 : z) : E[y])]}, (wild(max{153, 451, 421}, min{452, 478, 263})*wild((258-406), y))}]);"
+ position: 199
+
+-problem: 130
+ str: "var x = (max{(E[max{(156-z), solve(min{min{y, 422, 159}, F[y], (y*103)} : min{261, z, y}), (3-F[z])}]*min{(E[y]+max{200, 189, cat(87, 67)}), F[E[382]], E[(33*y)]}), wild(max{min{min{wild(z, 162), E[36], (z-z)}, E[F[z]], F[105]}, (min{176, z, 407}*y), max{min{cat(E[z], E[213]), F[482], F[max{393, y, z}]}, min{solve(z : (z-157)), y, F[E[z]]}, min{min{92, y, 10}, max{y, 445, y}, E[312]}}}, min{E[F[463]], min{F[F[z]], (E[362]+z), 58}, (y+F[wild(z, y)])}), (max{E[wild(446, F[119])], ((z+87)*106), solve(E[y] : (422+166))}-solve(min{(min{249, z, y}+162), 285, F[solve(y : 261)]} : E[min{191, 65, 178}]))});"
+ position: 393
+
+-problem: 131
+ str: "var x = ((((E[F[114]]-wild(F[max{258, 88, z}], min{z, y, y}))-(solve(E[(3*301)] : E[z])+F[max{z, y, z}]))+min{wild(max{wild(max{488, 243, z}, F[y]), wild(424, F[96]), max{y, z, 492}}, (F[z]+max{377, 13, 405})), E[F[y]], (F[F[y]]+E[(cat(y, z)+max{317, 156, 18})])})-E[solve((cat(solve(max{343, 459, y} : min{302, 337, 399}), E[249])+max{E[max{z, 339, z}], min{min{y, y, z}, F[z], (z+z)}, max{202, y, z}}) : min{solve(min{F[z], 146, min{431, 154, y}} : min{z, y, 108}), min{max{363, y, z}, F[z], wild(152, y)}, cat(F[y], min{solve(215 : y), max{195, 305, y}, E[y]})})]);"
+ position: 26
+
+-problem: 132
+ str: "var x = (max{(E[min{169, cat(234, 497), 378}]+max{F[F[z]], solve(solve(y : 468) : (y+25)), min{min{z, z, y}, E[166], solve(y : z)}}), min{max{E[y], cat((174*457), z), F[y]}, E[z], (max{F[y], F[340], E[314]}+max{cat(474, y), max{z, 44, z}, min{z, 271, y}})}, E[F[F[y]]]});"
+ position: 8
+
+-problem: 133
+ str: "var x = (min{F[(cat(F[solve(113 : 343)], 447)*(F[y]*max{193, 216, 181}))], (F[max{z, z, y}]-min{min{248, 307, z}, E[max{z, 359, z}], min{y, 57, 202}}), cat(min{min{E[97], min{max{84, 465, 391}, wild(y, z), min{24, 241, y}}, ((y-z)-y)}, F[max{382, y, y}], (max{max{385, 135, z}, solve(135 : 167), F[z]}*max{max{266, z, y}, cat(y, 143), cat(68, z)})}, (wild(min{95, y, y}, max{y, y, 185})-(z+max{z, y, 259})))});"
+ position: 255
+
+-problem: 134
+ str: "var x = (min{min{wild(E[(y+y)], max{solve((y-269) : wild(444, 378)), min{349, z, 201}, min{min{y, y, 149}, E[y], max{257, 46, 354}}}), min{F[solve(max{F[y], z, max{y, 375, 13}} : min{213, 398, 169})], (solve(F[E[320]] : F[348])+solve(cat(F[263], max{446, z, z}) : cat(y, 2))), (cat(F[34], (105-136))+F[min{415, (z-420), max{z, 142, 212}}])}, solve(max{(y*150), solve((F[407]-max{y, 389, y}) : ((152-168)-max{y, 122, y})), (max{z, y, 251}+5)} : E[wild(((270+6)-E[y]), F[z])])}, F[min{(min{max{F[y], (308+149), solve(y : 344)}, (E[y]+z), cat(F[y], wild(z, y))}-E[55]), E[solve(334 : (5+z))], max{((y+y)*F[y]), min{(y-y), min{52, 73, z}, (y-y)}, z}}], solve(max{(max{F[281], max{y, 163, 26}, solve(302 : 126)}-min{(z-327), wild(331, y), z}), E[max{max{y, 134, 142}, (428-8), F[z]}], (y-(332-z))} : (min{(F[497]+(258-y)), max{max{z, 30, y}, max{469, y, 443}, 103}, 262}+min{solve(193 : 307), F[E[z]], max{y, min{46, z, 243}, (z*146)}}))});"
+ position: 186
+
+-problem: 135
+ str: "var x = ((min{F[max{340, z, z}], F[cat(z, min{226, 82, 265})], cat(max{(y-20), 110, (216*495)}, max{323, z, y})}-E[z])-cat(wild(min{E[z], solve(313 : z), wild(249, 389)}, (max{135, y, 303}+max{(z*154), max{175, z, z}, F[y]})), max{min{(y+y), E[73], E[max{z, y, 436}]}, min{F[solve(y : 353)], 419, min{max{z, z, 325}, y, E[108]}}, max{min{103, 36, 466}, min{y, wild(238, y), min{96, y, z}}, wild(E[y], 328)}}));"
+ position: 127
+
+-problem: 136
+ str: "var x = (solve(F[F[max{E[354], E[F[y]], F[(z-402)]}]] : min{F[F[wild(z, z)]], (E[(z-90)]+max{F[456], y, 287}), (E[433]*(225-220))}));"
+ position: 59
+
+-problem: 137
+ str: "var x = ((max{max{max{z, z, z}, (286+z), z}, F[cat(437, min{y, 406, z})], (F[250]*max{z, y, 15})}+min{E[F[y]], E[max{y, z, 10}], (E[y]+solve(min{270, 318, y} : solve(297 : y)))})*F[min{max{E[solve(y : (z+105))], F[E[F[41]]], max{E[E[z]], E[min{18, 307, y}], F[(313-140)]}}, solve(E[max{E[y], max{262, z, 70}, solve(z : z)}] : cat(max{E[y], z, (y+23)}, F[min{z, 374, z}])), F[max{min{306, z, y}, F[282], z}]}]);"
+ position: 13
+
+-problem: 138
+ str: "var x = (F[E[(E[y]+max{z, y, 125})]]);"
+ position: 8
+
+-problem: 139
+ str: "var x = (solve(max{E[(max{213, E[161], max{448, y, 491}}+E[E[z]])], ((min{(386*y), max{125, y, z}, solve(wild(485, y) : max{282, z, z})}+min{solve((y+21) : min{z, 454, z}), wild(z, E[52]), F[y]})*E[max{E[min{425, z, z}], F[435], y}]), min{E[min{cat(z, 476), min{348, y, 217}, (F[y]*y)}], F[(max{F[498], min{y, y, 321}, E[z]}*solve(y : solve(z : y)))], F[(min{z, 298, y}*max{478, 255, 125})]}} : (max{solve((max{z, y, y}+solve(101 : 496)) : min{F[245], 226, E[473]}), F[(z*E[z])], max{E[y], cat(z, (453*z)), (y*169)}}-(F[max{solve(203 : z), min{y, 343, z}, solve(z : 334)}]+F[F[F[z]]]))));"
+ position: 197
+
+-problem: 140
+ str: "var x = (F[F[F[cat(max{min{y, (y-y), F[y]}, F[min{221, 116, 3}], max{(189-268), cat(343, y), solve(474 : 294)}}, max{max{y, 196, 401}, min{y, z, 58}, 199})]]]);"
+ position: 10
+
+-problem: 141
+ str: "var x = (E[solve(min{min{(min{max{18, z, 469}, E[y], z}-F[E[250]]), min{z, z, (z+z)}, F[293]}, min{388, z, 412}, (E[(y*y)]+(E[y]-max{133, 103, y}))} : max{E[E[cat(499, y)]], ((E[E[10]]*y)+F[min{z, min{z, y, 251}, cat(y, 321)}]), min{min{cat(F[375], min{y, y, 1}), z, min{136, z, 131}}, max{max{(y*y), 146, (z-310)}, F[291], F[cat(z, 222)]}, max{min{y, (20+y), cat(200, 27)}, E[cat(z, y)], z}}})]);"
+ position: 16
+
+-problem: 142
+ str: "var x = (min{(F[E[max{E[E[z]], wild(464, 128), max{min{17, 197, z}, (z+z), 382}}]]*F[min{max{max{z, z, z}, max{y, y, y}, E[y]}, E[cat(y, y)], F[34]}]), E[min{max{max{min{z, 33, (475+z)}, 332, min{min{z, z, z}, y, z}}, cat(E[30], max{(y-348), z, F[375]}), (F[max{y, 271, 123}]*F[z])}, min{solve(E[y] : min{z, cat(z, 402), (435-164)}), E[y], solve(min{F[320], z, y} : (min{167, z, 265}*43))}, cat((solve(78 : E[z])+(max{379, 344, z}-E[463])), max{cat(z, 90), y, F[z]})}], F[(F[min{16, y, z}]*min{E[solve(y : y)], max{z, 200, 494}, max{(426+z), solve(67 : 395), 301}})]});"
+ position: 21
+
+-problem: 143
+ str: "var x = (E[min{F[max{E[z], (186*77), (min{z, z, z}*F[z])}], (min{min{min{y, y, z}, cat(y, 334), (z-y)}, min{E[80], min{238, 206, 273}, 249}, wild(E[z], (432-y))}+max{max{z, z, 363}, y, min{29, z, z}}), min{max{(y+max{z, 276, 143}), solve(max{43, 221, z} : (z+371)), F[(26-z)]}, max{min{wild(F[368], E[y]), wild(solve(z : 391), 495), E[max{459, 127, 324}]}, F[F[222]], wild((F[y]+E[y]), (90*40))}, F[max{F[y], max{z, max{y, y, 237}, y}, min{max{413, z, z}, F[240], min{468, y, 396}}}]}}]);"
+ position: 205
+
+-problem: 144
+ str: "var x = (E[E[wild(min{solve(y : max{z, z, y}), min{F[max{y, y, y}], E[172], min{338, 70, 135}}, (320+284)}, E[(cat(max{z, 226, y}, max{315, z, 490})*z)])]]);"
+ position: 10
+
+-problem: 145
+ str: "var x = (wild(max{E[max{solve(y : y), E[z], E[376]}], wild(solve(F[F[481]] : E[y]), min{F[min{F[467], F[z], 313}], max{E[383], E[z], z}, E[E[z]]}), min{max{max{min{min{41, z, 344}, 154, z}, cat(E[67], max{z, z, 385}), max{wild(z, 270), z, 210}}, E[min{F[89], (486*z), 386}], wild(max{y, y, cat(476, 165)}, (cat(z, 135)-E[338]))}, max{(max{458, z, 343}*F[347]), min{F[(156-404)], 238, F[(z*z)]}, E[min{min{450, 126, 243}, max{y, 49, z}, solve(5 : z)}]}, wild(max{cat(y, y), F[E[z]], min{max{y, 459, 267}, 72, E[70]}}, solve((solve(431 : 68)+F[z]) : max{wild(z, 394), cat(z, 177), max{z, 424, 208}}))}}, max{min{wild(max{min{(z-y), E[y], E[400]}, max{13, F[341], F[y]}, solve(min{466, 430, 387} : 490)}, F[min{470, y, 142}]), E[(max{392, y, 173}+E[y])], max{cat(z, z), min{(238-z), E[349], (372*93)}, wild(min{y, 254, z}, z)}}, (E[max{(166+489), min{308, 106, z}, 435}]+min{max{cat(262, 182), 356, max{z, 71, 198}}, cat(E[y], E[144]), solve(cat(343, z) : cat(225, z))}), solve(F[z] : max{F[115], 308, F[y]})}));"
+ position: 58
+
+-problem: 146
+ str: "var x = (F[max{min{E[E[28]], cat(solve((59*171) : z), min{(366+y), solve(207 : z), z}), wild(((z-z)-y), max{E[z], 213, 2})}, min{(z-y), (354+468), E[y]}, (min{cat(min{473, z, y}, (y+y)), min{448, wild(y, y), min{z, y, y}}, (E[z]*E[279])}-(cat(287, z)*(y+355)))}]*E[wild(E[F[E[E[232]]]], min{(max{377, y, y}*z), (max{295, z, y}*E[52]), E[solve(464 : F[399])]})]);"
+ position: 32
+
+-problem: 147
+ str: "var x = (F[max{max{(min{y, 220, 156}-solve(z : F[z])), (solve(z : E[34])+(y+y)), min{(max{y, 410, 465}*z), ((z-400)*F[351]), F[z]}}, E[min{E[max{244, z, 68}], cat(wild(458, 413), z), max{min{200, y, 163}, z, y}}], (min{wild((182-318), (z+z)), F[z], min{(450-y), y, F[487]}}*min{cat(y, z), (z-E[z]), min{min{z, 489, z}, E[284], 261}})}]);"
+ position: 214
+
+-problem: 148
+ str: "var x = (max{min{E[(min{F[max{y, y, z}], cat((120-19), min{232, z, z}), (y-F[100])}*E[max{max{391, y, z}, z, wild(487, z)}])], E[E[F[solve(max{z, 26, 73} : min{236, y, z})]]], (solve(E[max{E[358], max{218, 152, 433}, 61}] : E[cat(y, 106)])-E[min{z, 42, 463}])}, min{solve(F[F[114]] : E[z]), E[min{F[427], F[456], (max{E[y], max{z, y, y}, solve(y : y)}-max{wild(z, 81), (207*z), (z*y)})}], F[E[(F[143]*F[z])]]}, min{F[min{F[157], 399, 329}], F[solve(F[min{494, 397, 209}] : min{222, 378, 435})], F[max{E[z], (442+z), E[F[427]]}]}});"
+ position: 188
+
+-problem: 149
+ str: "var x = (min{cat(max{cat(367, 279), E[y], E[y]}, max{solve(E[z] : solve(z : 249)), E[E[max{239, z, z}]], max{max{202, cat(y, z), E[z]}, solve(z : z), wild(492, y)}}), max{min{cat(E[y], F[max{y, 70, 385}]), (F[(133-301)]*E[384]), solve(F[max{y, y, 104}] : wild(z, y))}, E[271], E[min{F[130], max{436, 196, 251}, cat(247, y)}]}, (((222+161)-solve(max{y, 450, y} : z))+wild(max{E[y], (143+z), min{y, y, 351}}, 115))});"
+ position: 108
+
+-problem: 150
+ str: "var x = (F[F[solve(F[max{25, max{298, z, y}, solve(y : 147)}] : F[min{E[126], 199, 428}])]]);"
+ position: 24
+
+-problem: 151
+ str: "var x = (E[max{E[129], (y*E[7]), max{wild(y, 201), (y+24), F[427]}}]-max{F[max{166, F[393], max{409, z, 198}}], cat(F[F[z]], (F[y]-(66-158))), max{367, z, 418}});"
+ position: 74
+
+-problem: 152
+ str: "var x = (min{(min{max{E[466], (152+y), min{z, 275, z}}, min{E[y], E[z], min{161, 255, 429}}, 299}+min{F[F[z]], min{71, wild(y, y), max{391, y, z}}, min{294, wild(318, z), y}}), F[min{wild(204, F[y]), (min{418, y, 464}+F[412]), F[cat(z, 184)]}], F[z]});"
+ position: 114
+
+-problem: 153
+ str: "var x = (F[(min{(z-z), solve(max{z, 493, y} : (y-y)), (E[y]-wild(z, 471))}+F[solve(y : F[z])])]*(F[cat(wild((y-E[183]), min{max{92, 188, y}, z, z}), wild(max{(z-z), 200, wild(431, y)}, (476-max{y, z, y})))]+(F[max{z, 404, y}]-cat(wild(403, (421*z)), max{z, y, 256}))));"
+ position: 11
+
+-problem: 154
+ str: "var x = (min{F[(E[F[min{z, y, y}]]+F[E[13]])], min{max{F[y], solve(y : z), 425}, (max{E[(max{101, 162, y}-max{274, y, z})], max{F[wild(y, y)], min{min{387, y, 18}, y, max{76, 112, 191}}, min{216, min{98, 331, y}, min{133, 398, y}}}, F[F[y]]}*F[140]), F[solve(F[z] : E[432])]}, max{max{(solve(z : z)+max{E[434], 452, E[288]}), min{(410*y), F[min{66, 172, 123}], E[max{273, z, 204}]}, E[120]}, E[E[y]], F[((z*y)*min{99, z, 281})]}});"
+ position: 87
+
+-problem: 155
+ str: "var x = (solve(cat(min{min{max{min{226, z, 4}, wild(479, y), F[y]}, max{(z-443), max{461, y, z}, (z+y)}, F[(404+y)]}, (max{cat(z, cat(404, y)), F[477], E[80]}*(z-z)), (solve(E[z] : min{z, z, 71})-cat(max{119, y, 34}, wild(z, 54)))}, min{F[E[max{max{49, 254, y}, (180*472), (y*z)}]], min{min{min{z, 336, y}, cat(267, y), 17}, min{F[340], E[y], (y*322)}, F[283]}, F[(309+F[F[141]])]}) : F[wild(F[F[min{z, 410, y}]], min{min{max{329, y, z}, solve(max{z, z, 185} : min{84, 188, z}), F[183]}, min{E[(155*19)], (55+39), max{128, max{z, y, z}, (334+480)}}, E[max{min{z, z, z}, 326, E[257]}]})]));"
+ position: 441
+
+-problem: 156
+ str: "var x = (wild(F[(F[min{(z*(462-y)), solve(min{y, 40, 165} : F[z]), solve(y : z)}]*solve(F[E[E[z]]] : F[E[y]]))], F[E[(solve((313*169) : max{min{441, 274, z}, max{50, 270, 40}, z})-max{E[5], F[wild(z, y)], F[max{497, 370, y}]})]]));"
+ position: 114
+
+-problem: 157
+ str: "var x = (max{min{F[y], F[98], max{z, y, 430}}, F[441], E[133]}+E[F[min{wild(295, E[227]), min{z, 387, 323}, min{E[186], z, max{z, 474, z}}}]]);"
+ position: 66
+
+-problem: 158
+ str: "var x = (E[min{max{solve(z : 200), (E[min{472, 52, z}]*min{wild(y, 41), 155, 73}), E[min{E[z], F[27], (420*171)}]}, E[min{E[50], (F[y]+min{22, 222, 210}), (solve(z : y)+142)}], max{F[E[417]], E[min{y, 123, 201}], F[z]}}]);"
+ position: 10
+
+-problem: 159
+ str: "var x = (F[min{E[z], F[E[E[33]]], max{y, max{200, z, 454}, E[y]}}]-(cat((E[F[329]]*max{E[z], F[F[152]], max{z, wild(354, 202), min{z, 484, 178}}}), E[E[F[y]]])-E[min{F[29], 360, F[z]}]));"
+ position: 107
+
+-problem: 160
+ str: "var x = (max{F[cat(min{418, z, 155}, (z-z))], wild(F[E[F[y]]], cat(E[max{69, y, 336}], E[z])), solve(y : ((max{427, 69, y}+max{466, z, 238})*(max{274, y, 50}+465)))}+min{E[max{min{379, y, 164}, min{z, 197, y}, E[411]}], E[solve(E[346] : max{146, 36, y})], max{(F[z]*cat(min{z, 380, 107}, (z+353))), (max{min{191, z, 395}, E[30], z}+F[E[F[258]]]), F[solve(F[max{z, 472, 78}] : min{min{z, y, 334}, wild(z, 45), E[y]})]}});"
+ position: 354
+
+-problem: 161
+ str: "var x = (max{cat(solve((354+y) : (min{y, 189, y}-434)), F[E[E[38]]]), E[wild(max{(F[min{z, 423, 318}]*min{F[y], F[349], F[243]}), E[F[F[401]]], max{wild((295-y), E[363]), min{z, 483, y}, max{E[y], max{414, y, y}, E[182]}}}, F[min{(z+y), E[288], E[z]}])], max{E[(min{(cat(282, y)+max{97, y, z}), solve(z : y), wild(F[y], 459)}-(154*0))], (max{E[cat(z, 96)], F[(y*277)], F[(374+z)]}*F[min{(y-469), F[7], solve(E[34] : F[y])}]), cat(solve(min{min{min{473, z, 44}, solve(y : y), F[y]}, max{max{35, 256, 384}, 244, (y+y)}, E[wild(103, 196)]} : min{solve(y : F[368]), F[wild(260, 395)], solve(F[z] : (z+228))}), F[min{solve(max{y, 230, z} : max{477, 148, 227}), (z*(y+333)), min{solve(272 : z), (y-262), max{z, z, z}}}])}});"
+ position: 446
+
+-problem: 162
+ str: "var x = (max{E[cat(max{max{E[219], F[z], y}, min{(471*y), max{163, y, 428}, min{133, y, 158}}, F[y]}, E[max{168, E[421], F[z]}])], ((wild((196*E[y]), E[E[377]])+min{(solve(z : z)*(F[457]*min{z, z, y})), wild(z, 123), min{(96-438), solve(min{z, y, z} : 298), max{454, E[490], E[y]}}})-E[(E[max{max{58, z, 106}, 359, F[94]}]+E[max{min{z, y, 95}, F[y], max{y, 402, z}}])]), solve(min{z, E[solve(z : 52)], E[E[z]]} : cat(E[y], E[377]))});"
+ position: 286
+
+-problem: 163
+ str: "var x = (cat(max{((min{solve(F[z] : E[302]), solve(min{370, y, 485} : z), F[z]}-E[304])-max{E[wild(z, 52)], min{474, (y-y), solve(16 : z)}, solve(y : z)}), (wild(E[solve(z : z)], (wild(125, z)-(E[y]-36)))*max{max{0, (z+y), z}, cat(E[y], F[395]), 459}), max{E[solve(z : y)], F[wild(382, 322)], cat(max{((343+z)*E[y]), min{z, 195, 195}, F[min{z, 419, 194}]}, min{max{y, 438, z}, 83, 298})}}, (max{F[max{z, z, 60}], F[cat(420, max{z, 481, z})], min{solve(z : 114), E[z], (z+F[10])}}*min{max{min{solve(y : 36), F[267], F[z]}, (cat(194, 338)-min{263, 83, z}), E[cat(z, 442)]}, (408*339), E[(z+385)]})));"
+ position: 534
+
+-problem: 164
+ str: "var x = (max{F[F[max{min{wild(max{z, y, z}, F[y]), y, E[min{y, y, y}]}, E[wild(max{114, z, z}, F[38])], E[((y+y)*F[24])]}]], F[min{min{max{z, 132, min{7, z, 185}}, (min{E[61], cat(y, z), 191}+F[max{y, 495, y}]), wild(F[F[y]], ((z-z)*E[142]))}, cat(344, min{y, 331, 97}), max{wild(y, 456), E[y], max{(F[z]+E[y]), min{z, z, 317}, F[solve(y : y)]}}}], max{E[z], min{F[(131*E[z])], E[131], y}, wild(E[E[z]], (min{y, max{z, y, 10}, solve(z : y)}-z))}});"
+ position: 394
+
+-problem: 165
+ str: "var x = (F[max{F[min{(F[min{y, y, y}]-cat((z-184), max{207, 436, 216})), wild((max{z, 398, z}-z), max{y, E[427], 167}), max{max{min{y, 106, 203}, solve(z : 256), cat(y, y)}, F[z], min{266, min{z, y, 129}, 101}}}], solve(max{y, (260*z), E[y]} : wild(z, 256)), E[(wild(F[min{z, z, z}], E[E[z]])-max{E[solve(437 : y)], wild(y, 262), ((z+z)+E[y])})]}]);"
+ position: 14
+
+-problem: 166
+ str: "var x = (min{E[cat(solve(E[wild(y, 496)] : F[E[178]]), min{F[y], max{E[18], 33, 120}, (427-y)})], (max{min{E[F[max{253, 322, z}]], solve(y : max{400, 406, 97}), (max{cat(477, z), 255, (z-462)}-max{458, 114, z})}, min{min{F[275], F[E[z]], solve(min{y, 406, 328} : 328)}, (min{F[y], F[z], E[218]}*(wild(171, 218)-y)), solve(E[y] : z)}, wild(cat(E[min{205, z, 70}], (350-min{z, y, 43})), max{E[y], (max{392, z, z}+(70*268)), max{267, y, z}})}+max{(cat(cat(70, 115), z)-cat(115, 137)), max{cat(min{y, 75, z}, min{z, 305, z}), F[min{465, y, 142}], E[min{231, y, y}]}, F[(F[228]+max{z, y, 132})]}), ((E[(F[z]+E[337])]*min{(E[y]-y), max{min{392, 1, 252}, min{197, y, 97}, 276}, (z*z)})*min{F[E[solve(411 : y)]], F[solve(z : 243)], cat(E[F[y]], E[F[171]])})});"
+ position: 18
+
+-problem: 167
+ str: "var x = (max{F[E[E[85]]], solve(cat(min{wild(17, 138), cat(E[z], E[467]), F[max{220, 314, z}]}, E[min{345, 36, y}]) : cat(cat(E[32], min{F[y], y, (y+130)}), min{max{F[131], min{7, z, y}, F[288]}, F[max{93, 99, y}], (56*F[189])})), max{F[max{wild(195, 335), (443-z), z}], min{min{F[z], 441, max{z, y, y}}, solve(min{y, 378, y} : F[z]), solve(E[cat(420, 178)] : (y+465))}, (wild(cat(z, 95), ((57+383)*z))-min{E[max{z, 466, 46}], cat(z, 328), (E[z]+min{y, z, 375})})}});"
+ position: 31
+
+-problem: 168
+ str: "var x = (F[F[F[min{397, 196, z}]]]*min{(E[wild(39, 438)]+F[min{min{10, 455, z}, F[28], F[198]}]), cat(E[300], min{solve(E[z] : solve(391 : y)), solve(max{346, z, z} : F[401]), cat(min{219, 493, y}, E[54])}), solve(cat(E[E[min{y, 171, z}]], solve(y : ((z+225)-81))) : wild(min{solve(y : 330), 463, (y-98)}, E[max{min{y, 270, y}, cat(300, 82), min{393, 142, 20}}]))});"
+ position: 311
+
+-problem: 169
+ str: "var x = (min{E[E[min{F[max{y, 196, 479}], solve(y : z), F[min{421, y, 52}]}]], min{max{E[25], E[F[E[E[z]]]], solve(E[(z-z)] : min{z, y, 244})}, E[90], (F[F[F[154]]]-(cat(z, z)+E[min{479, 278, z}]))}, F[min{max{cat(z, 95), solve(E[z] : max{147, y, z}), min{E[z], min{z, 313, 114}, F[54]}}, max{solve(cat(z, 15) : 405), E[(154+z)], cat(F[431], 71)}, (F[E[z]]*E[min{y, 420, y}])}]});"
+ position: 177
+
+-problem: 170
+ str: "var x = (E[F[F[E[(min{414, y, 81}*min{428, 387, z})]]]]);"
+ position: 8
+
+-problem: 171
+ str: "var x = (E[min{E[max{z, E[z], min{318, z, 426}}], min{min{min{41, 159, y}, E[(347-336)], max{z, 410, z}}, (F[max{z, z, 328}]*E[y]), max{wild(wild(13, 189), cat(y, 48)), E[18], F[467]}}, E[wild(390, 49)]}]);"
+ position: 135
+
+-problem: 172
+ str: "var x = (max{wild(max{max{min{z, z, 381}, max{z, z, 84}, F[(z*276)]}, min{(y+418), min{(313+z), y, min{z, 275, z}}, min{cat(z, y), F[27], max{y, 31, 377}}}, wild(F[E[435]], (y+z))}, F[wild(cat(cat(242, y), 171), min{244, y, 459})]), max{F[(E[87]+cat(236, z))], E[E[E[(454-z)]]], cat(E[max{z, y, y}], wild(min{min{24, 134, 388}, max{y, y, y}, (4-394)}, F[min{101, y, z}]))}, (min{F[z], solve(max{z, 313, 31} : wild((y+z), 399)), E[16]}+F[solve(min{y, E[195], min{y, z, 97}} : F[solve(y : y)])])}+E[wild((max{z, min{z, (z*21), min{y, 380, y}}, (F[199]+y)}*E[E[solve(z : 438)]]), ((cat(F[9], y)-F[max{y, z, y}])*min{y, 6, 431}))]);"
+ position: 17
+
+-problem: 173
+ str: "var x = (F[max{max{min{y, 32, 19}, (max{E[137], min{F[z], 21, wild(y, 254)}, E[max{z, 48, 295}]}+max{wild(z, y), (407+53), 116}), min{(cat(y, z)+min{y, z, y}), max{max{min{y, z, y}, min{116, 259, y}, wild(358, 396)}, min{303, y, 261}, F[cat(338, 69)]}, max{max{y, max{229, z, z}, F[277]}, E[259], E[(201*z)]}}}, cat(min{F[F[min{z, 252, 465}]], F[y], min{cat(z, max{174, 351, z}), E[(96*z)], (F[162]+min{y, 327, 445})}}, E[F[38]]), F[F[max{(E[477]-y), min{F[y], y, max{y, 152, 42}}, min{238, min{487, 47, z}, max{224, y, z}}}]]}]);"
+ position: 78
+
+-problem: 174
+ str: "var x = (wild(F[E[(y*163)]], cat(E[F[solve(min{y, 396, 31} : cat(272, z))]], E[F[wild(solve(439 : (17+z)), 294)]])));"
+ position: 32
+
+-problem: 175
+ str: "var x = (wild(E[(y-z)], max{E[F[401]], E[E[y]], F[271]}));"
+ position: 13
+
+-problem: 176
+ str: "var x = (F[(min{wild((max{239, 180, y}+(z+y)), max{wild(313, z), wild(z, y), wild(368, z)}), min{E[497], F[y], E[(77-z)]}, (min{E[318], 123, 85}+F[z])}*E[E[min{max{z, z, 402}, 12, E[198]}]])]);"
+ position: 20
+
+-problem: 177
+ str: "var x = (solve((max{max{solve(y : 371), ((417*y)-cat(y, 311)), (z*E[492])}, wild(max{(468-y), max{266, 429, 490}, z}, (434+z)), max{F[(y*z)], E[min{430, 464, z}], F[max{z, y, z}]}}+(F[E[max{z, 196, y}]]+F[152])) : E[min{F[y], max{E[z], E[F[y]], (solve(y : 40)*min{22, 464, z})}, F[max{496, z, y}]}]));"
+ position: 19
+
+-problem: 178
+ str: "var x = (E[wild(min{(402*10), F[z], 88}, max{max{F[F[y]], cat(z, F[y]), F[cat(z, 379)]}, F[(z-144)], min{cat(18, 361), 206, F[76]}})]);"
+ position: 44
+
+-problem: 179
+ str: "var x = (F[E[E[min{max{370, z, 222}, F[E[499]], F[E[z]]}]]]);"
+ position: 22
+
+-problem: 180
+ str: "var x = (max{E[cat(F[E[min{y, 409, y}]], min{cat(F[(y+z)], E[z]), min{z, min{30, 221, 76}, solve(390 : y)}, (max{F[y], max{z, y, 352}, F[330]}-(E[z]+(y+389)))})], min{F[E[min{max{(10+y), 463, F[z]}, (195*y), min{z, E[y], F[y]}}]], min{max{min{solve(y : F[121]), F[z], (E[129]*31)}, (min{z, 240, 25}-solve(z : 345)), (wild(min{z, 459, 480}, (z+y))+F[E[z]])}, E[min{min{314, E[z], solve(z : 266)}, wild(472, y), E[261]}], F[E[E[162]]]}, min{min{((y-z)+F[y]), wild(max{186, 418, y}, F[z]), max{E[217], cat(130, 140), wild(z, y)}}, max{min{y, 90, z}, (max{z, z, y}*E[438]), F[48]}, (wild(z, y)+F[z])}}, min{wild(z, F[min{382, y, 440}]), max{((max{361, z, 41}+F[z])+max{min{y, y, z}, max{z, y, 83}, solve(70 : y)}), F[(y*solve(y : z))], F[F[E[381]]]}, max{F[cat(max{198, 219, z}, y)], min{(z-wild(z, 235)), solve(126 : z), (E[174]+287)}, E[solve(F[z] : (136-z))]}}});"
+ position: 8
+
+-problem: 181
+ str: "var x = (F[max{(F[y]+E[z]), ((E[448]-cat(wild(z, 147), F[z]))*min{cat(max{z, z, y}, E[319]), y, max{F[188], min{z, z, z}, 236}}), F[((wild(z, 402)*z)*min{409, (405-y), 106})]}]*F[F[max{min{wild(y, min{z, 369, 27}), E[y], min{58, y, z}}, (F[min{z, y, z}]+min{max{y, 490, 404}, z, (y+y)}), (min{min{y, z, 47}, max{406, y, 245}, E[234]}*min{313, y, 22})}]]);"
+ position: 28
+
+-problem: 182
+ str: "var x = (E[F[(E[E[wild(404, y)]]+E[E[240]])]]);"
+ position: 8
+
+-problem: 183
+ str: "var x = (F[max{F[E[max{F[z], max{max{y, y, 202}, max{z, 296, z}, E[213]}, E[E[172]]}]], ((F[min{wild(301, 465), min{197, z, 372}, max{156, y, z}}]+min{(min{z, 99, 58}-28), max{max{180, 256, 207}, min{z, 309, 226}, min{14, 362, 370}}, solve(E[y] : (194*11))})*min{E[F[(y*y)]], max{min{316, 493, y}, solve(z : 235), 253}, F[F[y]]}), solve(max{z, z, y} : min{min{solve(164 : y), 29, wild(392, 430)}, 123, solve(298 : z)})}]);"
+ position: 18
+
+-problem: 184
+ str: "var x = (cat(cat(min{(((y+y)+F[285])*F[F[133]]), F[max{296, y, y}], min{y, max{61, 163, y}, max{63, y, y}}}, F[max{z, z, E[y]}]), F[min{min{cat(z, wild(497, y)), wild(min{z, 315, y}, F[99]), min{y, y, z}}, min{z, (z*54), (y-y)}, F[max{y, z, 371}]}]));"
+ position: 8
+
+-problem: 185
+ str: "var x = (max{min{E[F[E[F[313]]]], F[max{max{z, 56, y}, (z*z), (E[108]*min{y, y, z})}], (solve(max{min{z, 418, (396*9)}, F[z], max{cat(333, z), y, (y-381)}} : min{min{y, E[335], max{y, 302, y}}, max{min{386, 418, z}, min{y, 210, 326}, min{282, z, y}}, solve(184 : 226)})-F[E[solve(F[z] : E[y])]])}, E[F[F[min{427, z, y}]]], E[E[solve(484 : 183)]]});"
+ position: 192
+
+-problem: 186
+ str: "var x = (max{min{min{max{y, z, z}, E[y], F[371]}, min{381, y, z}, E[E[446]]}, F[E[(y-229)]], min{max{F[275], min{z, 478, 89}, cat(z, 311)}, E[min{z, y, 79}], wild(F[y], solve(y : z))}}*min{wild((268+334), max{357, z, 45}), F[(z*y)], F[441]});"
+ position: 12
+
+-problem: 187
+ str: "var x = (solve(max{(max{(132-y), E[207], z}+max{(256*196), min{456, z, 296}, cat(z, 252)}), E[E[max{F[z], (257-380), (z-y)}]], min{min{min{max{z, y, y}, min{y, 467, 437}, E[z]}, min{wild(296, y), wild(z, z), min{y, z, 63}}, (max{360, y, y}+max{z, z, y})}, max{wild(min{y, z, 269}, E[y]), E[E[309]], F[E[z]]}, max{((5+y)-233), max{max{z, z, 385}, (409*262), (y-z)}, F[y]}}} : max{wild(E[E[286]], F[wild(390, y)]), E[F[(z+301)]], F[z]})+min{cat(min{max{y, y, 34}, wild(y, max{F[180], 301, (z-266)}), E[F[wild(416, y)]]}, max{max{solve(solve(z : 301) : max{116, 220, y}), min{max{y, 65, z}, 360, 332}, E[z]}, E[F[292]], (F[353]*min{y, 143, z})}), max{max{366, z, 265}, 432, 92}, E[(F[E[(y*400)]]*E[F[z]])]});"
+ position: 68
+
+-problem: 188
+ str: "var x = (max{wild((max{(wild(y, z)-E[z]), wild(y, z), cat(34, z)}*min{((y-152)*min{z, 272, 224}), F[max{211, 42, 433}], wild(z, y)}), max{min{max{422, z, y}, F[y], E[z]}, F[solve(79 : (z+y))], E[E[(306+140)]]}), E[F[(solve(230 : 285)+min{E[63], max{223, z, 331}, 284})]], min{(F[max{solve(46 : 374), max{197, 431, y}, 423}]+E[F[y]]), max{F[y], min{F[158], max{262, y, 142}, max{y, y, 126}}, min{max{169, z, 22}, F[352], y}}, max{E[z], wild(wild(cat(y, z), max{y, 131, y}), wild(max{499, 143, 426}, max{236, 212, 373})), min{max{E[152], F[141], max{247, y, y}}, (E[z]*E[y]), E[min{y, z, 370}]}}}});"
+ position: 337
+
+-problem: 189
+ str: "var x = (F[E[min{F[min{490, (251*157), (z-20)}], cat(E[y], F[E[235]]), (max{wild(z, z), cat(z, y), E[122]}*F[z])}]]);"
+ position: 22
+
+-problem: 190
+ str: "var x = (max{F[(E[E[y]]+F[167])], min{solve(F[E[min{90, y, 193}]] : (min{y, 355, z}*F[z])), solve(E[(E[y]-min{y, y, 68})] : (E[(y+y)]*E[y])), cat(max{min{F[z], F[410], E[257]}, (z-F[z]), E[280]}, min{367, 419, y})}, min{F[wild(y, min{F[372], F[z], F[447]})], (E[min{min{max{275, z, y}, (z-y), 53}, F[y], cat(min{z, z, z}, F[z])}]-(solve((44+y) : cat(296, 27))-E[max{z, y, y}])), (max{F[439], wild(F[z], y), (93+E[z])}-F[solve(E[z] : (max{155, z, y}-wild(z, 363)))])}});"
+ position: 97
+
+-problem: 191
+ str: "var x = (wild(E[wild(E[cat(342, y)], max{98, 214, min{129, z, y}})], max{E[E[F[max{F[z], E[108], max{459, 411, z}}]]], wild(solve(y : 425), E[E[E[(y+z)]]]), E[wild(max{241, 227, 12}, cat(y, y))]}));"
+ position: 78
+
+-problem: 192
+ str: "var x = ((E[E[(z-E[43])]]*wild(min{358, 282, 144}, min{min{F[y], max{y, 43, 463}, max{y, y, 29}}, min{y, solve(129 : y), (11*z)}, z}))+E[cat(cat(max{325, z, 489}, E[min{y, y, 317}]), wild(max{z, z, 83}, min{y, y, z}))]);"
+ position: 112
+
+-problem: 193
+ str: "var x = (F[(min{E[z], min{(y+y), 217, F[89]}, max{162, 130, y}}*wild(min{z, wild(46, z), 454}, max{cat(y, z), F[329], z}))]-max{max{min{E[min{y, 3, z}], max{F[y], max{367, 27, (252*z)}, F[F[y]]}, E[max{442, y, E[324]}]}, F[min{solve(443 : 449), (z+349), max{42, z, 262}}], min{cat(min{max{y, 194, y}, F[225], 48}, F[349]), min{(F[210]*max{489, y, z}), max{F[19], z, min{z, y, 449}}, solve(y : 188)}, E[(z*(146-z))]}}, (max{E[(z+229)], min{E[F[y]], 83, z}, cat((307-z), F[305])}-max{cat(401, wild(y, z)), E[F[128]], wild((solve(z : 281)+cat(1, z)), min{F[243], z, max{z, 169, z}})}), F[min{min{217, max{y, z, 118}, (z-462)}, wild(max{z, 220, 79}, min{y, z, z}), (max{455, y, z}+max{y, 345, 340})}]});"
+ position: 68
+
+-problem: 194
+ str: "var x = (F[wild(cat(z, cat(y, z)), (F[270]-E[(E[400]-E[309])]))]);"
+ position: 59
+
+-problem: 195
+ str: "var x = (max{wild(min{(solve((367*z) : min{z, 219, y})-E[312]), F[309], F[(z*max{y, 106, 126})]}, (max{E[(max{y, z, y}+min{143, y, 119})], max{cat(y, 17), max{(459+y), 75, y}, y}, ((y*y)*y)}+(E[max{222, cat(38, z), min{195, 340, y}}]*max{max{y, 364, 226}, cat(F[z], z), min{344, 308, 312}}))), ((284*max{z, 385, 155})-max{cat(max{max{64, z, 313}, F[y], 473}, F[max{294, z, z}]), E[(min{z, 53, z}*E[257])], cat(wild(y, 271), min{224, 92, 175})}), wild((y*E[35]), E[F[E[max{34, z, z}]]])});"
+ position: 111
+
+-problem: 196
+ str: "var x = (min{(max{max{(max{y, z, y}+F[y]), E[y], F[F[424]]}, min{(max{180, y, 127}-z), max{11, 224, 489}, (solve(237 : 166)-F[226])}, min{z, solve(min{285, y, 138} : min{y, 376, z}), wild(z, 360)}}-E[E[F[cat(492, y)]]]), solve(E[z] : 221), min{F[wild(max{440, 8, z}, E[z])], (max{max{449, 140, 214}, z, F[y]}+min{wild(y, 65), min{64, y, 252}, solve(y : 390)}), max{(((z+z)+min{307, 18, z})-max{325, solve(384 : y), z}), E[E[min{66, z, y}]], F[max{z, max{49, 235, 486}, 221}]}}});"
+ position: 146
+
+-problem: 197
+ str: "var x = (E[(max{cat(max{z, z, z}, 321), F[E[17]], (solve(155 : y)*min{y, y, y})}*(83+z))]*wild(solve(solve(min{38, 31, z} : z) : F[z]), E[max{cat((z*F[y]), max{F[y], min{121, z, 102}, min{z, y, z}}), (max{(186-z), (y-z), 396}-max{y, 409, y}), max{min{371, 448, y}, F[min{y, 91, z}], max{solve(16 : z), max{5, 36, y}, min{z, y, z}}}}]));"
+ position: 141
+
+-problem: 198
+ str: "var x = (F[F[max{E[F[E[z]]], wild(E[E[368]], F[min{y, 13, 309}]), solve((F[426]*min{119, y, z}) : max{solve(z : y), y, z})}]]+E[max{solve(min{y, 167, 160} : 181), z, 50}]);"
+ position: 12
+
+-problem: 199
+ str: "var x = (min{F[max{max{F[max{y, 188, z}], E[391], F[max{372, z, 162}]}, max{max{F[(179+144)], min{(55+460), min{232, y, 389}, z}, min{F[206], 158, wild(63, z)}}, ((y+278)-F[90]), wild(min{y, z, y}, min{405, 248, 492})}, max{max{max{min{y, z, 99}, cat(200, 407), y}, F[16], max{(z*223), wild(473, z), solve(y : y)}}, min{F[E[y]], cat(F[59], y), wild(max{z, y, y}, min{105, z, 26})}, (F[z]*max{y, solve(z : 201), E[z]})}}], (E[E[F[(max{y, 99, y}+F[z])]]]*min{min{max{E[y], E[399], max{253, y, 304}}, cat(203, 313), max{E[151], 344, cat(y, 128)}}, max{F[310], cat((E[258]+E[279]), E[solve(201 : 456)]), F[max{E[369], (z+y), max{238, y, z}}]}, (E[solve(max{367, 238, z} : 231)]+F[max{z, y, 204}])}), (max{max{wild(y, 12), F[solve(y : z)], (100-F[19])}, max{E[y], cat(min{84, z, y}, E[y]), min{min{z, 48, 125}, max{y, z, 133}, min{112, z, 358}}}, F[52]}+(F[F[E[y]]]+E[17]))});"
+ position: 8
+
+-problem: 200
+ str: "var x = (max{(E[(y-377)]+F[min{112, z, y}]), F[(55*min{z, z, 418})], cat(min{E[y], cat(max{124, 174, 394}, E[244]), max{y, 249, 115}}, min{F[320], max{min{y, 199, 218}, F[253], min{331, y, y}}, cat(305, 258)})});"
+ position: 148
+
+-problem: 201
+ str: "var x = (F[min{F[E[(max{185, 462, z}*y)]], max{E[F[z]], min{E[F[471]], z, E[z]}, min{E[min{463, y, 105}], E[232], max{min{z, 54, y}, F[z], max{y, 158, z}}}}, F[max{max{min{301, y, 217}, min{192, 27, y}, max{0, z, 460}}, E[210], E[max{110, z, 308}]}]}]);"
+ position: 84
+
+-problem: 202
+ str: "var x = (F[(wild((F[337]+max{(38-z), max{z, y, 209}, 491}), F[E[F[z]]])-E[min{max{solve(y : 76), y, max{z, y, 302}}, solve(249 : 34), (solve(217 : 412)+16)}])]);"
+ position: 17
+
+-problem: 203
+ str: "var x = (F[wild(E[y], F[(F[311]-min{solve(y : z), max{y, y, 348}, min{z, y, y}})])]);"
+ position: 23
+
+-problem: 204
+ str: "var x = (max{max{E[(min{E[47], solve(z : 340), 206}-max{solve(z : y), min{z, y, y}, wild(z, 450)})], min{cat(solve((y+z) : E[y]), max{y, y, z}), F[F[z]], F[F[(299+z)]]}, min{max{(max{66, z, 32}*(z+267)), E[min{402, y, 29}], min{max{146, 306, y}, E[y], (z+y)}}, max{wild(wild(cat(z, 436), z), (361*361)), E[solve(min{y, 290, 183} : F[186])], E[min{z, y, E[173]}]}, E[(E[max{384, 243, z}]-wild(min{y, z, y}, F[54]))]}}, F[cat(F[z], F[218])], min{min{wild(F[max{E[y], z, E[z]}], F[(y*y)]), max{max{F[232], (F[267]*z), F[F[y]]}, wild(min{137, 231, z}, F[y]), F[E[y]]}, E[F[wild(z, 389)]]}, (F[max{y, max{138, z, y}, E[y]}]-wild(y, z)), E[min{min{max{cat(67, z), F[410], 181}, (z+y), solve(E[z] : (474*88))}, (min{F[364], z, F[y]}+z), F[F[y]]}]}});"
+ position: 182
+
+-problem: 205
+ str: "var x = (max{E[max{(y*max{250, y, 383}), ((F[247]+min{z, 471, 94})*F[wild(y, z)]), max{min{min{z, z, z}, max{z, 142, y}, y}, 119, max{min{81, z, y}, max{y, z, 431}, min{322, y, z}}}}], min{wild(solve(419 : max{71, y, 25}), max{315, E[z], y}), min{343, (y+max{14, y, 345}), E[z]}, max{492, y, wild(y, 131)}}, max{E[F[max{z, y, 74}]], max{min{0, z, 142}, min{469, 382, 198}, max{z, 163, y}}, (F[max{F[476], E[371], E[65]}]*min{E[min{y, y, z}], min{min{48, z, 262}, y, F[y]}, cat(min{253, 74, y}, y)})}});"
+ position: 90
+
+-problem: 206
+ str: "var x = (wild(F[wild(min{max{y, z, z}, min{245, (z+y), (446*y)}, min{cat(z, z), E[128], max{z, 17, 398}}}, min{min{y, y, 443}, F[max{z, 63, 400}], max{F[y], F[z], max{z, z, 107}}})], min{(412*442), E[max{max{381, (443*y), F[z]}, min{solve(284 : z), max{376, 150, 317}, F[62]}, max{max{137, z, z}, max{450, 208, 459}, max{113, 165, 308}}}], E[E[245]]})-F[E[E[max{13, 461, 436}]]]);"
+ position: 68
+
+-problem: 207
+ str: "var x = (max{min{(F[F[max{F[y], F[424], 209}]]*solve(F[(max{z, y, 144}+E[z])] : wild((E[255]*y), E[F[122]]))), E[E[343]], wild(max{cat(y, y), min{F[min{y, z, 384}], y, max{E[238], 260, E[y]}}, max{(z*33), z, z}}, max{max{(z*z), solve(41 : 143), 386}, F[E[397]], max{452, y, 496}})}, wild(cat((max{z, z, z}*solve(339 : max{z, z, 411})), E[min{388, z, y}]), ((E[z]+y)+min{E[y], (F[cat(291, y)]+(max{z, y, 450}-z)), E[F[E[z]]]})), min{max{F[F[wild(z, 284)]], F[cat(y, 280)], E[F[max{384, z, 254}]]}, F[(max{y, min{max{448, z, 225}, (y-161), z}, min{E[z], (35-z), z}}+min{(y-244), cat((4*25), (z-y)), (y+z)})], wild(min{max{F[z], cat(E[383], 408), wild(E[213], F[y])}, min{z, y, 188}, F[z]}, (F[F[349]]*(max{E[z], min{z, 190, 54}, 329}-F[F[77]])))}});"
+ position: 369
+
+-problem: 208
+ str: "var x = (max{max{max{(solve(z : F[z])*min{F[325], (max{344, y, 268}-(z-y)), max{min{y, z, y}, 152, F[125]}}), cat(E[E[(227*55)]], F[E[max{y, z, 211}]]), min{min{(351-266), E[max{137, z, 445}], E[min{393, 366, y}]}, wild(F[max{195, 62, 444}], F[z]), min{159, wild(322, z), cat(245, y)}}}, F[E[F[cat((86+y), min{250, 319, y})]]], F[F[max{156, min{E[z], E[y], 97}, F[305]}]]}, max{cat(max{F[18], min{11, 366, y}, E[241]}, (min{314, y, 482}*y)), min{y, (max{min{min{274, z, z}, 230, F[228]}, F[z], F[E[y]]}-E[85]), wild(max{(421*y), (y-z), (y*y)}, min{min{498, z, y}, max{wild(88, z), solve(z : z), 137}, wild(wild(z, 439), min{461, z, z})})}, (F[max{176, 191, z}]+min{z, 254, y})}, F[solve(min{(y-E[130]), (wild(max{z, 397, y}, 92)-0), min{min{y, z, y}, z, solve(405 : z)}} : solve(min{F[z], (z-81), (361+z)} : (y*z)))]});"
+ position: 113
+
+-problem: 209
+ str: "var x = (cat(E[E[E[(cat(113, z)+max{173, 4, 316})]]], F[(max{max{5, y, z}, F[y], cat(z, 446)}*F[44])]));"
+ position: 18
+
+-problem: 210
+ str: "var x = (E[E[F[F[(441-E[y])]]]]);"
+ position: 16
+
+-problem: 211
+ str: "var x = (min{E[max{F[z], cat(F[286], (y*145)), (92*479)}], F[F[(cat(F[y], min{z, z, z})-F[max{y, z, 94}])]], E[(E[331]+E[186])]});"
+ position: 48
+
+-problem: 212
+ str: "var x = (solve((min{solve(max{min{F[419], wild(y, z), 456}, min{min{295, 84, 260}, solve(276 : 163), 225}, max{y, z, y}} : min{y, F[446], max{E[102], E[464], 185}}), (min{200, y, 380}*(z-y)), min{max{((474+z)*E[y]), E[y], min{solve(69 : 275), E[481], F[y]}}, ((min{z, z, y}+wild(z, 34))+(z-262)), E[218]}}+max{E[min{max{cat(142, 360), (38+366), F[z]}, F[(129+143)], (E[238]*min{170, 435, 442})}], max{cat(min{E[455], F[276], max{295, y, z}}, min{F[326], F[301], z}), F[min{z, z, z}], F[E[cat(z, 52)]]}, max{max{F[y], wild(357, min{444, y, 401}), min{min{222, y, 396}, (y+312), min{y, y, y}}}, max{max{483, z, (327-266)}, min{z, min{472, 16, 361}, solve(z : 74)}, ((y-z)-(487-y))}, E[E[E[y]]]}}) : max{E[max{F[z], max{max{min{305, y, 65}, (y-z), max{z, y, z}}, E[F[z]], F[E[z]]}, F[max{38, cat(y, y), y}]}], min{wild(wild(cat((z-43), y), cat((317-339), max{y, 36, 225})), (min{z, E[y], (416*y)}+F[max{z, z, z}])), E[solve((471*207) : z)], ((solve(z : 146)*min{y, 135, z})-(E[17]-F[y]))}, E[cat(F[E[z]], min{F[max{447, z, 54}], z, (F[y]-z)})]}));"
+ position: 19
+
+-problem: 213
+ str: "var x = (wild(E[F[min{max{253, wild(y, y), F[23]}, max{min{z, F[z], y}, E[380], min{solve(100 : 385), y, min{z, 52, 479}}}, wild(F[(y*y)], E[min{z, 431, 158}])}]], min{((E[323]+min{min{y, z, 229}, max{71, y, z}, E[222]})+F[F[F[473]]]), (solve(E[y] : 444)-493), min{(max{(y+345), max{z, F[y], y}, (z-206)}-F[min{min{269, z, z}, y, max{97, 164, 168}}]), max{min{234, max{365, 234, 316}, solve(z : 303)}, (E[200]+z), E[297]}, min{E[min{z, 480, 83}], min{cat(332, 492), max{y, 481, y}, solve(z : y)}, (E[492]*F[z])}}}));"
+ position: 264
+
+-problem: 214
+ str: "var x = (F[max{E[max{E[E[solve(y : 243)]], min{E[cat(y, z)], max{cat(y, z), F[65], E[y]}, E[cat(359, 392)]}, (max{285, 99, 107}*max{max{295, 363, 369}, min{y, y, 195}, E[127]})}], solve((cat(F[F[z]], min{z, y, z})*max{z, (y+477), F[408]}) : solve(F[y] : (max{solve(z : z), F[67], y}-E[F[366]]))), cat(F[wild(cat(112, z), F[401])], wild(E[max{y, 45, y}], (435-z)))}]);"
+ position: 298
+
+-problem: 215
+ str: "var x = (wild((E[max{(y-max{268, y, 383}), solve(z : max{y, z, z}), F[min{408, y, z}]}]+max{F[wild(E[301], E[196])], E[min{min{(206-z), min{499, 7, 46}, 438}, (y*solve(422 : y)), E[0]}], (F[(z-y)]+max{max{max{47, 437, z}, y, wild(y, z)}, max{min{z, 454, y}, F[z], E[468]}, max{y, 281, 332}})}), E[max{wild(max{cat(99, 408), F[322], wild(69, 38)}, wild((y+217), z)), max{max{E[y], 192, 1}, F[365], max{F[y], (181-y), E[12]}}, (solve((z*y) : F[z])+cat(max{354, 287, 402}, (236*y)))}]));"
+ position: 91
+
+-problem: 216
+ str: "var x = (cat(max{(E[((481+y)*min{456, z, 480})]+min{min{max{z, 349, 6}, F[184], E[z]}, ((z-29)-z), F[139]}), wild(E[max{z, (23+z), z}], (max{F[z], max{278, 223, 85}, 100}+max{(min{z, z, y}-E[y]), (F[z]-max{z, z, z}), max{F[y], 9, max{y, z, 52}}})), cat(max{173, solve(y : z), 271}, (E[264]-y))}, min{(max{solve(266 : z), solve(max{y, (y*z), max{243, z, 274}} : (E[371]-(z+424))), max{(max{486, 413, z}*y), min{max{172, y, 440}, 107, min{y, 272, y}}, F[361]}}*E[solve(wild(z, y) : min{488, 133, 467})]), max{E[y], E[(F[min{169, 227, 231}]*((z-y)*min{350, y, y}))], cat(F[(z*z)], E[E[z]])}, (max{F[wild(z, z)], E[z], min{(403*z), y, cat(y, 232)}}*min{(377*z), min{z, 439, 426}, F[110]})}));"
+ position: 16
+
+-problem: 217
+ str: "var x = (E[max{min{F[min{max{z, z, z}, max{433, y, 378}, E[267]}], wild(min{E[473], cat(150, y), 363}, wild(E[342], F[10])), cat((277*z), min{13, 144, 443})}, (wild(solve(18 : y), (y-87))-max{solve(z : 389), 343, (y*z)}), E[min{z, cat(F[35], F[295]), F[260]}]}]);"
+ position: 223
+
+-problem: 218
+ str: "var x = (max{min{solve(E[E[min{198, z, z}]] : F[min{solve(y : (145*334)), 362, max{max{y, y, z}, 468, max{242, 0, z}}}]), max{E[min{F[min{324, y, y}], E[solve(z : 317)], max{F[287], (y*406), min{z, 93, z}}}], (max{(294-296), F[E[z]], min{min{56, 43, y}, max{y, y, z}, max{y, 184, 313}}}+max{F[E[y]], F[max{384, y, 347}], max{min{z, 494, z}, min{z, 64, y}, y}}), max{max{cat((z*472), wild(194, z)), max{380, 291, z}, (428-z)}, (387*F[wild(353, 436)]), solve(E[E[142]] : (83+E[287]))}}, solve(E[cat(F[y], E[y])] : (max{solve(min{y, 144, z} : max{z, z, 479}), F[24], F[E[z]]}*(y-y)))}, solve((F[(((z*441)*min{z, 196, 94})+F[F[y]])]*(cat(y, F[345])-E[z])) : min{E[z], F[332], wild(solve(z : 493), F[244])}), (E[min{F[max{57, y, 324}], z, min{cat(y, 328), E[124], solve(y : 159)}}]-min{solve(F[y] : E[max{(z-114), min{270, 7, 440}, E[365]}]), min{(49*6), 391, (z-142)}, min{F[F[F[z]]], (F[z]-F[280]), ((wild(442, 104)-min{195, 162, 304})*(152+max{y, z, 439}))}})});"
+ position: 173
+
+-problem: 219
+ str: "var x = (F[((E[10]-E[F[y]])*(max{y, y, y}+max{211, z, z}))]);"
+ position: 37
+
+-problem: 220
+ str: "var x = (E[max{E[cat(min{(min{190, 94, z}*max{y, y, 471}), E[E[299]], (F[304]-max{y, y, 423})}, max{(486+206), max{y, y, wild(369, z)}, (51*258)})], cat(cat(cat(114, (z-z)), E[cat(88, 116)]), (E[max{z, 206, 142}]+F[max{z, z, (y-195)}])), E[E[wild(max{z, z, z}, F[y])]]}]);"
+ position: 10
+
+-problem: 221
+ str: "var x = (wild(F[F[(F[(E[485]+max{z, 116, y})]-wild(cat(320, z), E[z]))]], (min{(F[F[z]]+F[E[z]]), E[(E[y]*max{291, z, 401})], min{max{E[437], max{276, z, 394}, max{364, 497, 65}}, min{max{y, y, 218}, E[z], z}, 334}}*min{E[y], E[142], min{318, y, z}})));"
+ position: 160
+
+-problem: 222
+ str: "var x = (max{(E[max{min{F[y], F[4], y}, E[y], z}]+F[E[(346+max{cat(307, z), y, max{y, z, z}})]]), (E[E[191]]*min{max{31, z, y}, z, min{y, y, y}}), (max{((min{max{z, 415, y}, E[453], 116}+cat(94, min{y, y, z}))-F[E[y]]), wild(E[57], E[max{229, y, y}]), min{E[min{y, 495, 392}], max{z, z, (288-y)}, F[499]}}-((E[min{498, (303-z), min{497, z, 254}}]*max{min{z, y, y}, F[F[259]], min{z, z, max{y, 6, 362}}})*F[335]))});"
+ position: 112
+
+-problem: 223
+ str: "var x = (max{min{F[wild(y, wild(y, z))], F[solve(z : cat(solve(z : 253), max{393, y, z}))], min{wild(y, 316), min{z, y, 395}, min{min{y, 133, z}, E[z], 219}}}, min{E[(261+E[2])], (max{E[90], min{y, 430, 354}, min{max{438, 164, 424}, solve(416 : 324), F[y]}}-min{E[y], (min{z, y, 476}+F[144]), (E[134]*cat(338, 348))}), E[min{F[354], min{min{y, y, 308}, F[y], min{19, z, y}}, min{solve(y : z), F[301], F[y]}}]}, wild(wild(min{wild(min{y, 75, y}, max{309, 454, 402}), max{282, min{y, 123, 482}, y}, max{min{z, y, y}, z, (140-36)}}, max{F[E[z]], (102-y), cat((y*z), min{y, z, 26})}), F[max{cat(min{y, z, 172}, E[478]), F[F[z]], F[wild(450, 402)]}])});"
+ position: 586
+
+-problem: 224
+ str: "var x = (E[wild(F[(E[solve(y : 102)]*wild(wild(min{298, y, z}, max{y, z, z}), max{E[354], wild(z, z), max{y, y, y}}))], max{(E[min{y, 271, 459}]*max{max{(397+31), solve(371 : 22), E[40]}, max{z, y, y}, min{y, max{29, 333, y}, min{y, 338, 451}}}), max{min{cat(E[z], 137), F[F[y]], max{y, y, z}}, min{wild(solve(422 : 174), F[448]), F[wild(y, z)], F[(y+z)]}, F[cat(z, 444)]}, (E[cat(y, y)]+F[solve(y : 422)])})]);"
+ position: 179
+
+-problem: 225
+ str: "var x = (F[F[((wild(F[283], min{z, 491, y})*solve(max{392, y, z} : min{291, y, z}))+E[E[y]])]]);"
+ position: 19
+
+-problem: 226
+ str: "var x = (min{F[(E[E[F[239]]]-max{F[448], E[solve(370 : 322)], E[E[z]]})], E[min{F[min{max{min{z, z, 60}, (y*y), 375}, (max{z, z, 137}*cat(249, y)), max{F[y], wild(377, y), E[236]}}], max{E[77], min{289, y, z}, min{240, 67, 248}}, max{E[z], F[F[z]], F[max{F[396], 115, max{202, 105, 284}}]}}], F[E[max{E[(373-260)], max{y, (E[z]-F[y]), (max{y, z, 369}+473)}, min{F[max{124, z, 25}], F[solve(y : y)], y}}]]});"
+ position: 318
+
+-problem: 227
+ str: "var x = (E[min{max{max{F[min{(250+128), E[205], 266}], max{F[max{349, y, 49}], (min{150, 465, z}-max{16, z, 489}), wild(E[223], cat(353, 87))}, E[y]}, min{E[F[z]], max{357, 93, y}, min{E[z], max{318, 452, 177}, min{(62-275), solve(10 : 287), (z-y)}}}, solve(min{(cat(298, 67)-solve(401 : 92)), (y+wild(76, 412)), cat(E[455], y)} : F[(404+332)])}, min{E[((222-z)*F[8])], F[F[268]], E[(F[119]-F[241])]}, max{F[E[max{F[y], (z*307), max{y, 166, 311}}]], cat(max{z, 392, 267}, min{266, 138, 47}), min{376, min{301, y, max{y, z, 10}}, y}}}]);"
+ position: 510
+
+-problem: 228
+ str: "var x = (wild(min{solve(F[E[max{y, y, y}]] : max{(F[F[191]]+min{(y+y), z, (y+z)}), wild(F[min{335, 233, z}], (cat(y, 417)-max{237, z, 436})), E[y]}), max{min{F[max{F[483], 198, max{z, z, z}}], cat(E[cat(y, 495)], E[y]), F[max{max{z, z, 363}, 28, y}]}, (max{solve(y : 82), F[z], E[y]}*min{max{21, F[365], min{62, 226, y}}, max{(y+z), E[y], min{155, z, y}}, min{min{z, y, z}, 289, E[41]}}), ((107*z)*min{(152-435), F[z], z})}, (E[min{174, y, y}]*F[cat(115, 343)])}, (F[min{cat(F[222], min{372, 408, y}), 418, (max{y, 121, z}-min{186, z, 243})}]-max{F[E[(343+y)]], F[max{y, 85, y}], E[max{cat(y, z), min{400, z, y}, max{327, y, 399}}]})));"
+ position: 629
+
+-problem: 229
+ str: "var x = (E[max{E[solve(wild(E[z], 37) : F[cat(z, 106)])], max{min{F[F[z]], solve(F[z] : solve(181 : z)), F[E[z]]}, min{min{102, wild(z, z), 371}, min{z, cat(452, y), (298-84)}, E[min{64, z, z}]}, ((E[220]+y)-F[(190+z)])}, solve(E[cat(y, z)] : max{E[wild(y, z)], max{E[56], min{z, 243, 490}, min{40, 23, z}}, max{min{282, 476, y}, wild(y, 453), (33-118)}})}]+(E[max{F[max{max{z, y, y}, 41, (z+z)}], F[min{solve(y : y), z, F[z]}], min{F[max{178, 280, 73}], min{315, y, 187}, 441}}]-max{solve(min{z, E[z], F[175]} : (min{z, 274, z}+max{wild(y, 281), max{z, y, z}, 46})), min{min{y, (solve(y : z)+(229+416)), ((z+414)+min{z, z, 224})}, solve(max{F[z], z, z} : E[z]), F[(E[y]-150)]}, E[F[max{z, 315, 418}]]}));"
+ position: 489
+
+-problem: 230
+ str: "var x = (wild(min{((F[y]+y)*cat(37, z)), (max{342, 138, z}+min{max{27, y, z}, 75, (305*406)}), F[min{(cat(119, z)+max{y, 386, z}), (90-cat(484, z)), (max{y, 187, 478}-259)}]}, min{max{cat(E[z], E[y]), (E[y]+min{y, 348, z}), min{E[z], (y*364), (362-260)}}, E[F[436]], cat((max{180, 101, 372}+min{z, 446, 372}), (max{332, z, y}-173))}));"
+ position: 13
+
+-problem: 231
+ str: "var x = (F[F[max{(377-y), F[127], F[485]}]]);"
+ position: 10
+
+-problem: 232
+ str: "var x = (min{solve((F[E[min{(341+209), F[y], solve(432 : 40)}]]-min{max{300, F[z], y}, wild(max{143, 317, 238}, F[z]), F[52]}) : (wild(E[114], E[min{y, 265, z}])+E[F[E[188]]])), min{F[F[max{max{z, 50, y}, F[282], max{111, 446, z}}]], max{E[(E[y]*362)], max{(min{F[y], (462-y), F[164]}-min{F[461], wild(46, 491), (173+297)}), min{cat(max{163, z, 124}, wild(180, 348)), F[E[433]], min{309, 203, F[z]}}, E[(223-209)]}, (201+(solve(solve(65 : z) : z)+max{331, y, y}))}, F[E[F[(min{z, 384, y}-wild(25, 150))]]]}, solve((cat(min{F[z], min{142, y, y}, max{221, z, 436}}, min{min{424, 229, z}, F[28], 11})*E[406]) : F[min{max{min{max{162, 174, 373}, y, E[y]}, E[F[432]], min{393, cat(300, 40), max{y, z, 249}}}, solve((cat(0, 466)*322) : E[E[265]]), cat((y+y), (min{279, z, z}*z))}])});"
+ position: 185
+
+-problem: 233
+ str: "var x = (min{wild(E[E[cat(z, z)]], F[max{E[F[y]], cat(E[max{100, z, 212}], min{E[z], cat(379, z), 282}), min{y, z, 209}}]), E[F[min{min{E[max{z, 481, 433}], cat(F[z], 473), solve(101 : (z-y))}, min{(F[78]+E[z]), z, max{cat(z, 152), y, (y-90)}}, min{F[z], min{solve(z : y), min{y, z, z}, E[101]}, solve(477 : F[y])}}]], min{(F[max{max{y, 204, y}, F[y], E[32]}]+solve(F[E[F[274]]] : cat(min{466, y, 283}, E[144]))), (solve(cat(371, y) : min{198, y, 130})-max{E[(y*83)], solve(F[z] : max{y, y, 296}), solve(y : z)}), max{max{solve(F[361] : max{y, 394, 398}), F[F[y]], min{max{353, 190, 327}, min{116, 374, y}, y}}, F[max{368, (292*y), (y*163)}], (max{E[y], y, E[z]}-F[F[y]])}}});"
+ position: 127
+
+-problem: 234
+ str: "var x = (max{E[min{E[150], (z*y), (max{139, 104, 136}*y)}], (wild(E[E[F[max{y, 190, 240}]]], ((wild(293, 470)*(E[483]-E[y]))+F[(E[18]+E[192])]))-wild(E[min{y, 84, y}], (min{(y-z), E[y], cat(y, 148)}*F[F[229]]))), max{max{min{max{391, 376, 238}, min{z, F[190], y}, wild(z, y)}, wild(F[min{354, 178, 58}], min{264, z, y}), solve(E[E[y]] : E[(390*54)])}, (F[F[z]]*min{min{128, 48, y}, 482, z}), min{max{max{y, 47, 311}, E[y], F[y]}, max{z, z, y}, max{F[F[389]], (356-123), min{min{287, 83, y}, max{231, 131, 6}, solve(z : y)}}}}});"
+ position: 8
+
+-problem: 235
+ str: "var x = ((min{min{min{418, E[355], F[z]}, y, max{E[y], z, 265}}, min{solve((F[325]+F[6]) : max{cat(z, 258), y, E[y]}), F[max{cat(y, z), wild(z, z), z}], (min{solve(391 : 294), z, y}*F[cat(253, 492)])}, cat(min{max{max{386, y, 35}, E[y], y}, 356, wild(cat(446, y), E[z])}, (y*E[E[132]]))}+E[F[min{min{y, z, z}, wild(z, 250), min{y, y, 408}}]])+F[(F[E[(300*z)]]+max{max{F[solve(262 : 453)], (max{351, z, z}-(302+y)), F[E[y]]}, F[max{74, z, z}], solve(min{(z*198), F[188], wild(y, 467)} : max{5, 255, 50})})]);"
+ position: 138
+
+-problem: 236
+ str: "var x = (max{min{E[F[(249-367)]], wild(max{min{y, max{F[z], 484, 453}, E[min{474, y, 251}]}, min{min{y, 245, z}, (z+min{y, y, z}), max{122, z, y}}, solve(min{y, z, z} : E[solve(z : y)])}, max{((y*y)+(z+376)), max{465, 269, y}, cat(max{E[y], max{313, 67, 418}, y}, E[400])}), min{max{E[F[232]], max{F[max{57, 98, z}], E[E[120]], wild(max{271, 368, 294}, E[8])}, (y+56)}, (114*max{E[wild(319, 44)], E[max{353, 157, y}], min{y, z, solve(z : 148)}}), F[max{(432-155), F[E[138]], min{y, y, F[z]}}]}}, (solve(E[max{(y*z), min{31, y, y}, max{141, y, 317}}] : min{E[F[37]], solve(min{256, z, 293} : (336+243)), min{341, 454, 353}})*(F[max{min{z, E[113], 302}, max{min{145, 142, 456}, 311, E[z]}, wild(350, 174)}]+min{E[F[(424+y)]], solve(E[308] : F[356]), E[E[min{y, z, y}]]})), (max{max{max{392, z, 160}, F[solve(y : z)], min{max{307, 289, 297}, max{155, 200, 184}, (399+y)}}, F[cat(min{y, 431, y}, min{y, 325, 37})], min{min{z, cat(z, 173), F[333]}, E[E[max{237, y, 112}]], solve((y-45) : F[y])}}*max{E[F[wild(473, (z*241))]], cat((y*y), wild(min{y, 73, y}, E[z])), E[max{z, y, 465}]})});"
+ position: 775
+
+-problem: 237
+ str: "var x = (min{solve(E[147] : (min{z, y, y}-(z*151))), (F[min{43, z, y}]+(E[z]+max{z, 364, y})), F[E[z]]}-max{min{129, (y*196), max{478, 315, 324}}, min{cat(E[z], max{238, 198, 377}), F[y], min{F[z], min{y, 447, y}, (338+52)}}, y});"
+ position: 111
+
+-problem: 238
+ str: "var x = (wild((E[solve(min{solve(z : min{301, 199, y}), cat(y, max{z, 385, 476}), solve(E[z] : min{8, 369, z})} : min{cat(E[y], cat(150, y)), (cat(330, 184)*(66+347)), F[y]})]-cat(F[max{z, y, y}], z)), F[wild((solve(314 : E[z])+wild(E[y], max{z, (z+y), (y+z)})), max{max{F[449], y, cat((53+y), (z-209))}, ((97+y)-(cat(355, 431)-min{91, 54, 482})), min{E[(z-376)], 449, F[min{y, z, y}]}})]));"
+ position: 328
+
+-problem: 239
+ str: "var x = (wild(wild(F[min{min{max{170, z, 498}, 323, E[z]}, F[F[wild(y, y)]], (max{177, E[y], F[z]}*F[z])}], F[E[solve(max{359, y, z} : wild(424, z))]]), F[cat(E[min{120, z, y}], E[E[z]])]));"
+ position: 24
+
+-problem: 240
+ str: "var x = (wild(E[z], E[E[wild((F[y]*F[(y-z)]), max{22, E[z], E[y]})]]));"
+ position: 8
+
+-problem: 241
+ str: "var x = (wild(max{F[max{y, max{(min{z, 113, z}+max{y, y, 478}), solve(z : min{z, z, 146}), max{z, F[y], min{461, 15, z}}}, solve(z : y)}], (min{(cat(y, z)*z), E[F[z]], solve(max{z, 175, 309} : solve(z : y))}-wild(solve(cat(min{z, 420, 66}, y) : F[E[453]]), max{cat(E[245], E[y]), (max{y, z, 35}+max{286, 26, y}), (max{z, 457, 341}-max{z, 107, 452})})), (E[(solve(y : y)-solve(323 : y))]*min{371, y, 59})}, (E[82]-E[355])));"
+ position: 17
+
+-problem: 242
+ str: "var x = (max{F[cat(solve(cat(wild(E[270], max{z, z, 73}), wild(22, F[275])) : F[min{y, 290, z}]), min{solve(321 : 89), min{min{z, 150, 490}, wild(y, y), E[437]}, (z*y)})], F[max{E[cat(E[224], E[197])], max{min{max{(z-38), min{289, y, 82}, max{z, y, z}}, (min{z, 0, y}-wild(z, z)), min{E[z], F[y], min{242, z, 188}}}, max{y, y, 160}, E[solve(F[196] : F[442])]}, max{F[E[257]], wild(min{cat(231, 350), (369*z), max{215, z, 156}}, (z+y)), min{F[F[15]], F[y], min{z, 183, 103}}}}], E[wild(E[F[(min{z, z, z}+min{173, y, 331})]], (F[y]*F[E[z]]))]});"
+ position: 223
+
+-problem: 243
+ str: "var x = (E[max{max{min{E[max{398, 109, z}], F[345], min{F[110], 446, y}}, E[F[max{y, y, 123}]], E[(325-min{(326-y), cat(209, 146), wild(153, y)})]}, (min{F[solve((470-z) : (176*410))], cat(y, 197), solve(F[z] : max{y, 123, z})}*E[z]), solve(min{(E[E[3]]*F[(z+y)]), max{max{E[380], 465, (214-y)}, cat(z, z), E[F[96]]}, F[E[275]]} : (min{113, 354, 372}-cat(z, y)))}]);"
+ position: 10
+
+-problem: 244
+ str: "var x = (E[solve(E[min{F[y], max{103, 222, 301}, F[y]}] : E[cat(377, z)])]);"
+ position: 23
+
+-problem: 245
+ str: "var x = (min{(min{(wild(wild(z, 130), F[z])*min{F[E[z]], E[E[379]], min{(z*z), min{229, y, 28}, 331}}), (max{(z-286), max{y, 227, y}, 443}-solve(max{384, y, 291} : E[y])), cat(max{E[F[y]], max{E[z], E[216], solve(y : y)}, min{277, wild(y, z), E[122]}}, max{(y+(423*60)), max{182, z, 431}, 308})}-min{((E[y]-477)+(min{18, y, z}-min{50, y, y})), min{(min{(29*288), F[y], 206}-F[E[326]]), F[(y*(y-314))], (max{y, y, 494}*201)}, F[F[min{max{390, z, z}, max{y, 436, z}, F[454]}]]}), max{min{F[((y-z)-solve(y : y))], wild(min{wild(z, y), E[483], F[348]}, (E[E[z]]*F[y])), max{max{z, z, 369}, F[83], z}}, F[max{wild(min{y, 345, 139}, (328*z)), max{F[y], E[79], 7}, min{y, (293-331), wild(16, y)}}], min{F[F[(y*z)]], (F[z]+F[419]), min{E[cat(197, y)], E[max{z, y, F[y]}], E[max{y, 465, 127}]}}}, wild((max{217, y, z}-E[max{z, (64*246), (386+252)}]), solve(min{min{(z*178), z, min{z, z, z}}, min{max{468, 215, 346}, (z+342), E[48]}, cat(E[(z-y)], cat(16, z))} : F[E[E[min{473, 428, 229}]]]))});"
+ position: 300
+
+-problem: 246
+ str: "var x = (max{max{max{F[wild(396, max{208, y, 496})], E[F[376]], wild(E[min{z, z, y}], max{cat(382, 118), F[231], E[y]})}, E[E[solve(F[z] : y)]], min{E[z], E[152], max{372, y, 13}}}, min{max{min{max{max{371, 129, z}, (y-z), E[383]}, min{422, F[z], 133}, (y*83)}, max{min{441, z, 229}, cat(y, 487), cat(max{150, 194, 300}, E[18])}, max{E[458], max{y, F[256], 118}, E[y]}}, max{max{min{146, 451, 331}, min{378, y, 153}, 245}, 339, ((y+z)+wild(318, y))}, E[solve(max{F[497], E[z], 106} : max{y, 47, z})]}, E[E[max{min{wild(303, z), min{z, 157, 130}, F[422]}, cat((327*2), 141), min{cat(y, z), min{434, 358, z}, min{281, z, z}}}]]});"
+ position: 12
+
+-problem: 247
+ str: "var x = (F[solve(solve(F[38] : min{y, 299, z}) : F[E[z]])]);"
+ position: 10
+
+-problem: 248
+ str: "var x = (E[cat(E[E[F[370]]], (wild((cat(y, 262)+min{y, 242, y}), (E[F[z]]*(y-(37-z))))*min{((91+y)-F[z]), (y+(E[248]-min{z, 20, 455})), (max{E[y], E[y], min{y, z, z}}*360)}))]);"
+ position: 29
+
+-problem: 249
+ str: "var x = (F[F[max{max{y, y, 263}, (z-193), (y+192)}]]-min{min{wild(452, 139), min{y, y, 209}, max{(86-z), 435, E[z]}}, F[min{(y-471), min{y, z, 161}, E[14]}], max{y, cat(F[z], max{88, 340, 54}), cat(226, y)}});"
+ position: 56
+
+-problem: 250
+ str: "var x = (E[((min{max{y, y, y}, E[wild(z, 301)], min{219, 27, 114}}+(wild(min{z, y, z}, y)*E[max{57, 137, 29}]))-(E[min{E[421], y, F[157]}]-F[F[z]]))]);"
+ position: 16
+
+-problem: 251
+ str: "var x = (E[min{solve(solve((y*y) : cat(y, 329)) : (max{z, y, 6}+cat(min{195, 494, 218}, F[y]))), (E[max{E[y], F[y], (z+117)}]+max{E[(cat(z, 174)-(426+495))], min{z, (30*y), max{496, 269, y}}, (min{(479*184), z, 122}-max{max{278, 40, z}, wild(y, z), max{239, z, 265}})}), min{max{466, min{(428*z), E[486], y}, cat(z, max{y, y, 59})}, max{F[max{468, z, z}], cat(min{cat(y, 407), 115, min{y, 466, z}}, max{cat(57, z), (z+201), max{284, z, 157}}), E[max{477, 87, 229}]}, wild(solve(338 : 327), wild(F[488], cat(F[z], E[230])))}}]);"
+ position: 20
+
+-problem: 252
+ str: "var x = (cat(E[max{min{y, 238, z}, E[304], max{63, 399, y}}], max{min{min{y, y, 274}, (305*y), E[z]}, F[z], F[max{z, 191, 132}]}));"
+ position: 18
+
+-problem: 253
+ str: "var x = (min{min{E[F[E[E[F[z]]]]], F[F[wild(157, 464)]], min{wild((solve(wild(459, 414) : F[317])+E[(y*266)]), min{E[solve(z : z)], (E[187]-y), F[F[154]]}), solve(E[145] : F[min{428, 459, z}]), F[(z*z)]}}, (F[min{E[min{F[337], (z-327), E[119]}], (max{(407*5), 18, y}*F[cat(301, 499)]), (min{248, 352, 231}-max{z, 180, 341})}]-solve((cat(max{solve(y : 291), max{300, 181, 57}, (z*y)}, max{F[z], max{y, y, y}, F[y]})+E[(327+cat(y, z))]) : min{F[cat(F[z], E[y])], min{min{y, (y*z), y}, max{(494-228), min{y, y, 344}, wild(y, 396)}, E[z]}, (F[y]-E[236])})), ((E[max{(z*z), E[479], max{y, z, y}}]-F[E[z]])*F[cat(E[min{255, z, 407}], solve(F[y] : z))])});"
+ position: 66
+
+-problem: 254
+ str: "var x = (F[(cat(min{445, 3, y}, min{390, 98, 195})+357)]-E[E[cat(150, z)]]);"
+ position: 11
+
+-problem: 255
+ str: "var x = (min{(((F[min{z, y, 417}]-cat(486, z))-E[F[solve(z : y)]])-min{min{max{F[y], (y*160), wild(50, y)}, max{max{414, 22, z}, F[y], solve(y : 472)}, (E[396]+249)}, cat(F[cat(278, 56)], E[y]), ((488*E[309])*F[cat(z, y)])}), max{(z*359), E[min{z, y, 354}], wild(F[y], wild(259, z))}, F[max{57, z, z}]});"
+ position: 12
+
+-problem: 256
+ str: "var x = (max{min{min{max{max{(y*395), E[y], y}, E[E[y]], E[F[F[z]]]}, solve(wild(z, max{z, z, 159}) : (E[285]+max{(282-415), y, E[272]})), wild(E[max{z, y, 164}], max{solve(91 : 430), F[y], (448*487)})}, max{E[min{F[413], y, min{31, z, 400}}], min{solve((max{325, 103, 495}-E[350]) : F[cat(y, y)]), (F[max{425, y, z}]+max{y, 189, 17}), E[max{267, max{326, y, z}, z}]}, min{F[E[z]], F[y], F[max{350, min{z, 152, 177}, F[y]}]}}, min{(min{z, cat(y, y), 240}-((458+y)*cat(max{y, z, z}, F[z]))), wild(E[(408*min{154, 267, 59})], E[min{182, min{y, z, y}, z}]), (min{max{E[482], y, E[483]}, min{wild(z, y), F[y], solve(327 : 137)}, E[z]}-max{wild(y, y), cat(60, 217), 399})}}, solve(E[cat(F[max{396, y, 152}], F[min{z, F[y], 276}])] : E[min{min{max{wild(182, 346), z, 213}, (min{181, y, 244}+wild(248, y)), max{max{z, y, z}, E[197], E[z]}}, max{F[y], solve(y : y), E[465]}, F[min{cat(y, y), min{86, y, y}, F[y]}]}]), (E[min{E[y], max{(z+z), wild(y, z), F[z]}, F[F[225]]}]*min{E[min{min{396, z, 356}, (z*z), 120}], min{F[wild(y, y)], solve((min{y, 358, y}-min{y, 377, 40}) : min{max{282, y, 73}, E[z], E[y]}), E[324]}, cat(max{F[(y*103)], max{y, y, 8}, min{(y-271), E[z], cat(y, z)}}, max{E[E[z]], (max{y, z, 0}*F[317]), min{min{414, z, 314}, (305-y), z}})})});"
+ position: 102
+
+-problem: 257
+ str: "var x = (F[min{F[wild(solve(F[228] : 420), 220)], (E[(E[z]+cat(406, (184*252)))]-max{E[z], cat(z, E[y]), E[E[168]]}), (E[wild((min{182, 389, z}*E[117]), F[463])]-E[min{E[z], E[(y+z)], F[(180-495)]}])}]);"
+ position: 125
+
+-problem: 258
+ str: "var x = (E[(min{F[F[244]], E[max{z, 146, z}], ((y+z)-244)}-E[wild(z, y)])]);"
+ position: 10
+
+-problem: 259
+ str: "var x = (min{E[max{min{F[y], max{49, max{496, y, y}, max{y, z, 347}}, wild(0, 279)}, (cat(max{326, 217, 203}, cat(z, z))+max{cat(min{125, 283, y}, max{y, 158, y}), max{y, z, y}, (max{312, 230, 422}+min{103, y, 198})}), min{min{min{364, solve(2 : 381), 428}, E[y], F[max{222, y, y}]}, max{F[wild(z, 485)], ((z*89)*E[134]), F[min{11, y, y}]}, F[wild(200, 390)]}}], (min{solve(F[(y*448)] : max{83, (404-z), 360}), min{F[max{max{y, 52, 188}, (127+144), wild(z, z)}], F[(max{63, 432, 260}-F[361])], (max{min{268, 23, z}, max{305, 27, z}, y}+min{y, (296+y), y})}, (min{solve(306 : z), cat(433, z), (y+251)}-(max{y, 236, 335}+cat(cat(y, 87), solve(308 : 203))))}-F[F[y]]), F[F[min{min{solve(309 : y), 20, E[y]}, min{F[min{233, 311, 377}], min{z, 176, (64*471)}, max{(356+40), (231*368), E[z]}}, F[max{y, (4*266), min{238, y, y}}]}]]});"
+ position: 601
+
+-problem: 260
+ str: "var x = (wild(solve(F[E[z]] : wild(z, z)), (max{z, 382, y}+min{F[y], (143+y), 160}))-max{E[solve(F[min{y, z, 48}] : (E[z]-solve(263 : z)))], min{F[cat(solve(y : z), min{y, z, 440})], min{z, min{z, y, y}, 128}, min{min{F[y], E[450], max{209, z, 307}}, ((179+z)*394), max{y, max{z, y, 297}, (258+307)}}}, max{(min{z, cat(1, z), max{z, z, z}}+min{y, E[131], F[y]}), F[E[61]], (y-F[379])}});"
+ position: 307
+
+-problem: 261
+ str: "var x = (max{(E[min{F[y], min{y, E[356], cat(z, 387)}, E[206]}]+max{min{min{365, 159, y}, z, E[z]}, E[E[y]], E[E[197]]}), (wild(z, 312)-(max{z, z, 107}+F[z])), max{E[E[E[min{z, 319, 392}]]], ((F[z]-91)*max{175, F[z], F[338]}), F[(y-398)]}});"
+ position: 19
+
+-problem: 262
+ str: "var x = (max{F[F[wild(max{334, F[max{400, z, z}], F[max{z, y, y}]}, cat((492-z), solve(E[153] : (z+321))))]], solve(max{E[solve(F[y] : 239)], (cat(wild((251+y), F[80]), (F[12]*E[z]))+E[F[solve(y : z)]]), (E[326]-wild(E[y], z))} : min{max{solve(max{F[445], E[273], (y-164)} : min{138, (269-y), F[8]}), solve(solve(E[14] : F[468]) : min{max{145, 42, 117}, 489, max{232, z, 210}}), cat(E[y], max{y, 32, 278})}, min{cat(F[y], F[287]), (37-F[z]), E[F[9]]}, F[F[286]]}), cat(E[min{y, max{wild(y, 60), max{180, 216, y}, max{234, 498, 135}}, max{496, max{366, z, 480}, E[337]}}], E[(E[wild(206, z)]+(max{E[z], F[473], wild(z, y)}*max{min{453, 448, 174}, min{y, 359, 13}, wild(11, z)}))])});"
+ position: 119
+
+-problem: 263
+ str: "var x = (max{E[max{wild(min{max{z, z, 464}, (296-262), F[y]}, (max{z, y, z}+min{y, z, y})), max{max{min{198, 13, z}, F[y], 89}, F[(z-z)], cat(F[z], (288-84))}, max{F[y], wild(407, 67), F[cat(171, z)]}}], E[wild(min{max{y, y, 80}, F[271], wild(z, 191)}, E[wild(398, 454)])], max{F[wild(max{z, 236, y}, ((183-300)+wild(y, 374)))], min{max{max{F[y], y, min{40, y, 342}}, (solve(363 : z)+119), (E[211]*F[z])}, (E[min{180, y, 35}]+min{wild(344, 315), max{52, 147, 80}, wild(z, y)}), min{min{106, E[116], E[z]}, min{E[y], z, (265-z)}, max{wild(283, z), E[20], min{166, 460, y}}}}, E[min{(min{y, z, z}-E[z]), min{y, (477*y), 29}, F[y]}]}}+cat(max{max{max{y, 208, 440}, (87*44), cat(298, 326)}, (E[37]*(327*236)), (cat(389, 183)*F[200])}, max{E[solve(F[solve(148 : y)] : F[27])], E[min{min{min{342, z, y}, F[z], min{499, z, y}}, min{E[4], 34, (58*z)}, min{min{z, 261, z}, 206, max{92, 45, y}}}], F[max{max{449, z, y}, wild(337, max{240, y, 278}), E[(262-189)]}]}));"
+ position: 326
+
+-problem: 264
+ str: "var x = (F[F[max{F[352], 279, z}]]*wild(E[(z-y)], (F[z]*min{z, 214, z})));"
+ position: 10
+
+-problem: 265
+ str: "var x = (wild(F[min{(F[E[max{471, 311, 361}]]+min{(wild(412, z)+y), max{259, E[433], y}, E[(224+y)]}), E[E[min{492, 299, y}]], max{(y+102), min{F[28], min{y, max{7, 336, z}, max{296, 27, y}}, max{(89-111), (149*y), 58}}, E[F[cat(70, 70)]]}}], F[(F[z]-solve(F[min{y, 178, z}] : max{min{z, 164, y}, z, E[333]}))]));"
+ position: 130
+
+-problem: 266
+ str: "var x = (min{cat(min{F[F[50]], E[301], max{174, F[5], min{z, 51, 21}}}, (max{cat(y, 73), F[y], 178}+y)), (min{E[z], F[(183+z)], E[485]}+F[solve(solve(z : 123) : 333)]), solve(y : wild(y, y))}+solve(solve((E[190]-z) : wild(cat(cat(z, y), F[197]), wild(z, 294))) : (solve(solve(y : z) : max{y, y, z})*F[max{z, 123, z}])));"
+ position: 20
+
+-problem: 267
+ str: "var x = (solve(max{cat(y, y), min{max{z, y, z}, F[79], min{422, 439, y}}, z} : E[F[((469+E[446])*E[solve(145 : z)])]]));"
+ position: 18
+
+-problem: 268
+ str: "var x = (max{min{wild(min{280, F[191], E[F[y]]}, wild(solve(y : z), cat(z, 135))), max{E[wild(min{111, 301, 259}, E[z])], F[solve(z : 3)], E[69]}, solve(E[cat(y, 449)] : (F[(427-298)]-max{min{155, y, y}, 301, 252}))}, min{(E[140]+(E[wild(min{z, y, 112}, wild(z, y))]*wild(53, 206))), min{min{solve(cat(z, 435) : y), min{min{max{z, 81, z}, z, (205*274)}, ((239*122)-min{y, 326, 3}), E[y]}, max{min{E[106], F[z], (z+z)}, ((409+476)*z), E[cat(y, y)]}}, F[min{203, y, 249}], max{solve(F[115] : min{y, 124, z}), wild(cat(min{z, y, 350}, F[z]), solve(wild(441, 191) : F[182])), E[(y-wild(z, y))]}}, E[max{cat(cat(y, y), min{498, 398, 305}), 421, (E[y]-E[y])}]}, E[min{E[186], F[solve((E[z]+383) : (max{227, y, 442}+E[352]))], min{max{389, 109, 423}, cat(F[382], max{y, 384, 385}), (y-z)}}]});"
+ position: 198
+
+-problem: 269
+ str: "var x = (max{max{F[solve(y : y)], 289, min{182, y, 245}}, solve(164 : F[(y*y)]), min{min{y, y, 255}, max{473, z, 193}, min{E[190], wild(z, 337), max{z, y, 433}}}}+E[F[z]]);"
+ position: 84
+
+-problem: 270
+ str: "var x = (solve(min{max{cat(max{y, z, 299}, min{z, z, 389}), (E[F[211]]+min{266, z, 268}), ((cat(y, 417)*F[z])+E[wild(31, 429)])}, E[E[min{y, y, y}]], min{cat(min{max{374, z, y}, z, 166}, min{(z-z), F[y], E[493]}), E[min{F[126], y, E[y]}], F[E[y]]}} : F[max{(max{147, y, 243}-min{84, (244-y), E[456]}), solve(z : wild(y, y)), (E[357]*F[371])}]));"
+ position: 252
+
+-problem: 271
+ str: "var x = (solve((F[E[solve(E[max{458, 496, z}] : (y-497))]]-min{wild(E[z], wild(368, y)), E[F[cat(z, 305)]], ((max{y, y, y}*E[444])-max{(z+232), 44, min{y, z, y}})}) : max{((min{E[y], max{F[148], max{y, 91, y}, y}, F[367]}*max{(cat(z, 10)*max{y, z, 442}), F[y], max{(y*z), min{423, 396, z}, (437-z)}})+max{max{(y+85), E[y], (y-z)}, F[cat(z, 288)], 149}), max{wild(((z*245)-183), F[366]), E[F[z]], F[F[z]]}, F[(F[E[z]]*max{F[y], F[min{z, 234, 447}], wild(min{y, 371, y}, max{z, 129, 376})})]}));"
+ position: 420
+
+-problem: 272
+ str: "var x = (max{F[E[(min{solve(wild(y, y) : 177), (min{89, y, z}-min{258, 221, 163}), E[372]}+E[E[min{358, z, 131}]])]], max{E[F[min{E[y], E[z], max{y, 499, y}}]], F[(F[283]*F[113])], max{max{257, F[355], max{287, z, z}}, (y-E[79]), solve(321 : z)}}, (F[min{cat(max{219, 49, 238}, min{z, 167, z}), wild(max{z, y, 170}, 126), F[min{max{243, y, y}, E[95], max{y, y, y}}]}]+E[E[E[min{min{276, z, 306}, min{z, z, z}, 163}]]])});"
+ position: 125
+
+-problem: 273
+ str: "var x = (max{F[(min{E[392], F[cat(152, y)], cat(77, (113*z))}-max{37, y, 173})], max{F[max{E[min{z, z, 432}], cat((443+z), z), F[238]}], E[(min{E[z], (348-27), F[y]}-E[(73*428)])], F[cat(solve(z : y), solve(44 : 432))]}, F[(max{max{solve(126 : z), F[y], E[425]}, z, F[wild(z, 478)]}+max{(296+13), min{z, y, y}, F[z]})]}-F[F[min{min{83, y, y}, 406, (87+75)}]]);"
+ position: 139
+
+-problem: 274
+ str: "var x = (E[E[F[(F[y]*E[max{338, z, y}])]]]);"
+ position: 8
+
+-problem: 275
+ str: "var x = (E[solve(solve(max{F[min{min{46, z, z}, y, E[321]}], solve(E[cat(489, z)] : cat(E[29], min{327, 409, y})), E[solve(y : 236)]} : min{(F[y]*y), E[min{E[z], 433, max{z, y, z}}], E[cat(max{y, y, 484}, max{212, 274, 57})]}) : max{F[E[295]], solve(y : z), max{cat(19, z), 104, max{z, 51, z}}})]);"
+ position: 10
+
+-problem: 276
+ str: "var x = (wild((wild((solve(z : 265)+F[E[(241*y)]]), F[F[min{max{z, z, 226}, min{z, z, y}, F[z]}]])*((solve(wild(53, y) : min{247, y, 392})-max{(79+200), 352, max{z, z, 98}})*min{(176+min{y, 153, 379}), min{E[318], F[(312+155)], min{max{54, y, z}, cat(350, 483), y}}, F[F[441]]})), (max{E[cat(F[(341+y)], F[284])], E[max{min{F[y], F[104], (128-201)}, max{10, 66, y}, 274}], wild((cat(min{y, 8, 58}, E[7])+F[F[z]]), (E[141]-F[357]))}+max{min{F[378], min{min{y, y, 279}, min{367, 333, 469}, cat(105, z)}, E[min{y, 166, y}]}, (wild(47, y)+min{173, z, 84}), E[F[E[z]]]})));"
+ position: 285
+
+-problem: 277
+ str: "var x = (F[max{E[E[165]], min{min{(397*479), z, (z+156)}, F[F[z]], solve(E[y] : y)}, (F[y]-cat(z, 242))}]);"
+ position: 10
+
+-problem: 278
+ str: "var x = (E[E[wild(cat(cat((436-F[31]), F[399]), E[max{max{z, z, z}, min{195, 495, 314}, solve(166 : y)}]), min{(wild(422, y)+max{z, y, y}), max{F[6], min{solve(337 : 73), z, E[y]}, cat((z+110), E[385])}, max{cat((z+y), min{y, 69, 303}), cat(306, F[y]), min{max{y, 398, 68}, 351, min{y, 192, z}}}})]]);"
+ position: 256
+
+-problem: 279
+ str: "var x = (wild(E[wild(max{F[E[max{271, 171, 127}]], min{((y-115)*min{z, 62, 46}), (211+min{363, 381, 378}), min{y, F[z], 362}}, min{F[max{y, z, 198}], E[(331-z)], wild(393, z)}}, (E[F[(z*y)]]+F[max{41, wild(394, z), F[y]}]))], min{max{((y*400)*F[474]), solve(E[max{460, z, 483}] : (F[154]*F[51])), E[max{350, 217, min{428, z, z}}]}, max{F[max{F[67], max{405, y, z}, min{y, 233, 212}}], F[F[478]], (cat(F[367], z)-(wild(z, 25)+F[z]))}, max{((250-y)+max{492, E[365], min{y, 195, z}}), (max{cat(y, y), z, max{68, 461, z}}+min{342, z, z}), min{E[wild(z, 104)], 302, cat(max{z, y, y}, y)}}}));"
+ position: 257
+
+-problem: 280
+ str: "var x = (E[(solve(max{y, y, z} : min{(z*248), (y-139), min{y, 204, y}})-max{F[(y*147)], (cat(E[z], cat(160, z))+cat(wild(63, z), y)), max{F[cat(z, 456)], min{wild(z, y), (y-417), max{203, 415, y}}, F[z]}})]-wild(max{(min{(224+262), wild(349, 51), (solve(243 : z)+min{y, z, 463})}-E[max{z, cat(y, y), y}]), E[(y*z)], max{F[solve(y : 88)], F[y], wild(383, min{z, z, y})}}, min{F[E[(E[364]+F[109])]], min{(z-max{y, z, 462}), min{(z-y), min{y, 483, 282}, F[44]}, F[cat(min{459, 20, y}, E[386])]}, max{(28-404), F[z], (304-y)}}));"
+ position: 401
+
+-problem: 281
+ str: "var x = (min{(F[F[solve(min{392, 260, 87} : min{cat(166, 51), min{182, 13, y}, F[23]})]]+max{cat(max{55, y, max{max{330, y, y}, cat(y, z), z}}, (max{397, 442, y}*(E[y]+y))), (F[(y+70)]-E[470]), solve(max{(E[158]+min{z, y, 73}), (F[z]+min{497, z, 444}), min{y, E[y], wild(47, 10)}} : max{min{solve(y : z), wild(215, z), F[z]}, z, min{119, solve(z : 395), 266}})}), min{((max{358, z, z}-cat(z, y))-(cat(F[y], F[z])+(solve(z : 449)+solve(z : y)))), cat(max{270, min{z, 278, y}, y}, F[max{y, 199, y}]), wild(solve(286 : 318), F[(y+y)])}, max{(min{solve(F[F[z]] : min{F[z], F[z], E[292]}), (max{z, 264, z}*y), min{min{153, solve(y : y), E[66]}, wild(y, z), F[solve(y : z)]}}+(min{min{max{y, y, 184}, max{y, y, y}, E[121]}, E[236], min{min{y, y, 165}, (140-y), y}}*max{E[F[z]], E[(360*y)], (y*E[z])})), F[wild(F[(y-z)], solve(87 : 60))], max{max{((414*261)-E[wild(z, 454)]), F[min{333, min{y, 12, 288}, (196*z)}], min{(F[y]*solve(z : 115)), cat(max{149, 315, y}, 445), y}}, wild(min{F[(y-219)], F[422], E[(316*y)]}, solve(cat(y, 379) : cat(z, y))), E[z]}}});"
+ position: 199
+
+-problem: 282
+ str: "var x = (E[max{E[solve(cat(E[min{z, 44, z}], E[469]) : wild((y+200), (291+y)))], max{E[E[y]], max{min{min{y, z, z}, z, wild(496, y)}, max{392, min{z, 23, z}, E[412]}, min{min{z, 302, z}, F[y], z}}, min{max{z, y, z}, (E[z]-E[483]), y}}, E[F[wild(F[281], E[max{y, 168, y}])]]}]);"
+ position: 84
+
+-problem: 283
+ str: "var x = (max{(max{(min{z, (z+z), E[481]}*F[cat(z, y)]), (F[132]+E[y]), F[(F[z]-min{313, 334, 312})]}+cat(E[wild((min{z, y, 295}-max{132, 476, 261}), E[z])], max{max{(max{420, 468, 110}-y), cat(max{352, 253, z}, (z-z)), z}, E[max{27, y, z}], max{min{260, z, max{z, 426, y}}, max{F[z], E[24], (y-112)}, solve(289 : 468)}})), E[E[max{E[max{z, 25, 442}], min{y, y, 61}, E[z]}]], (solve(min{z, 14, 410} : (y-437))-(max{max{solve(306 : 231), F[z], z}, E[y], max{F[min{z, 346, 324}], y, E[max{457, 230, 33}]}}-max{F[y], cat(F[min{277, 136, z}], E[min{z, y, 305}]), max{E[z], y, (y*y)}}))});"
+ position: 536
+
+-problem: 284
+ str: "var x = (min{max{min{max{min{min{z, y, 103}, wild(z, 94), max{y, 187, 405}}, cat(499, y), min{244, z, 176}}, F[z], min{max{(130+z), max{z, z, 234}, F[y]}, cat(cat(390, y), E[35]), max{(y*303), min{126, 328, 390}, 288}}}, min{E[E[(221+z)]], F[max{max{F[z], z, max{311, 12, 288}}, max{(465+z), 295, wild(217, 389)}, max{16, 21, E[z]}}], solve(E[152] : wild(max{y, 237, z}, max{417, y, y}))}, (min{y, max{min{F[441], 421, wild(y, y)}, E[364], max{z, min{y, 271, 431}, min{176, 372, z}}}, F[max{(y*y), max{y, z, 485}, min{y, z, y}}]}-min{min{solve(min{44, z, z} : (z-268)), E[max{z, z, 431}], F[y]}, min{(430-max{183, 260, 10}), F[300], max{min{301, 125, 314}, (485-z), y}}, E[min{z, 401, 264}]})}, E[F[min{max{y, z, z}, E[324], solve(z : y)}]], min{min{E[wild(60, z)], min{max{F[245], 67, 354}, E[328], 21}, F[cat(solve(26 : y), min{391, y, 213})]}, cat(min{F[solve(210 : y)], ((min{296, y, 473}*E[94])+y), E[(y+253)]}, cat(wild((y-456), E[E[209]]), cat((y*z), wild((y+y), max{y, y, z})))), F[E[F[z]]]}});"
+ position: 387
+
+-problem: 285
+ str: "var x = (max{((E[F[E[318]]]-E[E[F[y]]])-min{solve((z-307) : (max{(z+24), min{167, y, 303}, (239-y)}-min{y, 44, E[z]})), F[max{E[128], cat((y*y), 495), (y*max{z, y, z})}], max{max{z, max{383, F[435], y}, E[225]}, max{solve(y : 327), z, F[z]}, (y-min{(325*343), (228+z), min{y, 451, z}})}}), cat((min{(169+243), cat(wild(y, 290), (65-E[y])), F[E[cat(66, y)]]}+max{max{F[max{y, 269, z}], (wild(259, y)*z), E[min{11, 421, 220}]}, y, max{F[157], E[462], max{y, z, solve(y : y)}}}), (F[max{max{297, z, min{420, 282, z}}, solve(max{z, z, 277} : (150-61)), E[185]}]*E[(E[F[243]]+F[71])])), max{F[min{F[(min{y, 194, z}+max{y, z, 296})], E[F[z]], (F[F[41]]*(F[z]*max{443, 250, 183}))}], (max{((z*z)*min{74, z, y}), (198-F[142]), min{y, z, y}}*solve((z+161) : E[min{min{z, y, y}, E[y], max{y, 254, 396}}])), F[E[max{min{solve(202 : z), F[z], cat(y, 170)}, E[max{64, 340, z}], min{z, z, y}}]]}});"
+ position: 633
+
+-problem: 286
+ str: "var x = (F[solve(E[min{cat(y, y), wild(z, 313), y}] : wild(min{((y+126)*E[y]), max{min{y, y, z}, E[y], max{264, 288, 399}}, F[124]}, F[min{z, z, z}]))]);"
+ position: 16
+
+-problem: 287
+ str: "var x = (E[E[(solve(F[211] : F[242])*E[max{z, 220, 364}])]]);"
+ position: 42
+
+-problem: 288
+ str: "var x = (max{min{(((z+z)*min{493, 341, 64})-E[y]), wild(E[F[E[z]]], solve(F[min{max{119, z, y}, F[y], 119}] : (E[195]*(y+231)))), (F[F[min{104, 480, 275}]]*max{wild(min{234, 202, y}, E[y]), cat(F[y], F[y]), min{max{z, 377, z}, min{81, y, 36}, 139}})}, solve((F[min{min{E[y], z, y}, F[F[z]], min{496, F[26], cat(67, z)}}]+wild(max{y, (solve(436 : y)*min{387, 453, y}), min{401, z, y}}, F[(cat(z, 65)-221)])) : E[max{F[F[y]], solve(solve(y : min{z, 304, 191}) : 359), max{E[z], 47, wild(min{73, 402, 387}, E[92])}}]), min{max{388, z, 281}, (254-cat(y, z)), min{458, y, y}}});"
+ position: 410
+
+-problem: 289
+ str: "var x = (F[F[(322+(min{466, y, z}+E[z]))]]);"
+ position: 22
+
+-problem: 290
+ str: "var x = (min{(max{E[wild(min{E[z], z, E[386]}, min{max{y, 1, z}, F[23], (151+376)})], F[F[E[min{353, z, z}]]], E[max{110, 207, 333}]}*max{cat(solve(min{21, 442, y} : y), min{22, y, E[215]}), solve((y*F[y]) : cat(124, 284)), max{min{(F[z]*solve(y : z)), max{(z*83), (253*278), 232}, (solve(y : y)*max{z, z, z})}, max{y, 95, min{3, z, 92}}, (F[y]+F[23])}}), solve(E[max{wild((y*354), 333), max{E[min{186, z, 88}], max{max{83, y, z}, min{z, y, 203}, E[z]}, F[max{z, z, y}]}, min{(min{70, y, z}*316), min{cat(123, 94), E[289], min{477, 107, z}}, E[415]}}] : F[max{max{346, (480*116), min{z, 337, 399}}, (140+F[225]), F[max{z, y, y}]}]), max{F[cat(E[94], E[max{207, 431, 29}])], F[solve(z : ((193*332)*max{17, 341, y}))], (wild(max{max{(178*280), max{398, y, 380}, z}, F[F[181]], max{z, 285, 273}}, F[y])+F[(max{wild(z, y), E[y], E[z]}+cat(solve(y : y), max{13, z, 334}))])}});"
+ position: 16
+
+-problem: 291
+ str: "var x = (solve(min{F[min{(188*min{435, 310, 217}), (y+y), max{170, (y-y), solve(y : 151)}}], (min{solve(cat(max{455, 306, 264}, z) : F[15]), max{min{z, y, y}, y, min{F[159], y, max{5, y, 467}}}, max{wild(cat(223, z), solve(159 : 314)), max{(340-60), E[384], min{254, 173, 156}}, F[y]}}+F[max{cat(y, 86), (74*z), max{28, z, z}}]), cat(wild(F[y], max{solve(113 : 356), F[y], 225}), F[min{y, 380, y}])} : (max{wild(((min{402, z, z}*E[z])*((421-298)-wild(z, 431))), min{wild(E[z], (z-485)), y, (211*y)}), E[max{15, z, (301*z)}], (min{min{z, y, 127}, E[418], E[275]}*max{339, y, z})}+(min{min{F[min{y, 376, y}], E[y], F[F[z]]}, min{F[z], wild(min{y, 365, 329}, E[y]), cat(max{z, 97, 273}, F[113])}, (max{325, 154, z}-wild(431, 283))}*solve(max{z, y, y} : (max{z, solve(93 : z), cat(70, 148)}+(6-394)))))));"
+ position: 411
+
+-problem: 292
+ str: "var x = (max{max{max{(min{max{E[y], (y+400), max{314, y, 87}}, min{y, E[y], min{276, y, 136}}, 335}+cat(E[148], F[y])), F[E[wild(146, cat(452, y))]], F[max{E[min{y, 90, 194}], (F[403]-E[z]), min{min{70, y, 212}, y, (227-402)}}]}, max{wild(max{330, z, y}, min{F[208], wild(266, 260), min{y, 494, z}}), (F[425]*((186*21)-y)), min{(z-403), (166-z), y}}, (min{F[E[y]], solve(268 : cat(y, 133)), ((z*11)+F[z])}+max{solve(z : 113), E[min{min{233, 327, 115}, max{360, 178, z}, E[112]}], F[min{z, (y+z), F[z]}]})}, F[max{min{F[E[133]], min{161, solve(y : z), 44}, (min{y, 148, 309}+F[max{72, 102, 445}])}, wild(min{E[450], 103, max{y, 281, y}}, F[y]), min{max{cat(z, y), wild(232, E[476]), min{E[y], F[z], (z+z)}}, max{F[solve(z : 366)], F[99], max{z, 139, y}}, E[F[474]]}}], max{min{wild(y, F[z]), min{E[(min{31, 211, z}+E[z])], max{cat(465, z), F[422], F[471]}, max{wild(34, 189), solve(z : 446), max{225, z, z}}}, F[cat(356, max{solve(y : 253), F[411], y})]}, F[max{cat(z, y), (371+152), E[322]}], min{F[z], min{F[min{138, 64, z}], E[min{329, 373, 209}], E[(z+z)]}, E[E[min{z, 163, 284}]]}}});"
+ position: 29
+
+-problem: 293
+ str: "var x = (min{F[(min{solve(max{(z+y), 350, F[56]} : max{E[z], 458, solve(290 : 1)}), (46*F[216]), min{y, z, y}}*max{wild((F[134]-min{131, z, y}), 161), wild(max{319, y, (241*389)}, cat(349, 49)), (F[273]+min{z, 235, z})})], (F[E[min{y, y, z}]]+E[E[min{z, y, y}]]), F[wild(min{min{y, E[y], z}, F[cat(min{y, z, 268}, 338)], E[E[z]]}, F[max{y, F[max{y, y, 221}], (y*260)}])]});"
+ position: 19
+
+-problem: 294
+ str: "var x = (max{F[max{((wild((218-y), F[z])+((118+z)+(y*179)))*min{cat(E[y], 353), F[wild(z, y)], F[solve(295 : y)]}), E[max{wild(y, 333), E[y], solve(y : y)}], F[min{y, 258, 115}]}], F[min{F[E[cat((217+211), 475)]], (cat(max{min{188, 111, y}, (z*y), 229}, min{min{z, 427, 22}, max{82, z, z}, (60-y)})-min{z, z, max{z, z, y}}), (max{min{z, 108, y}, min{y, z, 440}, (377+217)}-E[F[E[z]]])}], min{solve(max{F[max{253, 183, 131}], E[cat(242, y)], F[cat(5, 116)]} : wild(87, 477)), min{E[E[193]], F[wild(F[413], 291)], E[E[F[y]]]}, F[F[E[z]]]}});"
+ position: 182
+
+-problem: 295
+ str: "var x = (wild(wild(cat(min{min{285, y, y}, E[197], F[min{y, z, z}]}, F[min{z, y, z}]), E[wild(solve(54 : 41), max{z, z, (z-244)})]), min{max{min{max{wild(E[y], (105*485)), min{418, min{303, 245, 56}, 369}, F[434]}, (y+y), (y*max{min{119, y, 479}, min{y, 92, 454}, max{409, y, 42}})}, cat(max{297, y, z}, 21), min{((406+101)-(y-y)), E[z], solve(min{71, E[z], E[y]} : max{z, z, 223})}}, min{min{F[(E[z]*min{390, z, 426})], max{(E[471]+min{63, 180, 55}), wild(solve(196 : 421), max{y, z, z}), E[max{335, y, 201}]}, min{min{E[z], min{416, z, 217}, max{z, 260, 234}}, cat(y, z), E[E[31]]}}, max{(236*y), E[E[284]], solve(E[max{z, y, y}] : (solve(y : 428)-max{z, 187, y}))}, 270}, max{(((max{46, z, 224}*F[33])+443)+max{21, 396, 442}), cat(F[solve(z : (196+y))], max{(solve(82 : 316)-(305+z)), min{252, E[454], max{419, z, 169}}, (y+solve(y : 272))}), wild(wild(E[E[486]], max{max{430, y, z}, F[428], y}), min{min{E[y], wild(z, 300), (371+z)}, E[z], min{E[228], E[337], wild(189, z)}})}}));"
+ position: 733
+
+-problem: 296
+ str: "var x = (F[min{F[wild(max{E[y], z, min{89, 423, 79}}, (y+(302-143)))], (max{(y*176), wild(149, y), 339}*F[(min{z, z, 40}+446)]), min{wild(min{205, 272, y}, max{z, y, z}), max{18, z, E[361]}, solve(155 : 278)}}]);"
+ position: 21
+
+-problem: 297
+ str: "var x = (min{min{min{min{F[z], F[y], max{y, z, 174}}, max{z, 245, 233}, E[max{436, y, 457}]}, min{max{cat(2, 126), F[215], F[y]}, solve((y-274) : y), F[389]}, E[F[222]]}, E[(min{z, 117, 221}-110)], (min{wild((433-y), wild(245, max{y, y, z})), wild(solve(min{473, 132, z} : max{y, 312, z}), (F[374]*solve(y : 72))), F[max{F[144], y, solve(z : 416)}]}+solve(F[min{cat(y, 145), 198, max{y, 467, 384}}] : E[solve(E[358] : (z+70))]))});"
+ position: 12
+
+-problem: 298
+ str: "var x = (min{max{(wild(446, z)+(279-104)), cat(min{F[270], min{320, y, y}, F[z]}, ((max{355, 54, 27}*y)-min{E[z], min{z, z, 237}, max{y, z, 147}})), max{min{max{E[91], min{264, 488, z}, solve(323 : 286)}, 249, (F[y]*min{z, y, 392})}, (191+E[z]), wild(y, max{cat(394, z), z, cat(z, y)})}}, max{max{(F[max{wild(428, z), 287, min{y, y, 172}}]+F[E[max{y, 26, y}]]), F[min{(390+85), (y+90), F[max{385, z, 4}]}], E[max{E[solve(432 : z)], min{150, z, F[y]}, (225+267)}]}, E[(min{E[y], (max{466, 168, y}-421), (445+(y*z))}-min{solve(F[58] : min{z, z, 287}), E[258], ((404-z)*(79+412))})], (E[min{326, y, 176}]+(E[max{46, y, min{y, z, y}}]+E[min{z, 361, solve(z : 123)}]))}, (max{max{cat(max{max{257, z, 151}, min{z, z, y}, cat(19, 222)}, (463*z)), F[(z+z)], solve(F[max{z, z, 136}] : E[cat(342, z)])}, min{F[273], (E[448]-F[z]), cat(F[318], 255)}, E[(min{F[z], cat(417, 410), E[y]}+(413+222))]}*E[min{E[max{13, 18, 407}], E[min{F[y], max{295, z, y}, 79}], min{F[80], max{133, E[z], F[296]}, max{(z+z), cat(z, 486), y}}}])});"
+ position: 518
+
+-problem: 299
+ str: "var x = (max{solve(F[F[min{F[max{y, y, y}], max{z, 401, z}, max{F[453], (z-146), (y*18)}}]] : min{max{wild(z, E[min{176, 153, 121}]), min{solve(125 : solve(82 : 88)), 236, (90-y)}, min{F[z], E[F[145]], min{F[447], wild(y, 48), F[z]}}}, E[E[E[F[151]]]], F[148]}), ((max{E[cat(z, z)], E[z], E[cat(329, z)]}+E[E[z]])+wild(F[max{37, y, y}], E[max{z, wild(115, z), (426-413)}])), cat(max{min{min{max{max{464, z, y}, F[89], 328}, cat(max{z, 95, z}, y), 454}, F[E[z]], F[max{wild(y, 377), (y*37), (z+362)}]}, min{max{(solve(y : 366)-(138*387)), (min{332, 328, 434}+max{y, y, 291}), min{z, min{y, 209, 159}, max{289, 127, 426}}}, E[max{z, z, 39}], max{F[(z*155)], min{(z*23), (z-455), 478}, E[max{z, 347, 405}]}}, E[min{(380*16), F[282], E[z]}]}, min{wild(max{E[y], F[z], solve(330 : 224)}, (260*298)), min{solve(F[E[y]] : F[E[y]]), F[E[170]], (cat(max{y, 361, z}, F[173])*E[466])}, min{solve(max{430, y, 53} : 450), solve((max{z, 146, z}-F[z]) : wild(100, 307)), min{F[(51-y)], cat(y, y), solve(E[33] : solve(312 : 370))}}})});"
+ position: 836
+
+-problem: 300
+ str: "var x = (max{(wild(F[((z+341)+(max{z, y, z}-F[112]))], min{F[y], min{(106-295), cat(365, 173), E[y]}, (z*y)})+E[E[E[(z*73)]]]), (min{(F[solve(F[y] : E[80])]+F[(z+265)]), (F[(40-48)]-min{max{max{308, y, 328}, E[482], min{y, 369, 279}}, E[464], max{E[421], F[y], F[266]}}), E[max{min{F[y], 311, F[z]}, cat(343, E[y]), solve(76 : max{108, 164, z})}]}+E[E[F[z]]]), F[min{E[(200*204)], min{F[y], y, z}, min{F[158], y, 106}}]});"
+ position: 137
+
+-problem: 301
+ str: "var x = (min{E[max{max{E[129], max{solve(250 : y), z, E[196]}, 232}, min{E[cat(y, 394)], (E[131]+(z*z)), E[z]}, min{(y-z), wild(z, 310), E[74]}}], solve(min{(z*z), min{max{z, y, max{z, 170, z}}, max{320, y, y}, solve(y : 454)}, max{min{z, 273, 401}, (max{20, 149, 492}*(y+y)), E[10]}} : max{(E[min{y, y, z}]*(304-406)), max{min{y, max{y, 69, 370}, 115}, y, F[wild(z, z)]}, max{solve(123 : 444), min{F[z], (475+y), 356}, ((y+201)-150)}}), F[F[(min{E[y], solve(291 : y), max{398, z, z}}*max{y, wild(226, z), z})]]});"
+ position: 156
+
+-problem: 302
+ str: "var x = ((cat(min{(205+max{z, 239, 12}), cat(z, 206), (F[min{y, 426, y}]-y)}, (F[max{min{y, 222, z}, wild(312, 415), y}]-min{(E[384]*cat(493, 445)), E[y], 191}))-cat(E[max{z, z, z}], min{min{F[solve(y : z)], E[181], E[y]}, E[min{z, z, 92}], min{cat(382, y), min{294, y, z}, min{y, 207, z}}}))-min{(min{(min{14, 321, 66}*F[y]), 79, solve(z : z)}+min{min{min{209, 238, 278}, F[308], F[308]}, F[z], cat(E[y], max{z, z, z})}), min{(E[E[460]]+E[cat(81, 335)]), E[wild(min{y, 486, 23}, cat(104, 370))], E[F[E[234]]]}, max{min{F[E[197]], min{E[49], y, F[217]}, E[y]}, max{(max{(y+z), F[113], cat(435, y)}+F[y]), F[solve(329 : 136)], E[E[max{31, 365, z}]]}, E[min{min{406, max{z, 440, z}, y}, F[F[73]], max{max{106, 481, y}, F[75], (y*z)}}]}});"
+ position: 426
+
+-problem: 303
+ str: "var x = (F[E[(wild(cat(wild(z, 417), E[153]), (F[F[482]]+F[cat(487, z)]))-min{F[(wild(229, y)*E[391])], E[y], min{min{476, y, 425}, F[z], min{z, 284, z}}})]]);"
+ position: 48
+
+-problem: 304
+ str: "var x = (E[E[max{F[solve(z : z)], F[262], (cat(452, cat(402, y))*max{14, E[335], 460})}]]);"
+ position: 12
+
+-problem: 305
+ str: "var x = (E[(cat(E[wild(min{176, 60, y}, y)], solve(min{solve(330 : 456), F[67], z} : min{wild(y, 188), (117*y), min{396, 401, 120}}))*min{F[max{E[y], y, (68-y)}], ((z+wild(z, 212))*min{min{y, y, 118}, E[74], z}), (max{z, (485+148), 271}-F[E[y]])})]);"
+ position: 81
+
+-problem: 306
+ str: "var x = (max{F[F[min{(z-276), 358, (E[z]+max{y, y, z})}]], E[(F[max{(186*y), z, F[147]}]+max{max{z, wild(482, 341), min{y, z, 322}}, E[min{324, 487, 283}], min{362, (142-y), E[y]}})], E[(max{y, (295+cat(z, 79)), min{z, y, z}}-F[E[224]])]});"
+ position: 185
+
+-problem: 307
+ str: "var x = (E[F[E[wild(336, 69)]]]);"
+ position: 12
+
+-problem: 308
+ str: "var x = (max{solve(max{min{solve(137 : y), wild(E[52], (141*y)), (E[max{431, y, y}]-460)}, F[F[(315+z)]], (cat(F[max{z, y, z}], z)+F[max{E[344], E[z], z}])} : F[E[solve(cat(z, z) : E[342])]]), max{E[z], max{434, 123, z}, solve(z : 361)}, min{F[E[cat(E[y], F[y])]], max{E[(F[313]*max{F[352], E[150], F[y]})], F[(262+y)], min{F[min{min{y, z, 467}, 211, F[y]}], min{(y*y), E[wild(320, y)], F[E[169]]}, max{cat(351, z), solve(100 : (z-157)), F[189]}}}, wild(max{F[F[F[145]]], E[cat(max{z, 385, y}, solve(y : 59))], E[z]}, F[solve(max{y, y, 276} : E[138])])}});"
+ position: 546
+
+-problem: 309
+ str: "var x = (min{max{wild(min{F[z], 344, F[y]}, wild(F[min{(394*1), (33*y), (189*z)}], 315)), min{F[max{y, min{104, y, z}, min{z, z, 263}}], min{solve((min{z, 384, 232}*min{y, z, 153}) : solve((z-497) : y)), F[z], min{max{E[z], 303, 56}, F[y], max{y, y, y}}}, min{max{F[182], (103+y), max{224, 131, z}}, min{max{y, 266, 303}, (y-91), cat(z, 374)}, E[E[y]]}}, F[cat(min{E[157], y, max{148, z, z}}, E[max{E[y], max{z, 288, 343}, (z-30)}])]}, min{wild(max{F[34], F[wild(z, y)], ((60*76)*min{y, 139, z})}, min{max{210, y, z}, (266*max{z, 125, z}), E[z]}), E[cat(y, min{max{234, y, z}, E[196], min{399, 0, y}})], max{min{min{z, (y+y), max{186, z, 102}}, E[y], max{316, min{20, 151, 93}, z}}, E[solve(y : min{214, z, y})], min{(solve(50 : 213)+E[160]), (237+300), (12*38)}}}, E[min{min{E[solve(E[204] : 251)], E[E[(y*z)]], (E[F[y]]-max{max{98, y, z}, solve(y : y), wild(188, 281)})}, E[max{70, E[y], min{y, y, 304}}], F[max{F[E[y]], (F[z]-wild(12, 450)), E[solve(493 : z)]}]}]});"
+ position: 95
+
+-problem: 310
+ str: "var x = (max{(F[max{F[(132+z)], F[E[wild(y, 309)]], E[(F[75]+(z+y))]}]*E[max{min{y, z, y}, E[217], F[202]}]), min{F[max{(cat(z, y)+solve(y : z)), F[E[max{363, 422, z}]], max{E[y], max{E[415], cat(y, y), min{360, 489, y}}, F[cat(z, z)]}}], max{wild(F[F[y]], solve(min{y, z, z} : (468-168))), F[E[F[257]]], F[E[max{min{y, 101, 5}, wild(247, y), E[z]}]]}, min{(min{165, y, 108}+(F[1]-min{373, 277, 57})), E[E[y]], F[cat((220*y), E[y])]}}, max{F[solve(282 : 364)], min{min{E[470], F[F[y]], (z+z)}, F[min{y, min{291, z, 59}, z}], min{E[E[376]], 394, max{z, z, 218}}}, (F[solve(solve(y : 139) : F[50])]*wild(wild(F[y], min{z, z, 145}), wild(cat(F[418], max{363, y, 94}), min{solve(264 : y), F[z], y})))}});"
+ position: 137
+
+-problem: 311
+ str: "var x = (wild(F[wild(E[wild((481-156), (298*z))], y)], max{max{F[(z-y)], 56, (77+max{y, 126, 32})}, ((F[277]-F[263])-E[E[401]]), E[min{y, y, 257}]}));"
+ position: 13
+
+-problem: 312
+ str: "var x = (min{E[max{max{390, min{F[184], E[276], max{98, y, 221}}, (cat(442, y)-min{340, 306, z})}, min{max{cat(209, z), min{y, z, 131}, cat(305, 81)}, solve(189 : 314), E[max{335, z, 398}]}, min{328, y, y}}], min{solve(F[min{y, 114, min{404, 497, y}}] : E[wild(y, 437)]), E[max{(max{y, z, 158}-min{149, 8, 373}), (wild(y, y)-max{32, 489, y}), F[(y-z)]}], min{max{cat(E[479], wild(210, 176)), max{solve(136 : z), 136, (z-y)}, F[(z*12)]}, E[E[E[y]]], solve(E[y] : ((y+z)+213))}}, (F[solve(F[138] : 59)]+(E[(380-284)]*max{max{max{469, z, y}, z, min{z, 30, z}}, (y+min{493, y, 295}), min{min{z, 415, y}, max{z, z, 318}, y}}))});"
+ position: 213
+
+-problem: 313
+ str: "var x = (min{max{max{wild(min{min{2, 43, 269}, y, max{z, z, y}}, min{25, 124, 409}), F[E[cat(z, 250)]], cat(106, max{min{35, z, z}, E[y], 326})}, solve(E[min{cat(417, 385), y, 232}] : E[cat(E[z], 332)]), (cat((F[wild(z, 336)]*min{229, min{y, z, 107}, min{293, 20, y}}), y)*(F[380]-E[230]))}, (solve(max{max{max{y, y, z}, solve(E[z] : 91), cat(min{y, 198, 317}, y)}, F[wild((444-y), 93)], F[(272+z)]} : max{(solve(F[192] : z)+z), min{y, max{y, y, y}, 269}, max{cat(max{367, y, y}, z), max{3, z, z}, (350*E[y])}})-min{wild(min{min{z, cat(265, z), E[z]}, wild(y, y), max{cat(203, 97), F[204], min{446, y, y}}}, E[143]), E[E[max{min{22, y, 179}, (74-z), (96+423)}]], max{F[F[z]], wild(max{y, 12, 237}, min{z, 29, 451}), E[z]}}), (min{(min{min{min{370, 18, 488}, z, F[y]}, F[max{50, 382, 120}], 38}+wild(F[y], F[F[284]])), max{(z-z), min{solve(F[169] : F[255]), min{(z-218), cat(z, y), F[81]}, y}, y}, E[wild(F[max{332, z, 169}], wild((76-178), max{188, y, y}))]}*E[(44+(solve(z : 106)+F[y]))])});"
+ position: 666
+
+-problem: 314
+ str: "var x = (min{wild(F[max{cat(128, 440), z, y}], max{(max{min{378, z, z}, (172-196), F[z]}-min{wild(E[y], y), (E[230]-E[259]), E[min{159, 275, 84}]}), E[solve((y*129) : E[405])], (max{min{y, z, 432}, solve(cat(y, y) : min{12, 159, z}), (E[213]-min{y, 488, y})}-F[E[wild(y, y)]])}), (min{F[E[min{96, 470, y}]], solve(min{61, 99, 204} : solve(y : y)), (((110-z)*(43*146))-max{cat(y, 461), 351, F[y]})}-min{(min{F[y], (494-274), min{y, z, 498}}*wild(y, y)), solve(wild(289, z) : wild(max{y, y, z}, z)), cat(min{F[111], E[102], F[492]}, solve(min{361, 366, y} : y))}), wild(cat(solve(E[y] : solve(cat(310, y) : max{z, 147, z})), E[(F[(229+z)]*F[64])]), ((wild(max{min{363, 250, y}, max{103, 290, z}, 88}, E[z])*F[max{F[y], (214*y), max{y, z, y}}])*max{max{27, wild(y, y), y}, min{F[y], 309, 437}, max{z, (470+358), 174}}))});"
+ position: 51
+
+-problem: 315
+ str: "var x = (min{cat(min{F[(min{y, y, z}*73)], max{F[263], F[z], E[F[y]]}, max{(406-351), max{306, 401, 306}, (z*318)}}, ((367-solve(y : 342))-min{solve((z+y) : min{238, 227, y}), cat(483, 392), cat(min{251, z, z}, (y*z))})), min{wild(y, (y-min{z, 328, 10})), max{cat(179, y), F[z], F[y]}, F[max{162, 331, z}]}, solve(max{E[z], 129, min{415, 33, 255}} : wild(min{E[y], z, wild(185, 261)}, (39+E[75])))});"
+ position: 20
+
+-problem: 316
+ str: "var x = (max{min{solve(16 : y), F[min{max{z, z, 473}, max{z, z, 38}, (287-303)}], F[min{(123-128), solve(286 : y), (z-z)}]}, min{min{F[470], 494, wild(z, z)}, F[85], F[F[110]]}, min{solve((F[426]*F[120]) : 14), min{F[285], (cat(288, z)*F[z]), wild(150, y)}, max{E[(y+y)], E[solve(235 : 496)], max{min{10, y, y}, E[z], max{45, 246, z}}}}});"
+ position: 105
+
+-problem: 317
+ str: "var x = (E[solve((40+y) : 309)]);"
+ position: 10
+
+-problem: 318
+ str: "var x = (E[F[E[(E[F[58]]*E[cat(y, z)])]]]);"
+ position: 10
+
+-problem: 319
+ str: "var x = (cat(wild((min{z, y, z}*E[F[y]]), min{min{min{y, y, z}, F[z], E[y]}, E[F[z]], max{448, z, y}}), wild(min{E[max{466, 162, 197}], F[(127+y)], (E[136]-max{y, 40, y})}, E[E[solve(17 : 14)]])));"
+ position: 45
+
+-problem: 320
+ str: "var x = (solve(wild(E[E[E[max{z, 133, 83}]]], E[max{470, 368, y}]) : solve(F[E[(F[69]*min{y, 209, z})]] : F[(F[E[max{y, z, 379}]]*E[min{F[y], F[356], F[113]}])])));"
+ position: 19
+
+-problem: 321
+ str: "var x = (F[E[(F[min{solve(solve(z : y) : E[444]), F[min{324, y, 395}], F[193]}]-F[cat(211, E[299])])]]);"
+ position: 15
+
+-problem: 322
+ str: "var x = (max{max{E[min{332, z, z}], max{134, 204, y}, E[E[87]]}, max{F[85], wild(y, 100), (max{y, 224, y}*max{269, y, 381})}, wild((348*y), max{z, y, 47})}+solve(E[max{F[y], 151, y}] : F[E[cat(333, z)]]));"
+ position: 124
+
+-problem: 323
+ str: "var x = (F[F[E[min{(z-min{y, 357, y}), F[solve(z : 5)], max{315, (100-447), max{14, z, 369}}}]]]);"
+ position: 18
+
+-problem: 324
+ str: "var x = (E[E[F[max{wild(E[z], F[95]), min{wild(y, z), 23, y}, min{min{309, 203, 134}, F[418], E[379]}}]]]);"
+ position: 8
+
+-problem: 325
+ str: "var x = (F[(z-64)]);"
+ position: 11
+
+-problem: 326
+ str: "var x = (F[(min{min{E[E[(143*y)]], E[(163*y)], (max{391, z, 182}*E[max{z, y, y}])}, E[cat(383, y)], max{min{y, min{F[145], 21, max{y, z, 146}}, ((215-y)+z)}, cat(E[y], z), min{z, y, z}}}+F[min{max{z, F[z], max{116, 434, z}}, (z*min{301, y, 178}), max{(107*132), 57, min{316, 328, 44}}}])]);"
+ position: 47
+
+-problem: 327
+ str: "var x = (min{F[cat(E[min{157, 67, (168-y)}], min{(267-E[30]), max{max{197, z, z}, (z*z), solve(395 : 394)}, cat((y+y), z)})], (solve((max{362, min{y, 425, 75}, F[y]}+F[E[z]]) : max{(92-z), E[E[242]], E[z]})*cat((F[z]-(97*492)), E[91])), wild(min{(z-347), z, wild(z, (y*126))}, max{E[max{y, y, 205}], min{(z-7), 9, y}, min{max{y, 249, 174}, min{471, y, y}, wild(331, 375)}})});"
+ position: 14
+
+-problem: 328
+ str: "var x = (E[max{max{max{(F[y]+max{396, z, z}), max{max{z, 177, z}, max{y, z, 474}, wild(412, y)}, F[483]}, max{max{y, y, z}, cat(F[385], wild(z, 405)), cat(E[y], 188)}, min{F[240], F[486], 489}}, wild(min{F[z], max{y, 263, y}, E[z]}, wild(y, y)), (max{261, 225, y}*max{z, y, 20})}]);"
+ position: 87
+
+-problem: 329
+ str: "var x = (E[max{z, max{y, z, y}, wild(385, 285)}]);"
+ position: 10
+
+-problem: 330
+ str: "var x = (wild(F[((wild(F[y], max{max{z, 366, z}, cat(z, y), 467})-max{E[421], (120+40), min{min{348, z, 320}, min{y, z, 290}, F[280]}})*z)], max{(max{max{E[E[189]], (z-y), F[F[y]]}, F[wild(F[67], E[y])], wild(185, y)}-max{F[(54+400)], min{min{solve(141 : z), wild(181, y), F[y]}, F[min{24, 176, 389}], (z-99)}, wild(wild(313, z), (z+168))}), y, max{F[max{272, F[373], z}], (y-189), max{max{y, y, 80}, 367, (E[z]+z)}}}));"
+ position: 221
+
+-problem: 331
+ str: "var x = (cat((F[F[min{E[69], z, cat(z, 352)}]]-max{min{wild(z, 428), max{394, 385, 321}, F[126]}, min{(257*y), (cat(296, z)-E[y]), ((66*z)-solve(z : 74))}, min{cat(wild(y, 197), 317), (36+78), min{z, solve(142 : 112), min{z, 82, 199}}}}), F[max{min{cat(wild(195, y), 395), cat((y-20), max{75, 82, y}), max{y, z, 436}}, solve(y : 105), cat(E[54], (E[z]+E[321]))}]));"
+ position: 101
+
+-problem: 332
+ str: "var x = (cat(F[min{(E[498]*E[max{57, z, 382}]), min{cat(max{307, y, z}, min{86, F[y], min{y, z, 24}}), ((125+290)-min{z, 61, 138}), F[F[F[z]]]}, min{(265+(y-21)), min{min{392, z, 451}, 63, wild(478, 364)}, E[z]}}], solve(min{F[min{E[z], y, y}], min{F[52], 9, E[y]}, F[(((491+y)+max{366, 199, y})-max{y, z, 271})]} : min{solve(max{296, 208, y} : F[91]), min{wild(496, y), F[153], min{y, min{55, z, y}, F[z]}}, F[E[353]]})));"
+ position: 217
+
+-problem: 333
+ str: "var x = (F[E[max{max{(78+y), solve((376+y) : F[76]), wild((z*z), (50+z))}, min{max{E[y], (475+52), E[z]}, min{F[305], max{14, z, 123}, E[64]}, wild(wild(115, z), z)}, F[F[cat(376, 356)]]}]]+min{max{wild(F[max{z, 130, 331}], min{(max{200, 326, z}+284), (cat(19, y)*wild(475, 457)), max{F[z], 223, min{304, 227, 74}}}), max{solve(max{min{286, z, z}, y, F[z]} : max{y, min{y, 87, 475}, E[270]}), (max{min{319, z, z}, 294, max{y, 472, 404}}+max{266, F[z], y}), F[min{E[z], y, F[391]}]}, solve((E[min{94, z, z}]+E[E[z]]) : max{439, 401, 328})}, F[F[max{385, wild(224, z), min{38, z, 273}}]], (E[min{F[max{y, 462, 304}], min{min{147, z, y}, F[472], min{z, y, y}}, F[F[z]]}]+min{cat((E[479]*442), (420-386)), min{(max{273, 173, 87}-166), E[max{4, z, 344}], min{z, 471, 92}}, (y+max{F[146], z, min{y, 227, y}})})});"
+ position: 16
+
+-problem: 334
+ str: "var x = (F[min{min{min{min{max{y, y, y}, F[185], min{114, 124, y}}, max{93, max{326, y, y}, cat(y, 291)}, max{169, z, z}}, F[E[cat(362, z)]], min{wild(6, min{z, 458, 479}), F[z], max{F[348], 190, E[y]}}}, E[cat(max{max{z, y, 206}, max{113, y, 256}, F[z]}, F[max{390, y, 229}])], (max{solve(z : 346), E[E[z]], E[(z+z)]}*min{E[212], wild(50, 402), max{(160*418), y, wild(y, 317)}})}]);"
+ position: 18
+
+-problem: 335
+ str: "var x = (F[E[F[E[z]]]]);"
+ position: 12
+
+-problem: 336
+ str: "var x = (min{solve(wild(F[234], (E[188]+E[471])) : min{max{(z*434), 101, min{435, z, z}}, E[311], F[F[z]]}), F[(F[18]+wild(F[y], E[448]))], min{cat((y+y), E[y]), wild(z, z), max{E[F[y]], E[max{y, 61, 481}], cat(z, z)}}});"
+ position: 69
+
+-problem: 337
+ str: "var x = (E[max{cat(E[236], 365), min{F[y], max{20, z, 83}, min{z, z, z}}, cat(E[y], (z-281))}]);"
+ position: 8
+
+-problem: 338
+ str: "var x = ((cat(max{F[solve(116 : y)], max{max{272, 112, z}, solve(z : z), max{393, z, z}}, solve(F[421] : (z-z))}, max{cat(F[y], F[z]), (solve(482 : 311)*185), min{F[272], min{340, 218, z}, z}})+(wild(E[E[41]], E[z])-min{max{min{472, y, z}, (z*y), E[z]}, (y-345), max{(73*y), 298, max{y, z, y}}}))+min{F[E[F[E[F[z]]]]], F[max{wild(E[158], z), (max{413, z, 343}-E[194]), (y+z)}], min{wild(z, z), E[E[z]], F[E[56]]}});"
+ position: 381
+
+-problem: 339
+ str: "var x = (F[max{E[E[wild(cat(y, 72), solve((413-241) : max{y, 308, 115}))]], max{min{max{(y+273), F[F[430]], (z+391)}, wild(141, 197), max{(max{184, 136, 419}-E[z]), max{min{y, y, y}, z, 283}, min{min{313, z, z}, E[401], 423}}}, (E[max{max{z, y, 159}, 438, wild(378, z)}]-max{F[F[z]], 243, max{(153+z), cat(356, 181), E[250]}}), (wild(wild(y, z), (27+y))+max{max{wild(z, 441), 320, (y+444)}, min{(106+148), max{y, 81, y}, (284+z)}, solve(min{z, 104, y} : E[2])})}, wild((max{cat(y, 477), 46, F[y]}-E[F[z]]), max{F[y], min{424, E[423], max{y, 314, y}}, z})}]);"
+ position: 83
+
+-problem: 340
+ str: "var x = (E[wild(F[E[(z-y)]], E[min{min{284, 368, y}, E[z], (z+271)}])]+cat((min{min{342, 284, 112}, F[max{E[254], y, z}], cat(min{max{z, y, 149}, F[418], min{z, z, y}}, ((z+80)+226))}-F[(cat(321, 406)-z)]), min{E[max{cat(309, z), E[183], F[404]}], E[min{E[(y*5)], solve(E[383] : max{384, z, y}), (z*z)}], max{max{F[95], F[453], z}, (z+min{19, y, y}), F[max{251, y, y}]}}));"
+ position: 348
+
+-problem: 341
+ str: "var x = (max{solve(E[z] : y), max{F[max{z, y, 102}], E[(321+401)], cat(E[z], cat(z, y))}, E[E[y]]}*(184*max{184, F[y], wild(327, 151)}));"
+ position: 33
+
+-problem: 342
+ str: "var x = (min{E[cat((z-93), max{min{392, 89, y}, E[321], (z+233)})], min{max{E[460], F[z], min{E[y], wild((z*z), y), 378}}, F[max{min{247, 406, 427}, F[y], 29}], F[F[min{z, z, y}]]}, E[(73*(z*38))]});"
+ position: 75
+
+-problem: 343
+ str: "var x = (solve(E[max{solve(F[(175*232)] : min{E[z], F[157], F[481]}), ((cat(43, y)+z)+min{F[135], (z+39), F[y]}), E[E[F[451]]]}] : F[((F[F[solve(401 : z)]]*solve(min{z, z, 59} : F[max{208, 461, 334}]))*cat(max{y, y, F[z]}, solve(max{371, y, 50} : (57*62))))]));"
+ position: 161
+
+-problem: 344
+ str: "var x = (E[max{F[(max{min{y, 76, 437}, min{z, 70, y}, cat(z, 126)}+(min{39, z, 409}*E[z]))], wild(wild(wild(F[258], (z*y)), max{solve(y : 337), F[y], cat(461, y)}), min{F[max{z, y, 289}], F[y], min{max{y, y, 208}, 235, min{y, z, 344}}}), cat(E[59], F[(min{17, 149, 206}*min{252, 315, 234})])}]+wild(solve((F[F[E[z]]]*min{(max{z, 159, 40}*min{z, y, 207}), E[max{y, 240, 235}], F[wild(421, z)]}) : (min{E[y], min{93, z, 81}, 196}+E[max{192, 167, z}])), max{(E[z]*max{F[(52*108)], min{388, 303, z}, (y-424)}), max{F[min{E[z], min{z, y, y}, min{470, 420, z}}], max{F[z], min{y, wild(y, 425), max{234, z, y}}, cat(F[152], max{z, 204, 266})}, F[wild(z, y)]}, min{F[E[min{y, y, y}]], solve((188*216) : y), wild(cat(z, 292), max{438, 87, z})}}));"
+ position: 455
+
+-problem: 345
+ str: "var x = (min{min{max{max{97, y, 493}, 324, min{z, y, y}}, (z+min{z, y, y}), (max{233, 121, y}-250)}, min{(E[min{262, 291, 67}]*solve(cat(E[min{y, y, 185}], max{min{297, 185, 37}, y, 387}) : E[wild(F[168], (y*y))])), E[F[y]], F[E[min{430, (z-177), max{z, 378, 463}}]]}, ((max{F[(max{z, y, 251}+min{y, 41, 338})], (F[(458*380)]*F[F[z]]), wild(E[F[z]], F[E[450]])}*max{max{(E[233]-min{z, z, 436}), E[z], F[z]}, max{min{y, z, 425}, y, z}, (min{max{383, 360, 414}, (y*y), E[3]}*(z-y))})+F[F[wild(max{378, y, y}, E[196])]])});"
+ position: 16
+
+-problem: 346
+ str: "var x = (F[(max{(F[y]-F[y]), min{min{405, 32, 322}, (min{z, y, y}-max{124, y, 18}), (min{159, y, z}+z)}, (cat((235*z), z)-min{321, F[295], F[137]})}+cat(z, F[min{153, 98, z}]))]);"
+ position: 161
+
+-problem: 347
+ str: "var x = (min{wild(F[z], E[F[z]]), min{(max{(y+y), solve(z : 50), E[y]}-min{wild(z, 398), solve(267 : y), (132+y)}), solve(E[wild(E[471], E[z])] : F[141]), (max{E[solve(z : y)], ((331-z)-max{188, z, y}), cat(max{11, z, 412}, min{6, z, z})}-min{E[cat(min{240, 274, y}, max{414, 129, 33})], ((z+y)-F[389]), F[F[y]]})}, ((min{y, y, z}*y)*min{F[z], max{max{y, y, 174}, max{y, y, 74}, max{356, z, 448}}, max{(z-y), min{z, z, y}, E[y]}})});"
+ position: 159
+
+-problem: 348
+ str: "var x = (E[E[(((max{y, z, 325}*max{z, y, 399})+F[F[F[z]]])*min{max{max{458, 363, 322}, (83+141), z}, F[E[151]], E[wild(min{y, z, z}, max{472, 474, z})]})]]);"
+ position: 14
+
+-problem: 349
+ str: "var x = (E[min{F[F[cat(256, 297)]], E[322], E[E[E[z]]]}]);"
+ position: 8
+
+-problem: 350
+ str: "var x = ((min{cat(solve(max{53, F[290], F[y]} : E[max{108, y, 255}]), max{(min{y, z, y}+max{z, 46, 349}), F[min{65, 75, z}], F[min{y, 350, 275}]}), wild(E[197], max{cat(max{z, z, 105}, 142), (30*y), min{113, 12, z}}), (z+y)}-cat(F[max{383, (402-y), min{y, y, y}}], solve((min{266, z, 465}+max{480, z, y}) : max{260, cat(285, z), max{z, 101, z}})))*(max{F[(min{y, 45, y}+E[418])], max{min{F[y], max{71, y, 366}, F[z]}, min{F[z], max{y, 259, z}, (z+z)}, z}, max{min{y, y, 287}, cat(378, z), F[z]}}-cat(max{min{z, 382, 28}, cat(424, 148), F[280]}, F[E[z]])));"
+ position: 73
+
+-problem: 351
+ str: "var x = (max{max{E[max{max{y, 46, 234}, (y-134), (max{245, 218, z}+y)}], wild((cat(cat(z, 197), F[104])+(z-333)), cat(387, max{y, F[360], z})), min{min{y, E[min{y, z, 212}], solve(y : z)}, (min{z, 64, y}+y), (cat(F[z], solve(283 : z))-min{E[z], min{388, 419, y}, F[426]})}}, min{E[(244+max{393, 187, 489})], F[F[E[y]]], (E[solve(90 : z)]*wild(cat(426, 18), max{477, z, z}))}, (E[226]*F[(F[y]+E[304])])});"
+ position: 16
+
+-problem: 352
+ str: "var x = (F[F[F[E[187]]]]);"
+ position: 14
+
+-problem: 353
+ str: "var x = (wild((max{cat(min{240, 134, y}, E[254]), E[291], min{F[346], max{y, z, 464}, F[y]}}+E[F[356]]), max{max{E[cat(F[y], (z+y))], max{(y-y), E[min{y, y, z}], F[y]}, E[min{min{462, z, z}, (z*z), (z-332)}]}, E[(max{465, 408, 421}*242)], (min{E[cat(z, 201)], F[max{121, y, z}], max{z, min{z, 233, 435}, F[354]}}-(max{F[343], max{497, 0, y}, E[253]}+min{F[y], max{448, 31, 257}, (y-446)}))}));"
+ position: 239
+
+-problem: 354
+ str: "var x = (max{(F[cat(max{(min{105, 41, 31}*max{z, y, 276}), max{394, 154, z}, solve(cat(323, z) : z)}, min{E[(z+190)], max{cat(z, z), (135+132), F[158]}, min{(z*170), F[y], solve(z : 284)}})]+(E[E[max{min{z, y, 432}, 459, cat(70, 152)}]]+E[E[(275*53)]])), max{max{F[(E[max{y, 369, 166}]*F[min{478, y, y}])], (min{cat(z, 95), F[330], y}*F[E[446]]), E[max{(y+217), E[z], E[E[344]]}]}, E[F[E[min{y, 11, z}]]], cat(min{solve(cat(F[y], F[y]) : wild(F[341], solve(y : y))), min{y, E[y], min{z, max{z, 48, z}, 294}}, min{(351*203), y, y}}, min{wild(z, 217), 378, solve(y : y)})}, min{max{((min{min{z, 404, z}, (y*152), 460}*cat(y, y))+(311-max{y, 260, 492})), max{min{F[F[z]], E[max{447, 310, 199}], min{214, min{196, z, z}, z}}, solve(E[min{z, y, 367}] : min{121, 367, y}), wild(max{min{y, y, y}, (y+459), max{z, y, z}}, z)}, F[F[min{F[z], max{z, 418, 336}, E[y]}]]}, F[(wild(min{z, z, z}, min{106, 223, y})-max{y, z, 165})], (solve(min{cat(y, y), (F[y]-F[204]), min{(343*z), F[480], (491-y)}} : cat(F[y], wild(228, y)))+(E[min{E[y], F[y], max{y, 12, z}}]-E[wild((486*z), 94)]))}});"
+ position: 822
+
+-problem: 355
+ str: "var x = (F[cat(cat(E[F[F[E[z]]]], F[min{F[F[y]], solve((380+425) : F[z]), F[215]}]), max{y, z, z})]);"
+ position: 73
+
+-problem: 356
+ str: "var x = (E[solve(min{E[min{247, 385, z}], max{cat(424, y), (67*y), 20}, max{max{227, 104, 54}, (377-495), E[458]}} : E[min{304, F[346], (y*57)}])]);"
+ position: 20
