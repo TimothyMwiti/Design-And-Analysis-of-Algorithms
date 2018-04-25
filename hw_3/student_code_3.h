@@ -53,3 +53,23 @@ int FindBestSchedule (const std::vector<int>& left, const std::vector<int>& righ
    
    return FindBestSchedule (availabilities, T);
 }
+
+struct IntervalNode {
+	int startTime;
+	int endTime;
+	int intervalNodeIndex;
+	IntervalNode(int startTime, int endTime, int intervalNodeIndex) : startTime(startTime), endTime(endTime), intervalNodeIndex(intervalNodeIndex) {}
+};
+
+
+struct end_time_key {
+	inline bool operator()(const IntervalNode &node1, const IntervalNode &node2) const {
+		return node1.endTime < node2.endTime;
+	}
+};
+
+struct start_time_key {
+	inline bool operator()(const IntervalNode &node1, const IntervalNode &node2) const {
+		return node1.startTime < node2.startTime;
+	}
+};
