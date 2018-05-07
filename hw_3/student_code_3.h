@@ -65,7 +65,8 @@ int FindBestSchedule (std::vector<std::pair<int,int>> availabilities, int T)
 	std::sort(intervalsByEndTime.begin(), intervalsByEndTime.end(), end_time_key());
     
     //Indicate processed intervals (0 if not processed, 1 if processed)
-    int processedIntervals[availabilities.size()] = {0};
+    int processedIntervals[availabilities.size()];
+    processedIntervals[availabilities.size()] = {0};
     int intervalsCounter = 0;
     while(intervalsByEndTime.size() > 0){
         if(processedIntervals[intervalsByEndTime.front().intervalNodeIndex] == 1){
