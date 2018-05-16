@@ -14,7 +14,7 @@
 //required libraries
 #include <string>
 #include <vector> 
-
+#include <queue>
 //you can include standard C++ libraries here
 
 // This function should return your name.
@@ -24,10 +24,17 @@ void GetStudentName(std::string& your_name)
 {
    //replace the placeholders "Firstname" and "Lastname"
    //with you first name and last name 
-   your_name.assign("Firstname Lastname");
+   your_name.assign("Timothy Mwiti");
 }
 
 
+class CompareIntervals
+{
+public:
+    bool operator()(std::pair<int,int> firstInterval,std::pair<int,int> secondInterval) {
+        return firstInterval.second>secondInterval.second;
+    }
+};
 //you can use one of the following signatures
 
 //int FindMeasure (const std::vector<std::pair<int,int>>& intervals, int coverage)
@@ -37,9 +44,16 @@ void GetStudentName(std::string& your_name)
 int FindMeasure (std::vector<std::pair<int,int>> intervals, int coverage)
 {  
    int measure = 0;
+   std::sort(std::begin(intervals), std::end(intervals));
+   bool sizeIsCoverage = false;
+   std::priority_queue<std::pair<int,int>,std::vector<std::pair<int,int>>, CompareIntervals> intervalsOrderedByFinishTime;
 
-   //your code goes here
-
+   for(std::pair<int,int> nextInterval: intervals){
+       while(intervalsOrderedByFinishTime.top().second <= nextInterval.first){
+           intervalsOrderedByFinishTime.pop();
+       }
+       intervalsOrderedByFinishTime.push(nextInterval);
+   }
    return measure;
 }
 
