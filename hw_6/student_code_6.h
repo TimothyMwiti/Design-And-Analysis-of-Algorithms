@@ -18,6 +18,8 @@
 //you can include standard C++ libraries here
 #include <algorithm>
 #include <utility>
+
+std::map<std::string, int> weightsmap;
 // This function should return your name.
 // The name should match your name in Canvas
 
@@ -28,86 +30,70 @@ void GetStudentName(std::string& your_name)
    your_name.assign("Timothy Mwiti");
 }
 
-
-/*
-1. Helper function (i, j, a_i_sum, weight_a_sum){
-    if i == j{
-        if a_sum == 0: return weight_a_sum;
-        if a_sum == -1: return weight_a_sum + weight(i);
-        if a_sum == 1: return weight_a_sum - weight(i);
-    }else{
-        //multiply by ome:
-        by_one = helper_function(i + 1, j, a_i_sum-1, weight_a_sum + weight(i));
-        by_neg = helper_function(i + 1, j, a_i_sum+1, weight_a_sum - weight(i));
-        by_zero = helper_function(i + 1, j, a_i_sum-1, weight_a_sum);
-        return max(by_one, by_neg, by_zero);
-    }
-}
-
-
-std::pair<int, int> FindMaxBalancedSequenceHelper(int start, int a_i_sum, const std::vector<int>& weights){
+std::pair<bool, int> FindMaxBalancedSequenceHelper(int start, int a_i_sum, const std::vector<int>& weights){
     if(start == weights.size()-1){
-        if(std::max(weights.at(start), std::max(0, -weights.at(start))) == 0){
-            return std::make_pair(a_i_sum, 0);
-        }else if(std::max(weights.at(start), std::max(0, -weights.at(start))) == weights.at(start)){
-            return std::make_pair(a_i_sum+1, weights.at(start));
-        }else if (std::max(weights.at(start), std::max(0, -weights.at(start))) == -weights.at(start)){
-            return std::make_pair(a_i_sum-1, -weights.at(start));
-        }
-    }else{
-        int temp = weights.at(start);
-        std::pair<int,int> multiply_by_one = std::make_pair(a_i_sum+1, (FindMaxBalancedSequenceHelper(start+1, a_i_sum+1, weights)).second + temp);
-        std::pair<int,int> multiply_by_neg = std::make_pair(a_i_sum-1, (FindMaxBalancedSequenceHelper(start+1, a_i_sum-1, weights)).second - temp);
-        std::pair<int,int> multiply_by_zero = std::make_pair(a_i_sum, (FindMaxBalancedSequenceHelper(start+1, a_i_sum, weights)).second);
-        return std::make_pair(a_i_sum, std::max(std::max(multiply_by_neg.second, multiply_by_one.second), multiply_by_zero.second));
-    }
-}
-*/
-std::pair<bool, int> FindMaxBalancedSequenceHelper(int start, int a_i_sum, const std::vector<int>& weights, bool is_valid){
-    if(start == weights.size()-1){
-        if(abs(a_i_sum) > 1){
-            return std::make_pair(false, 0);
-        }
         if(a_i_sum == 1){
             return std::make_pair(true, -weights.at(start));
         }
         if(a_i_sum == -1){
             return std::make_pair(true, weights.at(start));
+        }else if(a_i_sum == 0){
+            return std::make_pair(true, 0);
         }
-        return std::make_pair(true, 0);
-    }else{        
-        std::pair<bool,int> multiply_by_one;
-        std::pair<bool,int> multiply_by_neg;
-        std::pair<bool,int> multiply_by_zero;
-        multiply_by_one = FindMaxBalancedSequenceHelper(start+1, a_i_sum+1, weights, true);
-        multiply_by_neg = FindMaxBalancedSequenceHelper(start+1, a_i_sum-1, weights, true);
-        multiply_by_zero = FindMaxBalancedSequenceHelper(start+1, a_i_sum, weights, true);
-
-        //std::cout<< multiply_by_neg.second << std::endl;
-        //std::cout<< multiply_by_zero.second << std::endl;
-        //std::cout<< multiply_by_one.second << std::endl;
-        if(!multiply_by_neg.first && !multiply_by_one.first && multiply_by_zero.first){
-            return std::make_pair(true, multiply_by_zero.second);
-        }else if(multiply_by_neg.first && !multiply_by_one.first && !multiply_by_zero.first){
-            return std::make_pair(true, multiply_by_neg.second - weights.at(start));
-        }else if(!multiply_by_neg.first && multiply_by_one.first && !multiply_by_zero.first){
-            return std::make_pair(true, multiply_by_one.second + weights.at(start));
-        }else if(!multiply_by_neg.first && multiply_by_one.first && multiply_by_zero.first){
-            return std::make_pair(true, std::max(multiply_by_one.second + weights.at(start), multiply_by_zero.second));
-        }else if(multiply_by_neg.first && !multiply_by_one.first && multiply_by_zero.first){
-            return std::make_pair(true, std::max(multiply_by_neg.second - weights.at(start), multiply_by_zero.second));
-        }else if(multiply_by_neg.first && multiply_by_one.first && !multiply_by_zero.first){
-            return std::make_pair(true, std::max(multiply_by_neg.second - weights.at(start), multiply_by_one.second + weights.at(start)));
-        }else if(multiply_by_neg.first && multiply_by_one.first && multiply_by_zero.first){
-            int tempmax = std::max(multiply_by_neg.second - weights.at(start), multiply_by_one.second + weights.at(start));
-            return std::make_pair(true, std::max(tempmax, multiply_by_zero.second));
+        return std::make_pair(false, -2147483647);
+    }
+    std::pair<bool,int> multiply_by_one;
+    std::pair<bool,int> multiply_by_neg;
+    std::pair<bool,int> multiply_by_zero;
+    std::string dictKey = std::to_string(start)+"_"+std::to_string(a_i_sum);
+    if(weightsmap.find(dictKey) == weightsmap.end()){
+        multiply_by_one = FindMaxBalancedSequenceHelper(start+1, a_i_sum+1, weights);
+        multiply_by_neg = FindMaxBalancedSequenceHelper(start+1, a_i_sum-1, weights);
+        multiply_by_zero = FindMaxBalancedSequenceHelper(start+1, a_i_sum, weights);
+    }else{
+        int computedVal = weightsmap.find(std::to_string(start)+"_"+std::to_string(a_i_sum))->second;
+        if(computedVal == -2147483647){
+            return std::make_pair(false, -2147483647);
         }else{
-            return std::make_pair(false, -299999999);
+            return std::make_pair(true, computedVal);
         }
     }
+
+    if(!multiply_by_neg.first && !multiply_by_one.first && multiply_by_zero.first){ // 0 0 1
+        weightsmap.insert(std::make_pair(dictKey, multiply_by_zero.second));
+        return std::make_pair(true, multiply_by_zero.second);
+    }else if(multiply_by_neg.first && !multiply_by_one.first && !multiply_by_zero.first){ // 1 0 0
+        weightsmap.insert(std::make_pair(dictKey, multiply_by_neg.second- weights.at(start)));
+        return std::make_pair(true, multiply_by_neg.second - weights.at(start));
+    }else if(!multiply_by_neg.first && multiply_by_one.first && !multiply_by_zero.first){ // 0 1 0
+        weightsmap.insert(std::make_pair(dictKey, multiply_by_one.second+ weights.at(start)));
+        return std::make_pair(true, multiply_by_one.second + weights.at(start));
+    }else if(!multiply_by_neg.first && multiply_by_one.first && multiply_by_zero.first){ // 0 1 1
+        int max_sum = std::max(multiply_by_one.second + weights.at(start), multiply_by_zero.second);
+        weightsmap.insert(std::make_pair(dictKey, max_sum));
+        return std::make_pair(true, max_sum);
+    }else if(multiply_by_neg.first && !multiply_by_one.first && multiply_by_zero.first){ // 1 0 1
+        int max_sum = std::max(multiply_by_neg.second - weights.at(start), multiply_by_zero.second);
+        weightsmap.insert(std::make_pair(dictKey, max_sum));
+        return std::make_pair(true, max_sum);
+    }else if(multiply_by_neg.first && multiply_by_one.first && !multiply_by_zero.first){ // 1 1 0
+        int max_sum = std::max(multiply_by_neg.second - weights.at(start), multiply_by_one.second + weights.at(start));
+        weightsmap.insert(std::make_pair(dictKey, max_sum));
+        return std::make_pair(true, max_sum);
+    }else if(multiply_by_neg.first && multiply_by_one.first && multiply_by_zero.first){ // 1 1 1
+        int tempmax = std::max(multiply_by_neg.second - weights.at(start), multiply_by_one.second + weights.at(start));
+        int max_sum = std::max(tempmax, multiply_by_zero.second);
+        weightsmap.insert(std::make_pair(dictKey, max_sum));
+        return std::make_pair(true, max_sum);
+    }else{ // 0 0 0
+        weightsmap.insert(std::make_pair(dictKey, -2147483647));
+        return std::make_pair(false, -2147483647);
+    }
 }
-//implement the following function
+
 int FindMaxBalancedSequence (const std::vector<int>& weights)
 {
-    return FindMaxBalancedSequenceHelper(0, 0,weights, true).second;
+    int ret_val = FindMaxBalancedSequenceHelper(0, 0,weights).second;
+    weightsmap.clear();
+    return ret_val;
 }
