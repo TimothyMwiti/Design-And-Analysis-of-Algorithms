@@ -31,6 +31,7 @@ void GetStudentName(std::string& your_name)
 }
 
 std::pair<bool, int> FindMaxBalancedSequenceHelper(int start, int a_i_sum, const std::vector<int>& weights){
+    std::string dictKey = std::to_string(start)+"_"+std::to_string(a_i_sum);
     if(start == weights.size()-1){
         if(a_i_sum == 1){
             return std::make_pair(true, -weights.at(start));
@@ -41,11 +42,13 @@ std::pair<bool, int> FindMaxBalancedSequenceHelper(int start, int a_i_sum, const
             return std::make_pair(true, 0);
         }
         return std::make_pair(false, -2147483647);
+    }else if(weights.size()-start < abs(a_i_sum)){
+        weightsmap.insert(std::make_pair(dictKey, -2147483647));
+        return std::make_pair(false, -2147483647);
     }
     std::pair<bool,int> multiply_by_one;
     std::pair<bool,int> multiply_by_neg;
     std::pair<bool,int> multiply_by_zero;
-    std::string dictKey = std::to_string(start)+"_"+std::to_string(a_i_sum);
     if(weightsmap.find(dictKey) == weightsmap.end()){
         multiply_by_one = FindMaxBalancedSequenceHelper(start+1, a_i_sum+1, weights);
         multiply_by_neg = FindMaxBalancedSequenceHelper(start+1, a_i_sum-1, weights);
