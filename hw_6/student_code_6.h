@@ -50,8 +50,13 @@ std::pair<bool, int> FindMaxBalancedSequenceHelper(int start, int a_i_sum, const
     std::pair<bool,int> multiply_by_neg;
     std::pair<bool,int> multiply_by_zero;
     if(weightsmap.find(dictKey) == weightsmap.end()){
-        multiply_by_one = FindMaxBalancedSequenceHelper(start+1, a_i_sum+1, weights);
-        multiply_by_neg = FindMaxBalancedSequenceHelper(start+1, a_i_sum-1, weights);
+        if(start < weights.size()/2){
+            multiply_by_one = FindMaxBalancedSequenceHelper(start+1, a_i_sum+1, weights);
+            multiply_by_neg = std::make_pair(false, -2147483647);
+        }else{
+            multiply_by_one = std::make_pair(false, -2147483647);
+            multiply_by_neg = FindMaxBalancedSequenceHelper(start+1, a_i_sum-1, weights);
+        }
         multiply_by_zero = FindMaxBalancedSequenceHelper(start+1, a_i_sum, weights);
     }else{
         int computedVal = weightsmap.find(std::to_string(start)+"_"+std::to_string(a_i_sum))->second;
@@ -96,7 +101,9 @@ std::pair<bool, int> FindMaxBalancedSequenceHelper(int start, int a_i_sum, const
 
 int FindMaxBalancedSequence (const std::vector<int>& weights)
 {
-    int ret_val = FindMaxBalancedSequenceHelper(0, 0,weights).second;
+    std::vector<int> weightscopy = weights;
+    std::sort(std::begin(weightscopy), std::end(weightscopy), std::greater<int>());
+    int ret_val = FindMaxBalancedSequenceHelper(0, 0,weightscopy).second;
     weightsmap.clear();
     return ret_val;
 }
