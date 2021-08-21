@@ -34,4 +34,42 @@ class Solution {
 
         return t.val == s.val && compareTreesAreEqual(t.left, s.left) && compareTreesAreEqual(t.right, s.right);
     }
+
+
+
+
+    // isBalanced
+    //
+
+    public boolean isBalanced(TreeNode root) {
+        if (root == null)
+            return true;
+
+        int left = getHeight(root.left);
+        if (left < 0)
+            return false;
+
+        int right = getHeight(root.right);
+        if (right < 0)
+            return false;
+
+        return Math.abs(left - right) <= 1;
+    }
+
+    private int getHeight(TreeNode root) {
+        if (root == null)
+            return 0;
+
+        int childLeftHeight = getHeight(root.left);
+        if (childLeftHeight < 0)
+            return -1;
+        int childRightHeight = getHeight(root.right);
+        if (childRightHeight < 0)
+            return -1;
+
+        if (Math.abs(childLeftHeight - childRightHeight) > 1)
+            return -1;
+
+        return 1 + Math.max(childLeftHeight, childRightHeight);
+    }
 }
